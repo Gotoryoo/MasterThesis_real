@@ -1,0 +1,38 @@
+\contentsline {section}{\numberline {1}序論}{3}
+\contentsline {subsection}{\numberline {1.1}はじめに}{3}
+\contentsline {subsection}{\numberline {1.2}Double-$\Lambda $Hyper核}{3}
+\contentsline {subsection}{\numberline {1.3}原子核乾板}{3}
+\contentsline {subsection}{\numberline {1.4}光学顕微鏡}{4}
+\contentsline {subsection}{\numberline {1.5}KEK-PS E373実験}{5}
+\contentsline {subsection}{\numberline {1.6}J-PARC E07実験}{5}
+\contentsline {section}{\numberline {2}J-PARC E07実験2ndRun}{6}
+\contentsline {subsection}{\numberline {2.1}Refresh処理の実施}{6}
+\contentsline {subsubsection}{\numberline {2.1.1}実施背景}{6}
+\contentsline {subsubsection}{\numberline {2.1.2}原理}{6}
+\contentsline {subsubsection}{\numberline {2.1.3}実施環境}{7}
+\contentsline {subsection}{\numberline {2.2}暗室の拡張}{7}
+\contentsline {subsection}{\numberline {2.3}GridMark照射}{7}
+\contentsline {subsubsection}{\numberline {2.3.1}GridMarkネガ}{7}
+\contentsline {subsubsection}{\numberline {2.3.2}GridMark照射装置}{8}
+\contentsline {subsection}{\numberline {2.4}E07実験beam照射}{8}
+\contentsline {subsubsection}{\numberline {2.4.1}2ndRunbeam照射}{8}
+\contentsline {subsubsection}{\numberline {2.4.2}岐阜大学の作業内容}{8}
+\contentsline {subsubsection}{\numberline {2.4.3}EmulsionCasetteでの真空度}{9}
+\contentsline {subsubsection}{\numberline {2.4.4}照射した乾板の密度}{9}
+\contentsline {subsection}{\numberline {2.5}現像}{9}
+\contentsline {section}{\numberline {3}荷電粒子飛跡追跡の自動化}{11}
+\contentsline {subsection}{\numberline {3.1}目的}{11}
+\contentsline {subsection}{\numberline {3.2}$\Xi $$^-$候補＆beam認識に用いる画像処理}{11}
+\contentsline {subsubsection}{\numberline {3.2.1}コントラスト処理}{11}
+\contentsline {subsubsection}{\numberline {3.2.2}ガウシアンフィルタ処理}{11}
+\contentsline {subsubsection}{\numberline {3.2.3}画像の白黒反転}{11}
+\contentsline {subsubsection}{\numberline {3.2.4}二値化}{11}
+\contentsline {subsection}{\numberline {3.3}座標変換}{11}
+\contentsline {subsection}{\numberline {3.4}自動追跡の要素技術}{11}
+\contentsline {subsubsection}{\numberline {3.4.1}P-barパターンマッチ}{11}
+\contentsline {subsubsection}{\numberline {3.4.2}$\Xi $$^-$候補飛跡の選択}{11}
+\contentsline {subsubsection}{\numberline {3.4.3}K$^-$beamパターンマッチ}{12}
+\contentsline {subsubsection}{\numberline {3.4.4}表面認識}{12}
+\contentsline {subsubsection}{\numberline {3.4.5}荷電粒子飛跡追跡}{12}
+\contentsline {section}{\numberline {4}E07乾板における開発プログラムの追跡実績}{13}
+\contentsline {section}{\numberline {5}まとめ}{14}
