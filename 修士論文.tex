@@ -183,19 +183,44 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
     \item 処理前と処理後の画像
 \end{itemize}
 \subsection{座標変換}
+\begin{itemize}
+    \item affine変換について書く。
+    \item 追跡の際に考える必要のある座標系について書く。
+    \item それらの座標系をつなぐためにaffine変換をつかい、目的の飛跡の位置に行くことが必要である。
+\end{itemize}
 \subsection{自動追跡の要素技術}
 \subsubsection{P-barパターンマッチ}
+\begin{itemize}
+    \item SSDとemulsionの位置ズレを取得するのに必要。
+    \item 乾板の四隅に照射されているものを使う。(なぜP-barを使うのか、どのようにP-barが照射されているか確認する。)
+    \item どのようにP-barを取得するのか(スキャンする場所等を書く)を書く。
+    \item 四隅のうち3点箇所でパターンマッチがとれればズレが取得できる。(精度について書く。)
+\end{itemize}
 原子核乾板にはSSDとemulsionの照射時の位置差を取得するためにアンチプロトンbeamが照射されている。照射されているのは乾板の四つ角1cm1cmの領域である。照射されているp-barの濃度は1平方センチあたり10の4乗である。ｋ-beamは乾板に対して10の6乗照射されており、SSDとemulsionのパターンマッチをするには密に照射されすぎているのでp-barが必要になる。\par
 角から1cmずつ内陸側に移動し、そこで5mm×5mmの領域をスキャンする。上側乳剤層と下側乳剤層をスキャンし、baseを挟んで接続された垂直なbeamを使いパターンマッチを行う。\par
 \subsubsection{$\Xi$$^-$候補飛跡の選択}
+\begin{itemize}
+    \item affine変換について書く。
+    \item 追跡の際に考える必要のある座標系について書く。
+    \item それらの座標系をつなぐためにaffine変換をつかい、目的の飛跡の位置に行くことが必要である。
+\end{itemize}
 下流の乾板に接続して追跡するために、SSDで検出した$\Xi$$^-$候補とｐｌ01に記録された荷電粒子飛跡の対応をつける。
 \subsubsection{K$^-$beamパターンマッチ}
+\begin{itemize}
+    \item emulsionとemulsionの位置ズレを補正するために行う。
+    \item これにより、例pl01で記録された飛跡とpl02で記録された飛跡の対応付けをする。
+    \item どこをスキャンして、どのようになるのかを書く。模式図を書く。
+\end{itemize}
 beam照射時の上流乾板と下流乾板の位置ずれを取得するために乾板に照射されているK$^-$beamを用いてパターンマッチを行う。
 \subsubsection{表面認識}
+\begin{itemize}
+    \item 乳剤層と非乳剤層の境界面を取得するために行う。
+    \item 乾板中の位置における輝度値の違いを示す。
+\end{itemize}
 \subsubsection{荷電粒子飛跡追跡}
 
 \newpage
-\section{E07乾板における開発プログラムの追跡実績}
+\section{E07乾板における開発プログラムでの追跡実績}
 
 \newpage
 \section{まとめ}
