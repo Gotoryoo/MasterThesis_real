@@ -1,6 +1,7 @@
 \documentclass[12pt,a4paper]{jarticle}
 \usepackage[top=35truemm, bottom=35truemm, left=30truemm, right=30truemm]{geometry}
 \usepackage[dvipdfmx]{graphicx}
+\usepackage[version=3]{mhchem}
 \setcounter{tocdepth}{\maxdimen} %subsubsectionまで目次を表示する
 \bibliographystyle{junsrt} %参照のスタイル
 
@@ -34,10 +35,16 @@ uとd以外のクォークを含む粒子は非常に寿命が短いため地球
 \subsection{Double-$\Lambda$Hyper核}
 通常の核に$\Lambda$粒子を2つ持たせたものがDouble-$\Lambda$Hyper核である。
 Double-$\Lambda$Hyper核を生成するため、K$^+$,K$^-$反応により$\Xi$$^-$粒子を生成する。
-K$^+$,K$^-$反応は式1の反応である。
-そして、生成された$\Xi$$^-$粒子を原子核に吸収させることで式2の反応を起こし$\Lambda$粒子を生成する。
-式1
-式2
+K$^+$,K$^-$反応は式(\ref{eq:K+-})の反応である。
+そして、生成された$\Xi$$^-$粒子を原子核に吸収させることで式(\ref{eq:Xi_eq})の反応を起こし$\Lambda$粒子を生成する。
+\begin{equation}
+	\ce{K- + p -> $\Xi$- + K+}
+\label{eq:K+-}
+\end{equation}
+\begin{equation}
+	\ce{$\Xi$- + p -> $\Lambda$ + $\Lambda$ + 28.6Mev}
+\label{eq:Xi_eq}
+\end{equation}
 \par
 E07実験では、K$^-$粒子を生成しDiamond Targetに照射することで$\Xi$$^-$粒子を生成する。
 そして、生成された$\Xi$$^-$粒子を原子核乾板中で静止させる。
