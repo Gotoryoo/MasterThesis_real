@@ -112,12 +112,26 @@ E07実験で使用する乾板は40µmのBaseに450µmの乳剤を塗布する�
 \par
 PCを接続することで、この光学顕微鏡を制御している。CCDカメラを顕微鏡に設置することで、顕微鏡で観察したものを画像として取得する。
 取得した画像をPCの画面上に表示することや、顕微鏡の稼働に活用している。
-$\Xi$$^-$粒子自動追跡には、50倍の対物レンズを使用している。使用する顕微鏡とPCを示す。
+$\Xi$$^-$粒子自動追跡には、50倍の対物レンズを使用している。
+\begin{figure}[htbp]
+    \begin{center}
+     \includegraphics[width=140mm]{emulsionorder.png}
+    \end{center}
+    \caption{光学顕微鏡\label{fig:microscope}}
+\end{figure}
 \subsection{KEK-PS E373実験}
 \begin{itemize}
     \item この実験で●例のハイパー核事象が検出された。
     \item 検出されたイベントの例としては、Nagara、Kisoがある。
 \end{itemize}
+E373実験はE176実験に続くDouble-$\Lambda$Hyper核検出実験である
+\cite{Nagara}
+\cite{Nagara2}
+この実験は$\Xi$$^-$粒子を生成するためにDiamond Targetを原子核乾板の上流に設置し、生成された$\Xi$$^-$粒子を原子核乾板に照射した。
+\par
+この実験により7例のDouble-$\Lambda$Hyper核の崩壊事象を観測し、その中の1例でのみ崩壊モードを一意に決定することができた。
+この1例をNAGARA Eventと名付けた。
+図を入れる。NagaraとKisoの画像。
 \subsection{J-PARC E07実験}
 \begin{itemize}
     \item ハイブリッド方によりE373の10倍の統計、全面探査により100倍の統計を目指す実験である。
@@ -127,6 +141,10 @@ $\Xi$$^-$粒子自動追跡には、50倍の対物レンズを使用している
 J-PARC E07実験はハイブリッドemulsion法によりKEK-PS E373実験の10倍の統計量を目指す実験である。
 表●はJ-PARC E07実験とKEK-PS E373実験の比較をしたものである。
 表にあるように、beamのK$^-$/$\pi$$^-$を約3.5倍、原子核乳剤の量を約3倍にすることで10倍の$\Xi$$^-$粒子静止事象を実現する。
+\par
+SSDは電荷をもった粒子が通過した際に、通過した粒子が原子核乾板スタックのどの位置にどのような角度で照射されているかの情報を記録するものである。
+原子核乾板スタックを2つのSSDで挟むことで、Diamond Targetで生成された$\Xi$$^-$粒子だけでなく、原子核乾板内で反応した$\Xi$$^-$粒子の情報も記録できる。
+SSDの情報を使い、emulsionに記録された飛跡の中で$\Xi$$^-$粒子である確率の高い飛跡のみを追跡することでいち早くDouble-$\Lambda$Hyper核を検出する。
 \begin{table}[htbp]
 \centering
 \caption{J-PARC E07実験とKEK-PS E373実験の比較\label{tab:compare_E07_E373}}
@@ -406,6 +424,8 @@ beam照射時の上流乾板と下流乾板の位置ずれを取得するため�
 \section{まとめ}
 
 \begin{thebibliography}{99}
+\bibitem{Nagara} 「Double-$\Lambda$Hypernuclei observed in a hybrid emulsion experiment」PHYSICAL REVIEW C NUCLEAR PHYSICS Vol.88,No.1, July 2013
+\bibitem{Nagara2} 「”NAGARA event”が語る相互作用―KEK-PS E373 ダブルハイパー核実験―」仲澤和馬(岐阜大学)、高橋仁(京都大学)、PS-E373 共同実験グループ 高エネルギーニュース Vol.20 No.5 p.206 2002
 \bibitem{takusann} 学位論文「大規模実験用高性能原子核乾板OPERA Filmの開発」第四章 Refresh処理 名古屋大学大学院理学研究科素粒子宇宙物理学専攻F研究室 中村琢 著(2005年)
 \end{thebibliography}
 \end{document} 
