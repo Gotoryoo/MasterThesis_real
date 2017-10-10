@@ -73,8 +73,12 @@ E07実験では上述したとおり原子核乾板の外で$\Xi$$^-$粒子を�
 現像処理により、銀が成長し1µm程度の粒となり(grain)、荷電粒子の飛跡がgrainの連なり(飛跡、track)として現れ、その状態を保持する。
 そのため、原子核乾板を破損しない限り一度記録したHyper核の生成・崩壊事象やHyper核以外の荷電粒子秘跡を何度でも同じ状態で観測することができる。
 \par
-乾板に飛跡が記録される際の流れの図
-\par
+\begin{figure}[htbp]
+    \begin{center}
+     \includegraphics[width=70mm]{grainfog.png}
+    \end{center}
+　　\caption{原子核乾板中に飛跡が記録される流れ\label{fig:process_recored_track}}
+\end{figure}
 \begin{figure}[htbp]
  \begin{center}
   \includegraphics[width=70mm]{grainfog.png}
@@ -127,18 +131,23 @@ $\Xi$$^-$粒子自動追跡には、50倍の対物レンズを使用している
 E373実験はE176実験に続くDouble-$\Lambda$Hyper核検出実験である。
 \cite{Nagara}
 \cite{Nagara2}
-この実験は$\Xi$$^-$粒子を生成するためにDiamond Targetを原子核乾板の上流に設置し、生成された$\Xi$$^-$粒子を原子核乾板に照射した。
-\par
-この実験により7例のDouble-$\Lambda$Hyper核の崩壊事象を観測し、その中の1例でのみ崩壊モードを一意に決定することができた。
-この1例をNAGARA Eventと名付けた。
-図を入れる。NagaraとKisoの画像。
+E176実験の約10倍のDouble-$\Lambda$Hyper核の検出を目標にし、エマルジョンとカウンターを組み合わせたハイブリッド-エマルジョン法を取り入れて実施された。
+約1000の$\Xi$$^-$粒子吸収事象が見積もられ、光学顕微鏡を用いた半自動飛跡追跡により全モジュールの解析が終了している。
+解析の結果、約600例の$\Xi$$^-$粒子吸収事象を検出し、7例のDouble-$\Lambda$Hyper核を検出した。
+その中の1例でのみ崩壊モードを一意に決定することができ、この1例をNAGARA Eventと名付けた。
+\begin{figure}[htbp]
+    \begin{center}
+     \includegraphics[width=70mm]{grainfog.png}
+    \end{center}
+    \caption{Nagara eventとKiso event\label{fig:Nagara_Kiso}}
+\end{figure}
 \subsection{J-PARC E07実験}
 \begin{itemize}
     \item ハイブリッド方によりE373の10倍の統計、全面探査により100倍の統計を目指す実験である。
     \item 実験セットアップを示す。
     \item SSDに変更したことで、検出した候補の角度分解能、位置分解の精度が向上している。
 \end{itemize}
-J-PARC E07実験はハイブリッドemulsion法によりKEK-PS E373実験の10倍の統計量を目指す実験である。
+J-PARC E07実験はハイブリッド-エマルジョン法によりKEK-PS E373実験の10倍の統計量を目指す実験である。
 表\ref{tab:compare_E07_E373}はJ-PARC E07実験とKEK-PS E373実験の比較をしたものである。
 表にあるように、beamのK$^-$/$\pi$$^-$を約3.5倍、原子核乳剤の量を約3倍にすることで10倍の$\Xi$$^-$粒子静止事象を実現する。
 \par
@@ -192,7 +201,7 @@ J-PARCE07実験で移用する原子核乾板はすべて岐阜大学ダブル�
 \par
 図\ref{fig:compton_and_cosmicray_in_emulsion}は製造からの時間経過による原子核乾板記録された宇宙線、コンプトン電子の蓄積量を示している。
 赤色が岐阜大学内で保管した場合、青色が神岡鉱山内で保管した場合を示している。
-二つの量を比較すると、神岡鉱山内で保管したことで非常に多くのバックグラウンドを削減することができたということが分かる。
+二つの線の傾きを比較すると、神岡鉱山内で保管したことで非常に多くのバックグラウンドを削減することができたということが分かる。
 \par
 しかし、製造からbeam照射まで2年の期間が経過したため、神岡鉱山内で保管していたとしても解析に支障を及ぼすレベルまでバックグラウンドが蓄積してしまった。
 図\ref{fig:beam_efficiency_to_compton}はコンプトンの蓄積量に対するbeam検出効率を示したものである。
@@ -289,7 +298,7 @@ E07実験2ndRunではbeam照射後すぐにGridマークを照射する。従来
  \item beamライン等の図。Runendの図を見せて終了。
  \item 何日かけて実施したかを記す。照射Mod数/月日　の図
 \end{itemize}
-\subsubsection{岐阜大学の作業内容}
+\subsubsection{作業内容}
 ここではemulsionカセットに乾板を詰める作業と乾板をカセットから出す。
 作業について書く。
 \par
@@ -315,15 +324,24 @@ E07実験2ndRunではbeam照射後すぐにGridマークを照射する。従来
  \item カセットに入れる前と後で重さが大きく変化していないかを確認した。
  \item 測定した重さと厚さから乾板の密度を求めたところ、1stRunと2ndRunで密度の大きな違いは無かった。リフレッシュ処理の有無も乾板の密度測定には影響がなかったと言える。
 \end{itemize}
+これは付録でいいかな？？？
 原子核乾板中に記録されたHyper核eventを解析するためには記録されている原子核乾板の密度が重要になる。
-原子核乾板では記録された飛跡の飛程からエネルギーを算出する際に乾板の密度が必要になるからである。
-現在核種が一意に決定されている'NagaraEvent'の数値を使うとこのようなグラフになる。
+記録された飛跡の飛程からエネルギーを算出する際に乾板の密度が必要になるからである。
+現在核種が一意に決定されている'NagaraEvent'の解析にはevent付近に記録されたα崩壊飛跡を50例使用し、乾板の密度を計算して○.○○とした。
 \par
-このグラフから分かるように原子核乾板の密度を正確に求めることが必要である。
+表○はNagaraの各trackの長さ、角度を示している。
+trackの長さ、角度が一定で、原子核乾板の密度を変化させたときBΞがどれだけ変化するかを確認した。
+図●はその変化を示している。
+図から分かるように密度の変化によってBΞは大きく変化する。
+そのため原子核乾板の密度を正確に求めること、密度が解析において非常に重要であることが分かる。
+\par
+図を入れる。
 \par
 2ndRunでは1stRunと同様にemulsionCasetteに乾板を入れる前に乾板の厚さと重さの測定、beam照射後に乾板の重さを測定することでbeam照射により乾板の重さに大きな変動がないかを確認した。
 照射の前後で重さが1.0g以上異なっていた場合再度厚さ重さの測定をして記録した。
-乾板の重さは電子天秤で測定した。乾板の厚さはシックネスゲージを用いて乾板の4カ所を測定した。
+乾板の重さは電子天秤を用いて、乾板の厚さはシックネスゲージを用いて乾板の4カ所を測定した。
+\par
+使用した電子天秤とシックネスゲージの写真
 \par
 この図は厚形乾板の1stRun乾板での密度の測定結果と2ndRun乾板での密度の測定結果である。
 比較すると、1stRunと2ndRunで使用した原子核乾板に大きな違いは無いように見える。
@@ -339,8 +357,9 @@ E07実験2ndRunではbeam照射後すぐにGridマークを照射する。従来
  \item 1stRunは●年に●枚終了、2ndRunは●年に●枚終了予定
  \item 現像の詳細な記述は大橋修論に記載する。
 \end{itemize}
-
-
+\subsubsection{原理}
+\subsubsection{実施環境}
+\subsubsection{評価}
 
 \newpage
 \section{荷電粒子飛跡追跡の自動化}
@@ -423,7 +442,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
     \item 追跡の際に考える必要のある座標系について書く。
     \item それらの座標系をつなぐためにaffine変換をつかい、目的の飛跡の位置に行くことが必要である。
 \end{itemize}
-下流の乾板に接続して追跡するために、SSDで検出した$\Xi$$^-$候補とｐｌ01に記録された荷電粒子飛跡の対応をつける。
+下流の乾板に接続して追跡するために、SSDで検出した$\Xi$$^-$候補とpl01に記録された荷電粒子飛跡の対応をつける。
 \subsubsection{K$^-$beamパターンマッチ}
 \begin{itemize}
     \item emulsionとemulsionの位置ズレを補正するために行う。
@@ -444,6 +463,13 @@ beam照射時の上流乾板と下流乾板の位置ずれを取得するため�
 \newpage
 \section{まとめ}
 
+\section*{付録}
+\addcontentsline{toc}{section}{付録}
+ああああああああああああああああああああああああああ
+
+\section*{謝辞}
+\addcontentsline{toc}{section}{謝辞}
+ああああああああああああああああああああああああああ
 \begin{thebibliography}{99}
 \bibitem{Nagara} 「Double-$\Lambda$Hypernuclei observed in a hybrid emulsion experiment」PHYSICAL REVIEW C NUCLEAR PHYSICS Vol.88,No.1, July 2013
 \bibitem{Nagara2} 「”NAGARA event”が語る相互作用―KEK-PS E373 ダブルハイパー核実験―」仲澤和馬(岐阜大学)、高橋仁(京都大学)、PS-E373 共同実験グループ 高エネルギーニュース Vol.20 No.5 p.206 2002
