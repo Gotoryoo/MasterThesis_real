@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  10 OCT 2017 13:19
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  23 OCT 2017 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -497,20 +497,22 @@ Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 128.
+ [6]
+File: grainfog.png Graphic file (type bmp)
+<grainfog.png>
+ [7]
+File: grainfog.png Graphic file (type bmp)
+<grainfog.png>
+ [8]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 183.
 
 
 (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 128.
-File: grainfog.png Graphic file (type bmp)
-<grainfog.png>
- [6] [7]
-File: grainfog.png Graphic file (type bmp)
-<grainfog.png>
- [8] [9]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 183.
+ [9]
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
 File: emulsionorder.png Graphic file (type bmp)
@@ -519,12 +521,16 @@ File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
- [10]
-[11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
+ [10] [11] [12]
+[13] [14] [15] [16] [17] [18] [19] [20]
 Missing character: There is no ^^ef in font cmr12!
 Missing character: There is no ^^a9 in font cmr12!
 Missing character: There is no ^^8a in font cmr12!
- [22] (./修士論文.aux) ) 
+ [21] (./修士論文.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  10650 strings out of 493648
  208292 string characters out of 6150704
@@ -534,4 +540,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  34i,11n,46p,10417b,419s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (23 pages, 57496 bytes).
+Output written on 修士論文.dvi (22 pages, 60300 bytes).
