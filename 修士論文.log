@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  23 OCT 2017 14:30
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  23 OCT 2017 20:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -522,22 +522,28 @@ File: emulsionorder.png Graphic file (type bmp)
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
  [10] [11] [12]
-[13] [14] [15] [16] [17] [18] [19] [20]
+[13] [14] [15]
+File: emulsionorder.png Graphic file (type bmp)
+<emulsionorder.png>
+File: emulsionorder.png Graphic file (type bmp)
+<emulsionorder.png>
+
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 386--404
+ [][][] 
+ []
+
+[16] [17] [18] [19] [20] [21]
 Missing character: There is no ^^ef in font cmr12!
 Missing character: There is no ^^a9 in font cmr12!
 Missing character: There is no ^^8a in font cmr12!
- [21] (./修士論文.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ [22] (./修士論文.aux) ) 
 Here is how much of TeX's memory you used:
- 10650 strings out of 493648
- 208292 string characters out of 6150704
+ 10651 strings out of 493648
+ 208301 string characters out of 6150704
  276336 words of memory out of 5000000
- 14208 multiletter control sequences out of 15000+600000
+ 14209 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 34i,11n,46p,10417b,419s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 34i,11n,46p,10417b,442s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (22 pages, 60300 bytes).
+Output written on 修士論文.dvi (23 pages, 62084 bytes).
