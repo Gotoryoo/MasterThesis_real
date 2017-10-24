@@ -21,25 +21,25 @@
 \contentsline {subsubsection}{\numberline {2.3.3}EmulsionCasetteでの真空度}{14}
 \contentsline {subsubsection}{\numberline {2.3.4}EmulsionCasetteの固定法確立}{14}
 \contentsline {subsubsection}{\numberline {2.3.5}照射した乾板の密度}{15}
-\contentsline {subsection}{\numberline {2.4}現像}{15}
-\contentsline {subsubsection}{\numberline {2.4.1}原理}{15}
-\contentsline {subsubsection}{\numberline {2.4.2}実施環境}{15}
-\contentsline {subsubsection}{\numberline {2.4.3}評価}{15}
-\contentsline {section}{\numberline {3}荷電粒子飛跡追跡の自動化}{16}
-\contentsline {subsection}{\numberline {3.1}目的}{16}
-\contentsline {subsection}{\numberline {3.2}$\Xi $$^-$候補＆beam認識に用いる画像処理}{16}
-\contentsline {subsubsection}{\numberline {3.2.1}コントラスト処理}{16}
-\contentsline {subsubsection}{\numberline {3.2.2}ガウシアンフィルタ処理}{17}
-\contentsline {subsubsection}{\numberline {3.2.3}画像の白黒反転}{17}
-\contentsline {subsubsection}{\numberline {3.2.4}二値化}{18}
-\contentsline {subsection}{\numberline {3.3}座標変換}{18}
-\contentsline {subsection}{\numberline {3.4}自動追跡の要素技術}{18}
-\contentsline {subsubsection}{\numberline {3.4.1}P-barパターンマッチ}{18}
-\contentsline {subsubsection}{\numberline {3.4.2}$\Xi $$^-$候補飛跡の選択}{19}
-\contentsline {subsubsection}{\numberline {3.4.3}K$^-$beamパターンマッチ}{19}
-\contentsline {subsubsection}{\numberline {3.4.4}表面認識}{20}
-\contentsline {subsubsection}{\numberline {3.4.5}荷電粒子飛跡追跡}{20}
-\contentsline {section}{\numberline {4}E07乾板における開発プログラムでの追跡実績}{21}
-\contentsline {section}{\numberline {5}まとめ}{22}
-\contentsline {section}{付録}{22}
-\contentsline {section}{謝辞}{22}
+\contentsline {subsection}{\numberline {2.4}現像}{17}
+\contentsline {subsubsection}{\numberline {2.4.1}原理}{17}
+\contentsline {subsubsection}{\numberline {2.4.2}実施環境}{17}
+\contentsline {subsubsection}{\numberline {2.4.3}評価}{17}
+\contentsline {section}{\numberline {3}荷電粒子飛跡追跡の自動化}{18}
+\contentsline {subsection}{\numberline {3.1}目的}{18}
+\contentsline {subsection}{\numberline {3.2}$\Xi $$^-$候補＆beam認識に用いる画像処理}{18}
+\contentsline {subsubsection}{\numberline {3.2.1}コントラスト処理}{18}
+\contentsline {subsubsection}{\numberline {3.2.2}ガウシアンフィルタ処理}{19}
+\contentsline {subsubsection}{\numberline {3.2.3}画像の白黒反転}{19}
+\contentsline {subsubsection}{\numberline {3.2.4}二値化}{20}
+\contentsline {subsection}{\numberline {3.3}座標変換}{20}
+\contentsline {subsection}{\numberline {3.4}自動追跡の要素技術}{20}
+\contentsline {subsubsection}{\numberline {3.4.1}P-barパターンマッチ}{20}
+\contentsline {subsubsection}{\numberline {3.4.2}$\Xi $$^-$候補飛跡の選択}{21}
+\contentsline {subsubsection}{\numberline {3.4.3}K$^-$beamパターンマッチ}{21}
+\contentsline {subsubsection}{\numberline {3.4.4}表面認識}{22}
+\contentsline {subsubsection}{\numberline {3.4.5}荷電粒子飛跡追跡}{22}
+\contentsline {section}{\numberline {4}E07乾板における開発プログラムでの追跡実績}{23}
+\contentsline {section}{\numberline {5}まとめ}{24}
+\contentsline {section}{付録}{24}
+\contentsline {section}{謝辞}{24}

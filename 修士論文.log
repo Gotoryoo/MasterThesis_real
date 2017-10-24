@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  23 OCT 2017 20:18
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  24 OCT 2017 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -522,28 +522,55 @@ File: emulsionorder.png Graphic file (type bmp)
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
  [10] [11] [12]
-[13] [14] [15]
-File: emulsionorder.png Graphic file (type bmp)
-<emulsionorder.png>
-File: emulsionorder.png Graphic file (type bmp)
-<emulsionorder.png>
+[13] [14]
+File: 1stRun_thin_den.png Graphic file (type bmp)
+<1stRun_thin_den.png>
+File: 2ndRun_thin_den.png Graphic file (type bmp)
+<2ndRun_thin_den.png>
+File: 1stRun_thin_den.png Graphic file (type bmp)
+<1stRun_thin_den.png>
+File: 2ndRun_thin_den.png Graphic file (type bmp)
+<2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 386--404
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 351--386
  [][][] 
  []
 
-[16] [17] [18] [19] [20] [21]
+File: 1stRun_thin_den.png Graphic file (type bmp)
+<1stRun_thin_den.png>
+File: 2ndRun_thin_den.png Graphic file (type bmp)
+<2ndRun_thin_den.png>
+
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 391--409
+ [][][] 
+ []
+
+[15] [16] [17]
+File: emulsionorder.png Graphic file (type bmp)
+<emulsionorder.png>
+File: emulsionorder.png Graphic file (type bmp)
+<emulsionorder.png>
+
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 450--468
+ [][][] 
+ []
+
+[18] [19] [20] [21] [22] [23]
 Missing character: There is no ^^ef in font cmr12!
 Missing character: There is no ^^a9 in font cmr12!
 Missing character: There is no ^^8a in font cmr12!
- [22] (./修士論文.aux) ) 
+ [24] (./修士論文.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 10651 strings out of 493648
- 208301 string characters out of 6150704
+ 10661 strings out of 493648
+ 208570 string characters out of 6150704
  276336 words of memory out of 5000000
- 14209 multiletter control sequences out of 15000+600000
+ 14215 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 34i,11n,46p,10417b,442s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 34i,11n,46p,10417b,503s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (23 pages, 62084 bytes).
+Output written on 修士論文.dvi (25 pages, 63380 bytes).
