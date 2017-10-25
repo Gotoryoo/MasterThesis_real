@@ -231,17 +231,21 @@ J-PARC E07実験で使用する原子核乾板はすべて岐阜大学ダブル�
     \caption{バックグラウンド蓄積量の違う乾板での輝度値の位置変化\label{fig:britnese_in_some_emulsion}}
 \end{figure}
 \subsubsection{原理}
-\begin{itemize}
- \item 写真乾板には潜像退行性がある。
- \item 高温・多湿の環境下に乾板を置くことでその性質を促進し記録されたバックグラウンドを消去することを潜像退行処理という。
- \item たくさんのD論も引用でいれるか。
-\end{itemize}
-写真フィルムには撮影してから現像するまでに時間を経ると、映像が消えていく性質(潜像退行性)がある。
+写真フィルムには撮影してから現像するまでに時間を経ると、映像が消えていく性質(潜像退行性)がある。[式\ref{eq:gennzou}]
 また、潜像退行性は高温高湿度の環境で著しく進むことが明らかになっている。
+\begin{equation}
+    \ce{Ag4 + O2 + 2H2O -> 4Ag+ + 4OH-}
+\label{eq:gennzou}
+\end{equation}
 \par
 原子核乾板は塗布されてから現像されるまでの間に、自然放射線や宇宙線の影響を受け潜像が蓄積される。
 そこで、蓄積された潜像を消去するための手法として潜像退行処理(Refresh処理)と呼ばれる方法が開発されている。
 \cite{takusann}
+Refresh処理は原子核乾板の持つ現像退行性を利用する。
+式\ref{eq:gennzou}の反応を起こすことで、形成されていた潜像核がイオンになり現像されない状態になる。
+この化学反応は温度が高くなるほど反応が促進されるため、原子核乾板を高温高湿度の環境下に置くことで潜像退行が促進される。
+よって、Refresh処理によりbeam照射の前に記録されたBackgroundを消去できる。
+潜像退行処理による潜像核が消去される模式図を入れる。
 \par
 \subsubsection{実施環境}
 \begin{itemize}
@@ -308,13 +312,8 @@ E07実験2ndRunではbeam照射後すぐにGridマークを照射する。
 \end{itemize}
 暗室内で原子核乾板をEmulsionCasetteに詰める際の流れは以下の通りである。
 \begin{enumerate}
-    \item 冷蔵庫で保管されていた原子核乾板をパッキングする数時間前に暗室下に出し、温度に慣らす。
     \item グリスを塗った、Oリングをはめ込む。
     \item カセットの4つ角にL字のSUS板を置く。 
-    \item 原子核乾板を袋から出し、乾板の番号を確認する。
-    \item Mod、pl番号を原子核乾板の右下に記入する。
-    \item シックネスゲージを使い、乾板の四点の厚さを測定する。
-    \item 乾板の重さを測定する。
     \item 乾板をSUS板に沿って原子核乾板13枚をカセットに入れる。
 \end{enumerate}
 \subsubsection{EmulsionCasetteでの真空度}
@@ -337,11 +336,33 @@ E07実験2ndRunではbeam照射後すぐにGridマークを照射する。
 照射の前後で重さが1.0g以上異なっていた場合再度厚さ重さの測定をして記録した。
 乾板の重さは電子天秤を用いて、乾板の厚さはシックネスゲージを用いて乾板の4カ所を測定した。
 \par
-使用した電子天秤とシックネスゲージの写真
+\begin{figure}[htbp]
+    \begin{center}
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \begin{center}
+            \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
+            \hspace{1.6cm} (a)電子天秤
+          \end{center}
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \begin{center}
+            \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
+            \hspace{1.6cm} (b)シックネスゲージ
+          \end{center}
+        \end{minipage}
+    
+      \end{tabular}
+      \caption{使用した電子天秤とシックネスゲージ\label{fig:tennbinn_thicknessgage}}
+    \end{center}
+\end{figure}
 \par
 図\ref{fig:compare_thick_den}は厚形乾板の1stRun乾板での密度の測定結果と2ndRun乾板での密度の測定結果である。
 比較すると、1stRunと2ndRunで使用した原子核乾板に大きな違いは無いように見える。
-また、1stRun乾板の密度はRefresh未処理の乾板、2ndRunはRefresh実施乾板での密度である。
+また、1stRun乾板の密度はRefresh未処理の乾板、2ndRunはRefresh処理実施乾板での密度である。
 そのため、Refresh処理の有無で原子核乾板の密度が変化しないことが分かる。
 \par
 薄型乾板でも同様に密度の比較をした。
@@ -441,10 +462,10 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
     \item 処理前と処理後の画像を入れる。
 \end{itemize}
 原子核乾板中を撮影した画像は、画像を撮影した原子核乾板の位置により見え方が異なる。
-図●は同一乾板内で撮影した写真で、視野中心に見えるのは追跡対象にしている$\Xi$$^-$候補飛跡である。
+図\ref{fig:diff_contrust}は同一乾板内で撮影した写真で、視野中心に見えるのは追跡対象にしている$\Xi$$^-$候補飛跡である。
 二つの写真の違いは原子核乾板の位置で、左が上側乳剤層、右が下側乳剤層で撮影したものである。
 図より撮影地点が異なれば画像のコントラストが大きく異なることが分かる。
-そこで、原子核乾板中で撮影した画像に記録された飛跡情報を的確に取得するために画像のコントラストの違いをなくす必要がある。
+そこで原子核乾板中で撮影した画像を、撮影地点によらず飛跡情報を取得するために画像のコントラストの違いをなくす必要がある。
 \begin{figure}[htbp]
     \begin{center}
       \begin{tabular}{c}
@@ -452,7 +473,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
         \begin{minipage}{0.5\hsize}
           \begin{center}
             \includegraphics[clip, width=60mm]{emulsionorder.png}
-            \hspace{1.6cm} (a)1枚目
+            \hspace{1.6cm} (a)上側乳剤層中の$\Xi$$^-$候補飛跡
           \end{center}
         \end{minipage}
 
@@ -460,19 +481,58 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
         \begin{minipage}{0.5\hsize}
           \begin{center}
             \includegraphics[clip, width=60mm]{emulsionorder.png}
-            \hspace{1.6cm} (b)2枚目
+            \hspace{1.6cm} (b)下側乳剤層中の$\Xi$$^-$候補飛跡
           \end{center}
         \end{minipage}
     
       \end{tabular}
-      \caption{画像}
-      \label{fig:img}
+      \caption{撮影地点によるコントラストの違い\label{fig:diff_contrust}}
     \end{center}
 \end{figure}
 \par
 画像のコントラストをよくするために用いる式は以下の通りである。
-図●はこの式を使用して画像にコントラスト処理を施した画像である。
-図より画像の最も輝度値の明暗の幅が広がったことが分かる。
+図\ref{fig:do_contrust_beforeandafter}はこの式を使用して画像にコントラスト処理を施した画像である。
+図のc、dを比較すると、コントラスト処理により画像の輝度値の明暗の幅が広がったことが分かる。
+\begin{figure}[htbp]
+    \begin{center}
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \begin{center}
+            \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
+            \hspace{1.6cm} (a)コントラスト処理前
+          \end{center}
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \begin{center}
+            \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
+            \hspace{1.6cm} (b)aの輝度値分布
+          \end{center}
+        \end{minipage}
+        \\
+        \\
+        % 3枚目の画像
+        \begin{minipage}{0.5\hsize}
+            \begin{center}
+              \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
+              \hspace{1.6cm} (c)コントラスト処理後
+            \end{center}
+          \end{minipage}
+          
+        % 4枚目の画像
+        \begin{minipage}{0.5\hsize}
+            \begin{center}
+              \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
+              \hspace{1.6cm} (d)cの輝度値分布
+            \end{center}
+        \end{minipage}
+    
+      \end{tabular}
+      \caption{コントラスト処理によるコントラストの違い\label{fig:do_contrust_beforeandafter}}
+    \end{center}
+\end{figure}
 \subsubsection{ガウシアンフィルタ処理}
 \begin{itemize}
     \item 撮影された画像にはノイズが記録されているので、そのノイズを消すためにガウシアンフィルタ処理により画像をぼかす。
