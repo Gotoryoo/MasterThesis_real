@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {2}J-PARC E07実験2ndRun}{9}
 \contentsline {subsection}{\numberline {2.1}Refresh処理の実施}{9}
 \contentsline {subsubsection}{\numberline {2.1.1}実施背景}{9}
-\contentsline {subsubsection}{\numberline {2.1.2}原理}{10}
+\contentsline {subsubsection}{\numberline {2.1.2}原理}{12}
 \contentsline {subsubsection}{\numberline {2.1.3}実施環境}{12}
 \contentsline {subsubsection}{\numberline {2.1.4}評価}{13}
 \contentsline {subsection}{\numberline {2.2}GridMark照射環境の最適化}{13}
@@ -33,8 +33,8 @@
 \contentsline {subsubsection}{\numberline {3.2.3}画像の白黒反転}{22}
 \contentsline {subsubsection}{\numberline {3.2.4}二値化}{22}
 \contentsline {subsection}{\numberline {3.3}座標変換}{23}
-\contentsline {subsection}{\numberline {3.4}自動追跡の要素技術}{24}
-\contentsline {subsubsection}{\numberline {3.4.1}P-barパターンマッチ}{24}
+\contentsline {subsection}{\numberline {3.4}自動追跡の要素技術}{23}
+\contentsline {subsubsection}{\numberline {3.4.1}P-barパターンマッチ}{23}
 \contentsline {subsubsection}{\numberline {3.4.2}$\Xi $$^-$候補飛跡の選択}{24}
 \contentsline {subsubsection}{\numberline {3.4.3}K$^-$beamパターンマッチ}{24}
 \contentsline {subsubsection}{\numberline {3.4.4}表面認識}{25}
