@@ -246,7 +246,12 @@ Refresh処理は原子核乾板の持つ現像退行性を利用する。
 この化学反応は温度が高くなるほど反応が促進されるため、原子核乾板を高温高湿度の環境下に置くことで潜像退行が促進される。
 よって、Refresh処理によりbeam照射の前に記録されたBackgroundを消去できる。
 潜像退行処理による潜像核が消去される模式図を入れる。
-\par
+\begin{figure}[htbp]
+    \begin{center}
+     \includegraphics[width=140mm]{emulsionorder.png}
+    \end{center}
+    \caption{Refresh処理模式図\label{fig:intr_refresh}}
+\end{figure}
 \subsubsection{実施環境}
 \begin{itemize}
  \item リフレッシュ処理を行うには温度●度、湿度●％の環境を●時間維持する必要がある。
@@ -499,7 +504,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
         % 1枚目の画像
         \begin{minipage}{0.5\hsize}
           \begin{center}
-            \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
+            \includegraphics[clip, width=60mm]{row.png}
             \hspace{1.6cm} (a)コントラスト処理前
           \end{center}
         \end{minipage}
@@ -507,7 +512,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
         % 2枚目の画像
         \begin{minipage}{0.5\hsize}
           \begin{center}
-            \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
+            \includegraphics[clip, width=60mm]{row_hist.png}
             \hspace{1.6cm} (b)aの輝度値分布
           \end{center}
         \end{minipage}
@@ -516,7 +521,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
         % 3枚目の画像
         \begin{minipage}{0.5\hsize}
             \begin{center}
-              \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
+              \includegraphics[clip, width=60mm]{cont.png}
               \hspace{1.6cm} (c)コントラスト処理後
             \end{center}
           \end{minipage}
@@ -524,7 +529,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
         % 4枚目の画像
         \begin{minipage}{0.5\hsize}
             \begin{center}
-              \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
+              \includegraphics[clip, width=60mm]{cont_hist.png}
               \hspace{1.6cm} (d)cの輝度値分布
             \end{center}
         \end{minipage}
@@ -547,6 +552,46 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
 画像中のある画素を中心に指定範囲(カーネルサイズ)内で注目画素に近いほど輝度値の平均値を計算するときの重みを大きくするように処理をかけることである。
 式は次の通りである。
 この式を使い、処理を実施した。
+\begin{figure}[htbp]
+    \begin{center}
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \begin{center}
+            \includegraphics[clip, width=60mm]{cont.png}
+            \hspace{1.6cm} (a)ガウシアンフィルタ処理前
+          \end{center}
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \begin{center}
+            \includegraphics[clip, width=60mm]{cont_hist2.png}
+            \hspace{1.6cm} (b)aの中央行の輝度値
+          \end{center}
+        \end{minipage}
+        \\
+        \\
+        % 3枚目の画像
+        \begin{minipage}{0.5\hsize}
+            \begin{center}
+              \includegraphics[clip, width=60mm]{gau2.png}
+              \hspace{1.6cm} (c)ガウシアンフィルタ処理後
+            \end{center}
+          \end{minipage}
+          
+        % 4枚目の画像
+        \begin{minipage}{0.5\hsize}
+            \begin{center}
+              \includegraphics[clip, width=60mm]{gau2_hist.png}
+              \hspace{1.6cm} (d)cの中央行の輝度値
+            \end{center}
+        \end{minipage}
+    
+      \end{tabular}
+      \caption{ガウシアンフィルタ処理による輝度値の違い\label{fig:do_gau_beforeandafter}}
+    \end{center}
+\end{figure}
 \subsubsection{画像の白黒反転}
 \begin{itemize}
     \item ガウシアンフィルタ処理とコントラスト処理をかけた画像の輝度値の差分を取ることで、白黒反転の画像を作成する。
@@ -555,22 +600,67 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
 \end{itemize}
 次の二値化処理を実施するため、画像の白黒を反転させる必要がある。
 ガウシアンフィルタ処理を施した画像から、コントラスト処理を施した画像の輝度値の差を取ることで白黒を反転する。
-図●は画像と指定した行の輝度値を示したものである。
-画像の輝度値差をとって作成した画像が図●である。
-図●を見れば分かるように差分を取ることで、黒色であった部分が白色に反転した。
+図\ref{fig:do_gau_beforeandafter}の(c)の画像の輝度値から(a)の輝度値情報を引いて作成したのが図\ref{fig:do_sub}である。
+図\ref{fig:do_sub}を見れば分かるように差分を取ることで、黒色であった部分が白色に反転した。
+\begin{figure}[htbp]
+    \begin{center}
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \begin{center}
+            \includegraphics[clip, width=60mm]{sub.png}
+            \hspace{1.6cm} (a)図\ref{fig:do_gau_beforeandafter}の(c)-(a)
+          \end{center}
+        \end{minipage}
+
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \begin{center}
+            \includegraphics[clip, width=60mm]{sub_hist.png}
+            \hspace{1.6cm} (b)(a)の中央行の輝度値
+          \end{center}
+        \end{minipage}
+    
+      \end{tabular}
+      \caption{輝度値差分処理後の画像\label{fig:do_sub}}
+    \end{center}
+\end{figure}
 \subsubsection{二値化}
 \begin{itemize}
     \item 白黒反転画像に対して、ある一定以上の輝度値をもつピクセルのみ残すという処理を行う。
     \item これによりある程度濃く記録された飛跡情報のみがのこるのでこのようにしている。飛跡のエネルギーが高いものは濃く記録されると言うことの図を入れた方が良いかも。
     \item 処理前と処理後の画像
 \end{itemize}
-図●を見ると、視野中心にある飛跡情報以外に多くのgrain、trackが記録されていることが分かる。
+図\ref{fig:do_sub}を見ると、視野中心にある飛跡情報以外に多くのgrain、trackが記録されていることが分かる。
 これらの情報は飛跡追跡を実施するのに不必要であり、飛跡の誤検出を招く恐れがある。
 そこで、二値化処理により指定した輝度値以下のピクセルの輝度値をゼロにする。
 これにより飛跡以外の不要な輝度値情報を消す。
 \par
-図●は二値化処理前後の画像とその指定した行の輝度値を示したものである。
+図\ref{fig:do_thre}は二値化処理前後の画像とその指定した行の輝度値を示したものである。
 図を見れば分かるように、二値化処理により飛跡以外の不要な輝度値情報が減少したことが分かる。
+\begin{figure}[htbp]
+    \begin{center}
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \begin{center}
+            \includegraphics[clip, width=60mm]{thre.png}
+            \hspace{1.6cm} (a)図\ref{fig:do_sub}の(a)の二値化処理後画像
+          \end{center}
+        \end{minipage}
+
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \begin{center}
+            \includegraphics[clip, width=60mm]{thre_hist.png}
+            \hspace{1.6cm} (b)(a)の中央行の輝度値
+          \end{center}
+        \end{minipage}
+    
+      \end{tabular}
+      \caption{二値化処理後の画像\label{fig:do_thre}}
+    \end{center}
+\end{figure}
 \subsection{座標変換}
 \begin{itemize}
     \item affine変換について書く。
