@@ -30,9 +30,9 @@
 \contentsline {subsection}{\numberline {3.2}$\Xi $$^-$候補＆beam認識に用いる画像処理}{18}
 \contentsline {subsubsection}{\numberline {3.2.1}コントラスト処理}{18}
 \contentsline {subsubsection}{\numberline {3.2.2}ガウシアンフィルタ処理}{19}
-\contentsline {subsubsection}{\numberline {3.2.3}画像の白黒反転}{22}
+\contentsline {subsubsection}{\numberline {3.2.3}画像の白黒反転}{21}
 \contentsline {subsubsection}{\numberline {3.2.4}二値化}{22}
-\contentsline {subsection}{\numberline {3.3}座標変換}{23}
+\contentsline {subsection}{\numberline {3.3}座標変換}{22}
 \contentsline {subsection}{\numberline {3.4}自動追跡の要素技術}{23}
 \contentsline {subsubsection}{\numberline {3.4.1}P-barパターンマッチ}{23}
 \contentsline {subsubsection}{\numberline {3.4.2}$\Xi $$^-$候補飛跡の選択}{24}

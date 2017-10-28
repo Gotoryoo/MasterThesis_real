@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  25 OCT 2017 20:16
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  28 OCT 2017 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -504,14 +504,14 @@ File: grainfog.png Graphic file (type bmp)
 File: grainfog.png Graphic file (type bmp)
 <grainfog.png>
  [8]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 183.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 184.
 
 
 (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 183.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 184.
  [9]
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
@@ -531,7 +531,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 347--365
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 356--374
  [][][] 
  []
 
@@ -544,7 +544,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 378--413
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 380--415
  [][][] 
  []
 
@@ -553,21 +553,20 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 418--436
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 420--438
  [][][] 
  []
 
-[15] [16] [17]
+[15] [16] [17] [18]
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 477--495
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 486--504
  [][][] 
  []
 
-[18]
 File: row.png Graphic file (type bmp)
 <row.png>
 File: row_hist.png Graphic file (type bmp)
@@ -577,10 +576,11 @@ File: cont.png Graphic file (type bmp)
 File: cont_hist.png Graphic file (type bmp)
 <cont_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 504--539
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 513--548
  [][][] 
  []
 
+[19] [20]
 File: cont.png Graphic file (type bmp)
 <cont.png>
 File: cont_hist2.png Graphic file (type bmp)
@@ -590,7 +590,7 @@ File: gau2.png Graphic file (type bmp)
 File: gau2_hist.png Graphic file (type bmp)
 <gau2_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 558--593
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 573--608
  [][][] 
  []
 
@@ -599,17 +599,17 @@ File: sub.png Graphic file (type bmp)
 File: sub_hist.png Graphic file (type bmp)
 <sub_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 603--621
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 618--636
  [][][] 
  []
 
-[19] [20] [21]
+[21]
 File: thre.png Graphic file (type bmp)
 <thre.png>
 File: thre_hist.png Graphic file (type bmp)
 <thre_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 639--657
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 654--672
  [][][] 
  []
 
@@ -619,12 +619,12 @@ Missing character: There is no ^^a9 in font cmr12!
 Missing character: There is no ^^8a in font cmr12!
  [27] (./修士論文.aux) ) 
 Here is how much of TeX's memory you used:
- 10712 strings out of 493648
- 209578 string characters out of 6150704
+ 10714 strings out of 493648
+ 209597 string characters out of 6150704
  276336 words of memory out of 5000000
- 14244 multiletter control sequences out of 15000+600000
+ 14246 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,11n,48p,10417b,505s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (28 pages, 65888 bytes).
+Output written on 修士論文.dvi (28 pages, 67872 bytes).
