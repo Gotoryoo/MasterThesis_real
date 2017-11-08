@@ -29,10 +29,26 @@
 uとd以外のクォークを含む粒子は非常に寿命が短いため地球上に存在していない。
 私たちはsクォークを含む粒子の相互作用について研究を進めている。
 \par
+相互作用を調べる理由として中性子星がある。
+中性子星は直径が約10kmでその質量が太陽の約1～2倍と非常に高密度な星である。
+そのため、中性子星の平均密度は原子核の平均密度の約2.5倍となる。
+\par
+図\ref{fig:den_barion}は密度に対する粒子の存在量を示している。
+通常の原子核の密度領域ではn、pが存在している。
+しかし、中性子星の密度領域では、n、pに加えてsクォークを含む$\Lambda$、$\Xi$$^-$が存在することが図から分かる。
+これは、中性子星内部のｐの量が増大すると、ｎの化学ポテンシャルが$\Lambda$の化学ポテンシャルを上回るようになり、
+ｎが$\Lambda$に変位する方がエネルギー的に安定するため起こる。
+そのため、中性子星の内部構造を探るためにはsクォークを含む$\Lambda$、$\Xi$$^-$から粒子間の相互作用を求めることが必要である。
+\par
 一般に粒子の相互作用を調べるためには粒子同士の衝突散乱実験を行うが、
 私たちの研究で使用する$\Lambda$粒子はudsの3つのクォークからなり、その寿命は10$^-$$^1$$^0$秒であるため、
 衝突実験によって相互作用を知ることは不可能である。
 そのため、$\Lambda$粒子の相互作用を求めるには原子核の中に$\Lambda$粒子持つものを生成し、核の崩壊過程から相互作用を求めるという手法しかない。
+\begin{figure}[htbp]
+  \centering
+   \includegraphics[width=80mm]{den_barion.png}
+  \caption{密度に対する粒子の存在量\label{fig:den_barion}}
+\end{figure}
 \subsection{Double-$\Lambda$Hyper核}
 通常の核に$\Lambda$粒子を2つ持たせたものがDouble-$\Lambda$Hyper核である。
 Double-$\Lambda$Hyper核を生成するため、K$^+$,K$^-$反応により$\Xi$$^-$粒子を生成する。
@@ -57,11 +73,10 @@ E07実験では上述したとおり原子核乾板の外で$\Xi$$^-$粒子を�
 しかし、それ以外にもK$^-$粒子が原子核乾板の中の原子核と反応しDouble-$\Lambda$Hyper核ができる場合もある。
 \par
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
      \includegraphics[width=120mm]{makehyper.png}
-    \end{center}
-    \caption{Hyper核生成過程\label{fig:makehyper}}
-   \end{figure}
+  \caption{Hyper核生成過程\label{fig:makehyper}}
+\end{figure}
 \newpage
 \subsection{原子核乾板}
 原子核乾板とは非常に高感度な写真フィルムの一種で、荷電粒子の通過した跡を記録する検出器である。
@@ -75,15 +90,13 @@ E07実験では上述したとおり原子核乾板の外で$\Xi$$^-$粒子を�
 そのため、原子核乾板を破損しない限り一度記録したHyper核の生成・崩壊事象やHyper核以外の荷電粒子秘跡を何度でも同じ状態で観測することができる。
 \par
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
      \includegraphics[width=70mm]{grainfog.png}
-    \end{center}
-　　\caption{原子核乾板中に飛跡が記録される流れ\label{fig:process_recored_track}}
+　\caption{原子核乾板中に飛跡が記録される流れ\label{fig:process_recored_track}}
 \end{figure}
 \begin{figure}[htbp]
- \begin{center}
-  \includegraphics[width=70mm]{grainfog.png}
- \end{center}
+ \centering
+      \includegraphics[width=70mm]{grainfog.png}
  \caption{原子核乾板中に記録されるtrackとgrainの様子\label{fig:grain_track}}
 \end{figure}
 二点目は、サブミクロン精度での空間分解能を持つことである。
@@ -105,24 +118,23 @@ E07実験で使用する乾板は40µmのBaseに450µmの乳剤を塗布する�
 厚形乾板は照射された$\Xi$粒子を乾板中で静止させ、娘粒子の飛跡を記録するために用いられる。
 \par
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
      \includegraphics[width=140mm]{emulsionorder.png}
-    \end{center}
-    \caption{使用する原子核乾板の規格\label{fig:emulsionorder}}
+  \caption{使用する原子核乾板の規格\label{fig:emulsionorder}}
 \end{figure}
 \subsection{光学顕微鏡}
 光学顕微鏡を用いて、現像後の原子核乾板に記録されているtrackを追跡、観察する。
 使用する顕微鏡は、モーターによって水平方向(x、y方向)に約1µmの精度で位置制御し、エンコーダーによって鉛直方向(z方向)に約0.1µmの精度で稼働できる。
 この顕微鏡により、原子核乾板表面の推測される位置で目的のtrackを探し、$\Xi$$^-$粒子候補を見つけ、trackを原子核乾板上面から下面まで追跡していく。
 \par
-PCを接続することで、この光学顕微鏡を制御している。CCDカメラを顕微鏡に設置することで、顕微鏡で観察したものを画像として取得する。
+PCを接続することで、この光学顕微鏡を制御している。
+CCDカメラを顕微鏡に設置することで、顕微鏡で観察したものを画像として取得する。
 取得した画像をPCの画面上に表示することや、顕微鏡の稼働に活用している。
 $\Xi$$^-$粒子自動追跡には、50倍の対物レンズを使用している。
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
      \includegraphics[width=140mm]{emulsionorder.png}
-    \end{center}
-    \caption{光学顕微鏡\label{fig:microscope}}
+  \caption{光学顕微鏡\label{fig:microscope}}
 \end{figure}
 \newpage
 \subsection{KEK-PS E373実験}
@@ -134,10 +146,9 @@ E176実験の約10倍のDouble-$\Lambda$Hyper核の検出を目標にし、エ�
 解析の結果、約600例の$\Xi$$^-$粒子吸収事象を検出し、7例のDouble-$\Lambda$Hyper核を検出した。
 その中の1例でのみ崩壊モードを一意に決定することができ、この1例をNAGARA Eventと名付けた。
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
      \includegraphics[width=70mm]{grainfog.png}
-    \end{center}
-    \caption{Nagara eventとKiso event\label{fig:Nagara_Kiso}}
+  \caption{Nagara eventとKiso event\label{fig:Nagara_Kiso}}
 \end{figure}
 \subsection{J-PARC E07実験}
 J-PARC E07実験はハイブリッド-エマルジョン法によりKEK-PS E373実験の10倍の統計量を目指す実験である。
@@ -202,32 +213,28 @@ J-PARC E07実験で使用する原子核乾板約1400枚はすべて岐阜大学
 これらのことから、蓄積されたバックグラウンドの消去のために原子核乾板に対して強制潜像退行処理(Refresh処理)を実施した。
 \par
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
      \includegraphics[width=140mm]{emulsionorder.png}
-    \end{center}
-    \caption{乾板に記録されたコンプトンと宇宙線\label{fig:compton_and_cosmicray_in_emulsion}}
+  \caption{乾板に記録されたコンプトンと宇宙線\label{fig:compton_and_cosmicray_in_emulsion}}
 \end{figure}
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
      \includegraphics[width=140mm]{emulsionorder.png}
-    \end{center}
-    \caption{神岡鉱山内の鉛ブロック中に原子核乾板の保管状況\label{fig:emulsion_in_Kamioka}}
+  \caption{神岡鉱山内の鉛ブロック中に原子核乾板の保管状況\label{fig:emulsion_in_Kamioka}}
 \end{figure}
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
      \includegraphics[width=140mm]{emulsionorder.png}
-    \end{center}
-    \caption{コンプトンの蓄積量に対するbeamの検出効率\label{fig:beam_efficiency_to_compton}}
+  \caption{コンプトンの蓄積量に対するbeamの検出効率\label{fig:beam_efficiency_to_compton}}
 \end{figure}
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
      \includegraphics[width=140mm]{emulsionorder.png}
-    \end{center}
-    \caption{バックグラウンド蓄積量の違う乾板での輝度値の位置変化\label{fig:britnese_in_some_emulsion}}
+  \caption{バックグラウンド蓄積量の違う乾板での輝度値の位置変化\label{fig:britnese_in_some_emulsion}}
 \end{figure}
 \newpage
 \subsubsection{原理}
-写真フィルムには撮影してから現像するまでに時間を経ると、映像が消えていく性質(潜像退行性)がある。[式\ref{eq:gennzou}]
+写真フィルムには撮影してから現像するまでに時間を経ると、映像が消えていく性質(潜像退行性)がある。[式(\ref{eq:gennzou})]
 また、潜像退行性は高温高湿度の環境で著しく進むことが明らかになっている。
 \begin{equation}
     \ce{Ag4 + O2 + 2H2O -> 4Ag+ + 4OH-}
@@ -243,10 +250,9 @@ Refresh処理は原子核乾板の持つ現像退行性を利用する。
 よって、Refresh処理によりbeam照射の前に記録されたBackgroundを消去できる。
 強制潜像退行処理による潜像核が消去される模式図を入れる。
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
      \includegraphics[width=140mm]{emulsionorder.png}
-    \end{center}
-    \caption{Refresh処理模式図\label{fig:intr_refresh}}
+  \caption{Refresh処理模式図\label{fig:intr_refresh}}
 \end{figure}
 \subsubsection{実施環境}
 \begin{itemize}
@@ -260,12 +266,6 @@ Refresh処理の実施には温度25度、湿度90％の環境を維持するこ
 このチェンバーは1度の処理で100枚の原子核乾板のRefresh処理を実施可能である。
 1stRunではこの装置を使い4回のRefresh処理を実施し、温度湿度の制御を手動で行った。
 2ndRunでは13回のRefresh処理を、温度・湿度の調整を自動制御で実施した。[村本卒論]
-\subsubsection{評価}
-\begin{itemize}
- \item リフレッシュ処理の実施によりバックグラウンドが減少した。[大橋卒論]
- \item 1stRun、2ndRunのリフレッシュ処理の評価＆最適化の詳細は大橋修論にて述べる。
-\end{itemize}
-Refresh処理により原子核乾板中のBackgroundが減少した。
 \subsection{GridMark照射環境の最適化}
 \subsubsection{暗室の拡張}
 1stRunではbeam照射後の原子核乾板を岐阜に持ち帰り、現像の数日前に岐阜でGridマークを照射した。
@@ -276,27 +276,23 @@ beam照射からGridマーク照射までの間に乾板の変形があったせ
 図\ref{fig:darkroom}は暗室の拡張前、拡張後を示したものである。
 横の長さを1m拡張することで、Gridマーク照射装置を設置する場所を確保した。
 \begin{figure}[htbp]
-  \begin{center}
+  \centering
     \begin{tabular}{c}
       % 1枚目の画像
       \begin{minipage}{1.0\hsize}
-        \begin{center}
+        \centering
           \includegraphics[clip, width=140mm]{darkroom_before.png}
           \hspace{1.6cm} (a)拡張前暗室内図
-        \end{center}
       \end{minipage}
       \\
       % 2枚目の画像
       \begin{minipage}{1.0\hsize}
-        \begin{center}
+        \centering
           \includegraphics[clip, width=140mm]{darkroom_after.png}
           \hspace{1.6cm} (b)拡張後暗室内図
-        \end{center}
       \end{minipage}
-  
     \end{tabular}
     \caption{暗室拡張前後の内図\label{fig:darkroom}}
-  \end{center}
 \end{figure}
 \subsubsection{GridMarkネガ}
 2016年にE07実験testRunにてbeam照射を実施した。
@@ -306,15 +302,13 @@ beam照射からGridマーク照射までの間に乾板の変形があったせ
 これらを受けてネガの変更を行った。
 E07実験のと同様に発注し、2ndRunの原子核乾板には図\ref{fig:nega_2ndRun}を使いGridマークを照射した。
 \begin{figure}[htbp]
-  \begin{center}
-   \includegraphics[width=140mm]{emulsionorder.png}
-  \end{center}
+  \centering
+    \includegraphics[width=140mm]{emulsionorder.png}
   \caption{ネガのつまり除去装置\label{fig:nega_cleaner}}
 \end{figure}
 \begin{figure}[htbp]
-  \begin{center}
-   \includegraphics[width=140mm]{emulsionorder.png}
-  \end{center}
+  \centering
+    \includegraphics[width=140mm]{emulsionorder.png}
   \caption{2ndRunネガ\label{fig:nega_2ndRun}}
 \end{figure}
 \subsubsection{GridMark照射装置}
@@ -387,91 +381,80 @@ beam照射後に乾板の重さを測定することでbeam照射により乾板
 伊藤修論の可塑剤の量による密度の違いについても記述する。
 \par
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
       \begin{tabular}{c}
         % 1枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
             \hspace{1.6cm} (a)電子天秤
-          \end{center}
         \end{minipage}
         
         % 2枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
             \hspace{1.6cm} (b)シックネスゲージ
-          \end{center}
         \end{minipage}
     
       \end{tabular}
       \caption{使用した電子天秤とシックネスゲージ\label{fig:tennbinn_thicknessgage}}
-    \end{center}
 \end{figure}
 \par
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
       \begin{tabular}{c}
         % 1枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
             \hspace{1.6cm} (a)1stRun 厚形乾板密度 可塑剤6.0cc
-          \end{center}
         \end{minipage}
         
         % 2枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
             \hspace{1.6cm} (b)2ndRun 厚形乾板密度 可塑剤6.0cc
-          \end{center}
         \end{minipage}\\
 
 	　\\
         % 3枚目の画像
         \begin{minipage}{0.5\hsize}
-            \begin{center}
+          \centering
               \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
               \hspace{1.6cm} (c)1stRun 厚形乾板密度 可塑剤7.5cc
-            \end{center}
           \end{minipage}
           
         % 4枚目の画像
         \begin{minipage}{0.5\hsize}
-            \begin{center}
+          \centering
               \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
               \hspace{1.6cm} (d)2ndRun 厚形乾板密度 可塑剤7.5cc
-            \end{center}
         \end{minipage}
     
       \end{tabular}
       \caption{厚形乾板の密度比較\label{fig:compare_thick_den}}
-    \end{center}
 \end{figure}
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
       \begin{tabular}{c}
         % 1枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
             \hspace{1.6cm} (a)1stRun 薄型密度
-          \end{center}
         \end{minipage}
         
         % 2枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
             \hspace{1.6cm} (b)2ndRun 薄型密度
-          \end{center}
         \end{minipage}
     
       \end{tabular}
       \caption{薄型乾板の密度比較\label{fig:compare_thin_den}}
-    \end{center}
 \end{figure}
 \newpage
 \subsection{現像}
@@ -487,14 +470,13 @@ beam照射後に乾板の重さを測定することでbeam照射により乾板
 原子核乾板はこの順で工程を実施することで、記録した荷電粒子飛跡を顕微鏡で観察できるようになる。
 各工程について記載をする。
 予浸(presoark)
-
 乾膜であるemulsionに水分を含ませる過程である。この処理により現像の過程で現像液が浸透しやすくする。
 現像(Cold.dev Hot.dev)
 停止(Stop)
 定着(Fix2/4、Fix4/4)
 水洗(Wash)
 \subsubsection{実施環境}
-\subsubsection{評価}
+
 
 \newpage
 \section{荷電粒子飛跡追跡の自動化}
@@ -523,71 +505,63 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
 \label{eq:cont}
 \end{equation}
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
       \begin{tabular}{c}
         % 1枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{emulsionorder.png}
             \hspace{1.6cm} (a)上側乳剤層中の$\Xi$$^-$候補飛跡
-          \end{center}
         \end{minipage}
 
         % 2枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{emulsionorder.png}
             \hspace{1.6cm} (b)下側乳剤層中の$\Xi$$^-$候補飛跡
-          \end{center}
         \end{minipage}
     
       \end{tabular}
       \caption{撮影地点によるコントラストの違い\label{fig:diff_contrust}}
-    \end{center}
 \end{figure}
 \par
 画像のコントラストをよくするために用いる式は以下の通りである。
 図\ref{fig:do_contrust_beforeandafter}はこの式を使用して画像にコントラスト処理を施した画像である。
 図のc、dを比較すると、コントラスト処理により画像の輝度値の明暗の幅が広がったことが分かる。
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
       \begin{tabular}{c}
         % 1枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{row.png}
             \hspace{1.6cm} (a)コントラスト処理前
-          \end{center}
         \end{minipage}
         
         % 2枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{row_hist.png}
             \hspace{1.6cm} (b)aの輝度値分布
-          \end{center}
         \end{minipage}
         \\
         \\
         % 3枚目の画像
         \begin{minipage}{0.5\hsize}
-            \begin{center}
+          \centering
               \includegraphics[clip, width=60mm]{cont.png}
               \hspace{1.6cm} (c)コントラスト処理後
-            \end{center}
           \end{minipage}
           
         % 4枚目の画像
         \begin{minipage}{0.5\hsize}
-            \begin{center}
+          \centering
               \includegraphics[clip, width=60mm]{cont_hist.png}
               \hspace{1.6cm} (d)cの輝度値分布
-            \end{center}
         \end{minipage}
     
       \end{tabular}
       \caption{コントラスト処理によるコントラストの違い\label{fig:do_contrust_beforeandafter}}
-    \end{center}
 \end{figure}
 \subsubsection{ガウシアンフィルタ処理}
 撮影された画像には意図していないノイズが含まれている。
@@ -605,44 +579,39 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
 式は次の通りである。
 この式を使い、処理を実施した。
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
       \begin{tabular}{c}
         % 1枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{cont.png}
             \hspace{1.6cm} (a)ガウシアンフィルタ処理前
-          \end{center}
         \end{minipage}
         
         % 2枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{cont_hist2.png}
             \hspace{1.6cm} (b)aの中央行の輝度値
-          \end{center}
         \end{minipage}
         \\
         \\
         % 3枚目の画像
         \begin{minipage}{0.5\hsize}
-            \begin{center}
+          \centering
               \includegraphics[clip, width=60mm]{gau2.png}
               \hspace{1.6cm} (c)ガウシアンフィルタ処理後
-            \end{center}
           \end{minipage}
           
         % 4枚目の画像
         \begin{minipage}{0.5\hsize}
-            \begin{center}
+          \centering
               \includegraphics[clip, width=60mm]{gau2_hist.png}
               \hspace{1.6cm} (d)cの中央行の輝度値
-            \end{center}
         \end{minipage}
     
       \end{tabular}
       \caption{ガウシアンフィルタ処理による輝度値の違い\label{fig:do_gau_beforeandafter}}
-    \end{center}
 \end{figure}
 \subsubsection{画像の白黒反転}
 次の二値化処理を実施するため、画像の白黒を反転させる必要がある。
@@ -650,27 +619,24 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
 図\ref{fig:do_gau_beforeandafter}の(c)の画像の輝度値から(a)の輝度値情報を引いて作成したのが図\ref{fig:do_sub}である。
 図\ref{fig:do_sub}を見れば分かるように差分を取ることで、黒色であった部分が白色に反転した。
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
       \begin{tabular}{c}
         % 1枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{sub.png}
             \hspace{1.6cm} (a)図\ref{fig:do_gau_beforeandafter}の(c)-(a)
-          \end{center}
         \end{minipage}
 
         % 2枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{sub_hist.png}
             \hspace{1.6cm} (b)(a)の中央行の輝度値
-          \end{center}
         \end{minipage}
     
       \end{tabular}
       \caption{輝度値差分処理後の画像\label{fig:do_sub}}
-    \end{center}
 \end{figure}
 \subsubsection{二値化}
 図\ref{fig:do_sub}を見ると、視野中心にある飛跡情報以外に多くの輝度値情報が記録されていることが分かる。
@@ -681,27 +647,24 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
 図\ref{fig:do_thre}は二値化処理前後の画像とその指定した行の輝度値を示したものである。
 図より二値化処理により飛跡以外の不要な輝度値情報が減少したことが分かる。
 \begin{figure}[htbp]
-    \begin{center}
+  \centering
       \begin{tabular}{c}
         % 1枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{thre.png}
             \hspace{1.6cm} (a)図\ref{fig:do_sub}の(a)の二値化処理後画像
-          \end{center}
         \end{minipage}
 
         % 2枚目の画像
         \begin{minipage}{0.5\hsize}
-          \begin{center}
+          \centering
             \includegraphics[clip, width=60mm]{thre_hist.png}
             \hspace{1.6cm} (b)(a)の中央行の輝度値
-          \end{center}
         \end{minipage}
     
       \end{tabular}
       \caption{二値化処理後の画像\label{fig:do_thre}}
-    \end{center}
 \end{figure}
 \subsection{座標変換}
 \begin{itemize}
@@ -760,13 +723,15 @@ x,yとX,Yが対応している地点を3点以上検出し、式を解くこと�
     \item 四隅のうち3点箇所でパターンマッチがとれればズレが取得できる。(精度について書く。)
 \end{itemize}
 原子核乾板にはSSDとemulsionの照射時の位置差を取得するために反陽子ビームが照射されている。
-照射されているのは乾板の四つ角1cm1cmの領域である。
+照射されているのは乾板の四つ角1cm1cmの領域であり、SSDと原子核乾板に対して垂直に照射されている。
 照射されている反陽子beamの濃度は1平方センチあたり10の4乗である。
 ｋ-beamは乾板に対して10の6乗照射されており、SSDとemulsionのパターンマッチをするには密に照射されすぎているのでp-barが必要になる。
 \par
 角から1cmずつ内陸側に移動し、そこで5mm×5mmの領域をスキャンする。
-上側乳剤層と下側乳剤層をスキャンし、baseを挟んで接続された垂直なbeamを使いパターンマッチを行う。
+上側乳剤層と下側乳剤層をスキャンし、baseを挟んで接続された垂直なbeamを選び出すことで、原子核乾板薄型一枚目での飛跡集団のパターンを取得する。
+また、SSDに記録された垂直な飛跡集団を選び出すことでSSDに記録された飛跡集団のパターンを取得する。
 \par
+SSDと原子核乾板薄型一枚目での飛跡集団同士でパターンマッチを行うことで、SSDとemulsionの座標系の対応をつける。
 \subsubsection{$\Xi$$^-$候補飛跡の選択}
 \begin{itemize}
     \item 追跡の際に考える必要のある座標系について書く。
