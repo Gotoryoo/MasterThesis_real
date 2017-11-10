@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  8 NOV 2017 11:40
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  10 NOV 2017 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -517,21 +517,28 @@ File: emulsionorder.png Graphic file (type bmp)
  [10] [11]
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 259.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 260.
 
 
 (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 259.
- [12]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 260.
+
+
+LaTeX Warning: Reference `fig:refresh_masi-nn' on page 12 undefined on input li
+ne 266.
+
+File: emulsionorder.png Graphic file (type bmp)
+<emulsionorder.png>
+[12] [13]
 File: darkroom_before.png Graphic file (type bmp)
 <darkroom_before.png>
 File: darkroom_after.png Graphic file (type bmp)
 <darkroom_after.png>
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 280--295
+Overfull \hbox (12.0pt too wide) in paragraph at lines 286--301
  [][][][] 
  []
 
@@ -539,13 +546,18 @@ File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
-[13] [14] [15] [16]
+File: emulsionorder.png Graphic file (type bmp)
+<emulsionorder.png>
+[14] [15]
+File: emulsionorder.png Graphic file (type bmp)
+<emulsionorder.png>
+ [16] [17]
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 385--401
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 401--417
  [][][][] 
  []
 
@@ -558,7 +570,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 406--437
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 422--453
  [][][][] 
  []
 
@@ -567,25 +579,25 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 441--457
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 457--473
  [][][][] 
  []
 
-[17] [18]
-Overfull \hbox (9.30193pt too wide) in paragraph at lines 468--478
+[18] [19]
+Overfull \hbox (9.30193pt too wide) in paragraph at lines 484--494
 \OT1/cmr/m/n/12 soark)\JY1/mc/m/n/12 、 現像 \OT1/cmr/m/n/12 (Cold.dev Hot.dev)
 \JY1/mc/m/n/12 、 現像 \OT1/cmr/m/n/12 (Cold.dev Hot.dev)\JY1/mc/m/n/12 、 停止
  \OT1/cmr/m/n/12 (Stop)\JY1/mc/m/n/12 、 定着 \OT1/cmr/m/n/12 (Fix2/4\JY1/mc/m/
 n/12 、
  []
 
-[19]
+[20]
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 509--525
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 525--541
  [][][][] 
  []
 
@@ -598,11 +610,11 @@ File: cont.png Graphic file (type bmp)
 File: cont_hist.png Graphic file (type bmp)
 <cont_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 533--564
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 549--580
  [][][][] 
  []
 
-[20] [21]
+[21] [22]
 File: cont.png Graphic file (type bmp)
 <cont.png>
 File: cont_hist2.png Graphic file (type bmp)
@@ -612,7 +624,7 @@ File: gau2.png Graphic file (type bmp)
 File: gau2_hist.png Graphic file (type bmp)
 <gau2_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 583--614
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 599--630
  [][][][] 
  []
 
@@ -621,39 +633,42 @@ File: sub.png Graphic file (type bmp)
 File: sub_hist.png Graphic file (type bmp)
 <sub_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 623--639
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 639--655
  [][][][] 
  []
 
-[22]
+[23]
 File: thre.png Graphic file (type bmp)
 <thre.png>
 File: thre_hist.png Graphic file (type bmp)
 <thre_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 651--667
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 667--683
  [][][][] 
  []
 
-[23] [24] [25]
+[24] [25] [26]
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
- [26] [27]
+ [27] [28]
 Missing character: There is no ^^ef in font cmr12!
 Missing character: There is no ^^a9 in font cmr12!
 Missing character: There is no ^^8a in font cmr12!
- [28] (./修士論文.aux)
+ [29] (./修士論文.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 10731 strings out of 493648
- 209985 string characters out of 6150704
+ 10734 strings out of 493648
+ 210043 string characters out of 6150704
  276336 words of memory out of 5000000
- 14257 multiletter control sequences out of 15000+600000
+ 14260 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,11n,48p,10417b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (29 pages, 73476 bytes).
+Output written on 修士論文.dvi (30 pages, 76532 bytes).
