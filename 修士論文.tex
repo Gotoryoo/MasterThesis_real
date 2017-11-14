@@ -103,8 +103,8 @@ E07実験で使用する乾板は40 µmのBaseに450 µmの乳剤を塗布する
 原子核乾板の利点としては大きく分けて2点ある。
 \par
 一点目は、現像処理を行うことで半永久的に顕微鏡による観測を可能にすることである。
-原子核乾板中を荷電粒子が通ることで、原子核乾板の主成分であるAgBrが電離され銀原子が生成される。
-現像処理により、銀が成長し1µm程度の粒となり(grain)、荷電粒子の飛跡がgrainの連なり(track)として現れ、その状態を保持する。
+原子核乾板中を荷電粒子が通ることで、原子核乾板の主成分であるAgBrが電離され銀原子が生成される。(図\ref{fig:process_recored_track}(a))
+現像処理により、銀が成長し1µm程度の粒となり(grain)、荷電粒子の飛跡がgrainの連なり(track)として現れ、その状態を保持する。(図\ref{fig:process_recored_track}(b))
 そのため、原子核乾板を破損しない限り一度記録したHyper核の生成・崩壊事象やHyper核以外の荷電粒子秘跡を何度でも同じ状態で観測することができる。
 \par
 \begin{figure}[htbp]
@@ -125,12 +125,12 @@ E07実験で使用する乾板は40 µmのBaseに450 µmの乳剤を塗布する
         \end{minipage}
     
       \end{tabular}
-      \caption{原子核乾板中に飛跡が記録される流れ\label{fig:process_recored_track}}
+      \caption{原子核乾板中に飛跡が記録される過程の模式図\label{fig:process_recored_track}}
 \end{figure}
 \begin{figure}[htbp]
  \centering
       \includegraphics[width=70mm]{grainfog.png}
- \caption{原子核乾板中に記録されるtrackとgrainの様子\label{fig:grain_track}}
+ \caption{原子核乾板中に記録されるtrackとgrain\label{fig:grain_track}}
 \end{figure}
 二点目は、サブミクロン精度での空間分解能を持つことである。
 生成される銀粒子の大きさが$\mu$mオーダーのため、その大きさでの位置分解能が出る。
@@ -271,12 +271,6 @@ Refresh処理は原子核乾板の持つ現像退行性を利用する。
   \caption{Refresh処理模式図\label{fig:intr_refresh}}
 \end{figure}
 \subsubsection{実施環境}
-\begin{itemize}
- \item リフレッシュ処理を行うには温度●度、湿度●％の環境を●時間維持する必要がある。
- \item リフレッシュ処理を行うためその環境を維持する装置を作成した。
- \item 1stRunでは温度・湿度の調整を手動で行ってきたが、2ndRunでは温度・湿度の調整を自動で制御させた。[村本卒論]
- \item 湿度と厚みのグラフを載せて制御できていると書く。
-\end{itemize}
 E07実験で使用する原子核乾板に対してRefresh処理を実施場合は温度25度、湿度90％の環境を維持することが必要である。[大橋卒論]
 そこで、温度と湿度をコントロールするチェンバーを作成した。(図\ref{fig:refresh_masi-nn})
 このチェンバーは1度の処理で100枚の原子核乾板のRefresh処理を実施可能である。
@@ -286,6 +280,26 @@ E07実験で使用する原子核乾板に対してRefresh処理を実施場合�
   \centering
      \includegraphics[width=140mm]{emulsionorder.png}
   \caption{Refreshチェンバー\label{fig:refresh_masi-nn}}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=60mm]{process_bdev.png}
+            \hspace{1.6cm} (a)加湿器
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=60mm]{process_adev.png}
+            \hspace{1.6cm} (b)使用した除湿器
+        \end{minipage}
+    
+      \end{tabular}
+      \caption{原子核乾板中に飛跡が記録される過程の模式図\label{fig:refresh_mizumasi-nn}}
 \end{figure}
 \subsection{GridMark照射環境の最適化}
 \subsubsection{暗室の拡張}
@@ -326,7 +340,7 @@ beam照射からGridマーク照射までの間に乾板の変形があったせ
 1stRunのGridマーク照射の際は図\ref{fig:nega_cleaner}の装置を使用してネガのつまりを除去しながら照射を行った。
 しかし、1stRunの原子核乾板においてもGridマークが照射されていない箇所が存在した。
 これらを受けてネガの変更を行った。
-E07実験のと同様に発注し、2ndRunの原子核乾板には図\ref{fig:nega_2ndRun}を使いGridマークを照射した。
+E07実験2ndRunの原子核乾板には図\ref{fig:nega_2ndRun}を使いGridマークを照射した。
 \begin{figure}[htbp]
   \centering
     \includegraphics[width=140mm]{emulsionorder.png}
@@ -335,7 +349,7 @@ E07実験のと同様に発注し、2ndRunの原子核乾板には図\ref{fig:ne
 \begin{figure}[htbp]
   \centering
     \includegraphics[width=140mm]{emulsionorder.png}
-  \caption{2ndRunネガ\label{fig:nega_2ndRun}}
+  \caption{E07実験2ndRunネガ\label{fig:nega_2ndRun}}
 \end{figure}
 \subsubsection{GridMark照射装置}
 \begin{itemize}
@@ -345,8 +359,7 @@ E07実験のと同様に発注し、2ndRunの原子核乾板には図\ref{fig:ne
  \item 装置はこんな感じである。
 \end{itemize}
 E071stRunではタイマーを用いて10秒間原子核乾板に露光した。
-(田村卒論)参照論文と同様の手法で1mod分照射するのに約1時間半の時間が必要になるとともに時間をストップウォッチを使って計測していたため、
-多大な精神的疲労を負うことになっていた。
+この先行研究と同様の手法(田村卒論)で1mod分照射するのに約1時間半の時間が必要になる。
 E07実験2ndRunではbeam照射後すぐにGridマークを照射する。
 従来の手法から変更することで照射の時間短縮及び疲労の削減のために照射装置の改造を行った。
 \par
@@ -402,15 +415,39 @@ beam照射後に乾板の重さを測定することでbeam照射により乾板
 照射の前後で重さが1.0g以上異なっていた場合は、再度厚さ重さの測定をして記録した。
 乾板の重さは電子天秤を用いて、乾板の厚さはシックネスゲージを用いて乾板の4カ所を測定した。
 \par
-図\ref{fig:compare_thick_den}は厚形乾板の1stRun乾板での密度の測定結果と2ndRun乾板での密度の測定結果である。
-1stRun乾板の密度はRefresh未処理の乾板、2ndRunはRefresh処理実施乾板での密度でヒストグラムを作成した。
-比較すると、1stRunと2ndRunで使用した原子核乾板に大きな違いは無いように見える。
-また、Refresh処理の有無で原子核乾板の密度が変化しないことが分かる。
+表\ref{tab:compare_E07_12}は上記の手法での1stRun乾板の密度の測定結果と2ndRun乾板の密度の測定結果である。
+1stRun乾板の密度はRefresh未処理の乾板、2ndRunはRefresh処理実施乾板での密度で図\ref{fig:hisuto}の様にヒストグラムを作成し、
+ガウスフィッティングにより密度とその誤差を求めた。
+比較すると、1stRunと2ndRunで使用した原子核乾板に大きな違いは無いことが分かる。
+また、図\ref{fig:kasozai}はE07実験で使用する原子核乾板を作成する際に使用した可塑剤の添加量に対する原子核乾板厚型の密度を示したものである。
+この図と表の数値を比較すると、可塑剤の添加量に対応した密度になっていることが分かる。
+このことから、Refresh処理の有無で原子核乾板の密度が変化せず、1stRunと2ndRunで使用した原子核乾板の密度に違いは無い。
 \par
 薄型乾板でも同様に密度の比較をした。
-図\ref{fig:compare_thin_den}を見ると、1stRunの薄型乾板は厚形乾板より密度が大きく算出されていたが、2ndRunで使用した薄型乾板でも同様の傾向になった。
-伊藤修論の可塑剤の量による密度の違いについても記述する。
-どちらかというと、表で示して付録にヒストグラムを記した方が良いかも。
+表\ref{tab:compare_E07_12}を見ると、1stRunの薄型乾板は厚形乾板より密度が大きく算出されていたが、2ndRunで使用した薄型乾板でも同様の傾向になった。
+\begin{table}[htbp]
+  \centering
+  \caption{J-PARC E07実験で使用した原子核乾板の密度\label{tab:compare_E07_12}}
+  \begin{tabular}{c|c|c}
+  　　　&1stRun&2ndRun\\
+  \hline
+  \hline
+  可塑剤6.0cc 厚型乾板 & 3.48 $\pm$ 0.04 g/cm$^3$ & 3.43 $\pm$ 0.05 g/cm$^3$ \\
+  可塑剤7.5cc 厚型乾板 & 3.41 $\pm$ 0.07 g/cm$^3$ & 3.40 $\pm$ 0.04 g/cm$^3$ \\
+　薄型乾板 & 3.73 $\pm$ 0.16 g/cm$^3$ & 3.74 $\pm$ 0.13 g/cm$^3$  \\
+  \hline
+  \end{tabular}
+  \end{table}
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=140mm]{kasozai.png}
+  \caption{可塑剤A\label{fig:kasozai}}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=140mm]{thick75_den.png}
+  \caption{ヒストグラム\label{fig:hisuto}}
+\end{figure}
 \par
 \begin{figure}[htbp]
   \centering
@@ -433,61 +470,6 @@ beam照射後に乾板の重さを測定することでbeam照射により乾板
       \caption{使用した電子天秤とシックネスゲージ\label{fig:tennbinn_thicknessgage}}
 \end{figure}
 \par
-\begin{figure}[htbp]
-  \centering
-      \begin{tabular}{c}
-        % 1枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-            \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
-            \hspace{1.6cm} (a)1stRun 厚形乾板密度 可塑剤6.0cc
-        \end{minipage}
-        
-        % 2枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-            \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
-            \hspace{1.6cm} (b)2ndRun 厚形乾板密度 可塑剤6.0cc
-        \end{minipage}\\
-
-	　\\
-        % 3枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-              \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
-              \hspace{1.6cm} (c)1stRun 厚形乾板密度 可塑剤7.5cc
-          \end{minipage}
-          
-        % 4枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-              \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
-              \hspace{1.6cm} (d)2ndRun 厚形乾板密度 可塑剤7.5cc
-        \end{minipage}
-    
-      \end{tabular}
-      \caption{厚形乾板の密度比較\label{fig:compare_thick_den}}
-\end{figure}
-\begin{figure}[htbp]
-  \centering
-      \begin{tabular}{c}
-        % 1枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-            \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
-            \hspace{1.6cm} (a)1stRun 薄型密度
-        \end{minipage}
-        
-        % 2枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-            \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
-            \hspace{1.6cm} (b)2ndRun 薄型密度
-        \end{minipage}
-    
-      \end{tabular}
-      \caption{薄型乾板の密度比較\label{fig:compare_thin_den}}
-\end{figure}
 \newpage
 \subsection{現像}
 \begin{itemize}
@@ -840,7 +822,61 @@ trackの長さ、角度が一定で、原子核乾板の密度を変化させた
 \par
 図を入れる。
 \par
+\begin{figure}[htbp]
+  \centering
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
+            \hspace{1.6cm} (a)1stRun 厚形乾板密度 可塑剤6.0cc
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
+            \hspace{1.6cm} (b)2ndRun 厚形乾板密度 可塑剤6.0cc
+        \end{minipage}\\
 
+	　\\
+        % 3枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+              \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
+              \hspace{1.6cm} (c)1stRun 厚形乾板密度 可塑剤7.5cc
+          \end{minipage}
+          
+        % 4枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+              \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
+              \hspace{1.6cm} (d)2ndRun 厚形乾板密度 可塑剤7.5cc
+        \end{minipage}
+    
+      \end{tabular}
+      \caption{厚形乾板の密度比較\label{fig:compare_thick_den}}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
+            \hspace{1.6cm} (a)1stRun 薄型密度
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
+            \hspace{1.6cm} (b)2ndRun 薄型密度
+        \end{minipage}
+    
+      \end{tabular}
+      \caption{薄型乾板の密度比較\label{fig:compare_thin_den}}
+\end{figure}
 
 \section*{謝辞}
 \addcontentsline{toc}{section}{謝辞}
