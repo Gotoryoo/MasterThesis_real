@@ -213,7 +213,8 @@ J-PARC E07実験で使用する原子核乾板約1400枚はすべて岐阜大学
 当初の予定では乾板製造後すぐにbeam照射を実施する予定であったが、J-PARCでの放射能漏れ事故により実験は延期になった。
 \par
 製造した原子核乾板は現像されるまで空気中の宇宙線やコンプトン電子を記録していく。
-これらのバックグラウンドが増加すると、beam照射後の解析に支障を来す恐れがある。
+図\ref{fig:compton_and_cosmicray_in_emulsion}は原子核乾板中に記録されたコンプトン電子と宇宙線を示している。
+これらのgrainや飛跡がバックグラウンドとして増加すると、beam照射後の解析に支障を来す恐れがある。
 そこで、宇宙線の影響が少ない神岡鉱山内に鉛ブロックで箱を作り、製造した原子核乾板を保管した。
 \par
 図\ref{fig:compton_and_cosmicray_in_emulsion}は製造からの時間経過による原子核乾板記録された宇宙線、コンプトン電子の増加傾向を示している。
@@ -222,7 +223,8 @@ J-PARC E07実験で使用する原子核乾板約1400枚はすべて岐阜大学
 \par
 しかし、製造からbeam照射まで2年の期間が経過したため、神岡鉱山内で保管していたとしても解析に支障を及ぼすレベルまでバックグラウンドが蓄積してしまった。
 図\ref{fig:beam_efficiency_to_compton}はコンプトンの蓄積量に対するbeam検出効率を示したものである。
-図からbeam検出効率が著しく低下することが分かる。
+制作から約2年間経過した原子核乾板には期間中神岡鉱山内で保管した場合、バックグラウンドが●●となる。
+図からバックグラウンドが●●となると、beam検出効率が著しく低下することが分かる。
 また、図\ref{fig:britnese_in_some_emulsion}はバックグラウンド蓄積量の違う乾板での輝度値の位置変化を示している。
 図からバックグラウンドの増加により、コントラストが悪くなることが分かる。
 \par
@@ -231,7 +233,7 @@ J-PARC E07実験で使用する原子核乾板約1400枚はすべて岐阜大学
 \begin{figure}[htbp]
   \centering
      \includegraphics[width=140mm]{emulsionorder.png}
-  \caption{乾板に記録されたコンプトンと宇宙線\label{fig:compton_and_cosmicray_in_emulsion}}
+  \caption{乾板に記録されたコンプトン電子と宇宙線の飛跡\label{fig:compton_and_cosmicray_in_emulsion}}
 \end{figure}
 \begin{figure}[htbp]
   \centering
@@ -261,14 +263,38 @@ J-PARC E07実験で使用する原子核乾板約1400枚はすべて岐阜大学
 そこで、蓄積された潜像を消去するための手法として強制潜像退行処理(Refresh処理)と呼ばれる方法が開発されている。
 \cite{takusann}
 Refresh処理は原子核乾板の持つ現像退行性を利用する。
-式\ref{eq:gennzou}の反応を起こすことで、形成されていた潜像核がイオンになり現像されない状態になる。
+図\ref{fig:intr_refresh}はRefresh処理の模式図である。
+原子核乾板には荷電粒子が通過した跡に対して潜像核が形成されている。(図\ref{fig:intr_refresh}(a))
+原子核乾板中に記録された潜像核に対して式\ref{eq:gennzou}の反応を起こすことで、形成されていた潜像核がイオンになり現像されない状態になる。
+(図\ref{fig:intr_refresh}(b))
 この化学反応は温度が高くなるほど反応が促進されるため、原子核乾板を高温高湿度の環境下に置くことで潜像退行が促進される。
-よって、Refresh処理によりbeam照射の前に記録されたBackgroundを消去できる。
-強制潜像退行処理による潜像核が消去される模式図を入れる。
+よって、Refresh処理によりbeam照射の前に記録されたBackgroundを消去できる。(図\ref{fig:intr_refresh}(c))
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=140mm]{emulsionorder.png}
-  \caption{Refresh処理模式図\label{fig:intr_refresh}}
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.33\hsize}
+          \centering
+            \includegraphics[clip, width=50mm]{ref_pro1.png}
+            \hspace{1.6cm} (a)Refresh処理前
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.33\hsize}
+          \centering
+            \includegraphics[clip, width=50mm]{ref_pro2.png}
+            \hspace{1.6cm} (b)Refresh処理後
+        \end{minipage}
+
+        % 3枚目の画像
+        \begin{minipage}{0.33\hsize}
+          \centering
+            \includegraphics[clip, width=50mm]{ref_pro3.png}
+            \hspace{1.6cm} (c)現像後
+        \end{minipage}
+    
+      \end{tabular}
+      \caption{Refresh処理模式図\label{fig:intr_refresh}}
 \end{figure}
 \subsubsection{実施環境}
 E07実験で使用する原子核乾板に対してRefresh処理を実施場合は温度25度、湿度90％の環境を維持することが必要である。[大橋卒論]
