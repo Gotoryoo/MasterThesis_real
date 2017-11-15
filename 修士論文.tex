@@ -414,41 +414,6 @@ E07実験2ndRunではbeam照射後すぐにGridマークを照射する。
 beam照射後に乾板の重さを測定することでbeam照射により乾板の重さに大きな変動がないかを確認した。
 照射の前後で重さが1.0g以上異なっていた場合は、再度厚さ重さの測定をして記録した。
 乾板の重さは電子天秤を用いて、乾板の厚さはシックネスゲージを用いて乾板の4カ所を測定した。
-\par
-表\ref{tab:compare_E07_12}は上記の手法での1stRun乾板の密度の測定結果と2ndRun乾板の密度の測定結果である。
-1stRun乾板の密度はRefresh未処理の乾板、2ndRunはRefresh処理実施乾板での密度で図\ref{fig:hisuto}の様にヒストグラムを作成し、
-ガウスフィッティングにより密度とその誤差を求めた。
-比較すると、1stRunと2ndRunで使用した原子核乾板に大きな違いは無いことが分かる。
-また、図\ref{fig:kasozai}はE07実験で使用する原子核乾板を作成する際に使用した可塑剤の添加量に対する原子核乾板厚型の密度を示したものである。
-この図と表の数値を比較すると、可塑剤の添加量に対応した密度になっていることが分かる。
-このことから、Refresh処理の有無で原子核乾板の密度が変化せず、1stRunと2ndRunで使用した原子核乾板の密度に違いは無い。
-\par
-薄型乾板でも同様に密度の比較をした。
-表\ref{tab:compare_E07_12}を見ると、1stRunの薄型乾板は厚形乾板より密度が大きく算出されていたが、2ndRunで使用した薄型乾板でも同様の傾向になった。
-\begin{table}[htbp]
-  \centering
-  \caption{J-PARC E07実験で使用した原子核乾板の密度\label{tab:compare_E07_12}}
-  \begin{tabular}{c|c|c}
-  　　　&1stRun&2ndRun\\
-  \hline
-  \hline
-  可塑剤6.0cc 厚型乾板 & 3.48 $\pm$ 0.04 g/cm$^3$ & 3.43 $\pm$ 0.05 g/cm$^3$ \\
-  可塑剤7.5cc 厚型乾板 & 3.41 $\pm$ 0.07 g/cm$^3$ & 3.40 $\pm$ 0.04 g/cm$^3$ \\
-　薄型乾板 & 3.73 $\pm$ 0.16 g/cm$^3$ & 3.74 $\pm$ 0.13 g/cm$^3$  \\
-  \hline
-  \end{tabular}
-  \end{table}
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=140mm]{kasozai.png}
-  \caption{可塑剤A\label{fig:kasozai}}
-\end{figure}
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=140mm]{thick75_den.png}
-  \caption{ヒストグラム\label{fig:hisuto}}
-\end{figure}
-\par
 \begin{figure}[htbp]
   \centering
       \begin{tabular}{c}
@@ -470,6 +435,39 @@ beam照射後に乾板の重さを測定することでbeam照射により乾板
       \caption{使用した電子天秤とシックネスゲージ\label{fig:tennbinn_thicknessgage}}
 \end{figure}
 \par
+1stRun乾板の密度はRefresh未処理の乾板、2ndRunはRefresh処理実施乾板での密度で図\ref{fig:hisuto}の様にヒストグラムを作成し、
+ガウスフィッティングにより密度とその誤差を求めた。
+フィッティングにより算出した1stRun乾板の密度の測定結果と2ndRun乾板の密度をまとめたものが表\ref{tab:compare_E07_12}である。
+比較すると、1stRunと2ndRunで使用した原子核乾板に大きな違いは無いことが分かる。
+また、図\ref{fig:kasozai}はE07実験で使用する原子核乾板を作成する際に使用した可塑剤の添加量に対する原子核乾板厚型の密度を示したものである。
+この図と表の数値を比較すると、可塑剤の添加量に対応した密度になっていることが分かる。
+このことから、Refresh処理の有無で原子核乾板の密度が変化せず、1stRunと2ndRunで使用した原子核乾板の密度に違いは無い。
+\par
+薄型乾板でも同様に密度の比較をした。
+表\ref{tab:compare_E07_12}を見ると、1stRunの薄型乾板は厚形乾板より密度が大きく算出されていたが、2ndRunで使用した薄型乾板でも同様の傾向になった。
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=70mm]{thick75_den.png}
+  \caption{ヒストグラム\label{fig:hisuto}}
+\end{figure}
+\begin{table}[htbp]
+  \centering
+  \caption{J-PARC E07実験で使用した原子核乾板の密度\label{tab:compare_E07_12}}
+  \begin{tabular}{c|c|c}
+  　　　&1stRun&2ndRun\\
+  \hline
+  \hline
+  可塑剤6.0cc 厚型乾板 & 3.48 $\pm$ 0.04 g/cm$^3$ & 3.43 $\pm$ 0.05 g/cm$^3$ \\
+  可塑剤7.5cc 厚型乾板 & 3.41 $\pm$ 0.07 g/cm$^3$ & 3.40 $\pm$ 0.04 g/cm$^3$ \\
+　薄型乾板 & 3.73 $\pm$ 0.16 g/cm$^3$ & 3.74 $\pm$ 0.13 g/cm$^3$  \\
+  \hline
+  \end{tabular}
+  \end{table}
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=140mm]{kasozai.png}
+  \caption{可塑剤A\label{fig:kasozai}}
+\end{figure}
 \newpage
 \subsection{現像}
 \begin{itemize}
