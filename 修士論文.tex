@@ -4,6 +4,20 @@
 \usepackage[version=3]{mhchem}
 \setcounter{tocdepth}{\maxdimen} %subsubsectionまで目次を表示する
 \bibliographystyle{junsrt} %参照のスタイル
+\makeatletter
+\renewcommand{\theequation}{% 式番号の付け方
+\thesection.\arabic{equation}}
+\@addtoreset{equation}{section}
+
+\renewcommand{\thefigure}{% 図番号の付け方
+\thesection.\arabic{figure}}
+\@addtoreset{figure}{section}
+
+\renewcommand{\thetable}{% 表番号の付け方
+\thesection.\arabic{table}}
+\@addtoreset{table}{section}
+\makeatother
+
 
 \begin{document}
 \begin{titlepage}
@@ -29,7 +43,7 @@
 uとd以外のクォークを含む粒子は非常に寿命が短いため地球上に存在していない。
 私たちはsクォークを含む粒子の相互作用について研究を進めている。
 \par
-相互作用を調べる理由として中性子星がある。
+sクォークを含む粒子の相互作用を調べる理由として中性子星がある。
 中性子星は直径が約10kmでその質量が太陽の約1～2倍と非常に高密度な星である。
 そのため、中性子星の平均密度は原子核の平均密度の約2.5倍となる。
 \par
@@ -520,7 +534,8 @@ beam照射後に乾板の重さを測定することでbeam照射により乾板
 E373実験では人が約2.0×10$^4$本の$\Xi$$^-$候補を顕微鏡を使い静止点まで追跡した。
 この追跡には約数年が必要となった。
 先に記述したが、今年度実施されたJ-PARC E07実験ではハイブリッド-エマルジョン法によりE373実験の約10倍の統計量を検出することを目標にしている。
-今回実施されたE07実験では、E373実験より精度の高い検出機であるSSDを使うことで追跡するべき飛跡を増やさないようにしている。
+今回実施されたE07実験では、E373実験より精度の高い検出機であるSSDを使うことで追跡するべき候補飛跡を増やさないようにしている。
+カウンターの情報と原子核乾板に記録された飛跡を一対一対応を付ける。
 しかし、その条件であっても追跡すべき$\Xi$$^-$候補飛跡がE373実験の本数を超えることが予想されるため、
 機械が自動で飛跡を静止点まで追跡するプログラムが必要になった。
 \par
@@ -661,7 +676,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
         \begin{minipage}{0.5\hsize}
           \centering
             \includegraphics[clip, width=60mm]{sub.png}
-            \hspace{1.6cm} (a)図\ref{fig:do_gau_beforeandafter}の(c)-(a)
+            \hspace{1.6cm} (a)図\ref{fig:do_gau_beforeandafter}(c)-(a)
         \end{minipage}
 
         % 2枚目の画像
@@ -689,7 +704,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
         \begin{minipage}{0.5\hsize}
           \centering
             \includegraphics[clip, width=60mm]{thre.png}
-            \hspace{1.6cm} (a)図\ref{fig:do_sub}の(a)の二値化処理後画像
+            \hspace{1.6cm} (a)図\ref{fig:do_sub}(a)の二値化処理後画像
         \end{minipage}
 
         % 2枚目の画像
