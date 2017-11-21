@@ -374,6 +374,43 @@ beam照射からGridマーク照射までの間に乾板の変形があったせ
      \includegraphics[width=140mm]{emulsionorder.png}
   \caption{暗室内部\label{fig:into_darkroom}}
 \end{figure}
+\par
+暗室拡張後、暗室内が原子核乾板を取り扱うのに適した環境であるかどうかを確認した。
+暗室内湿度は加湿器・除湿器を設定し常時60％になるようにした。(図\ref{fig:kasituki_zyosituki})
+室温はクーラーにより常時25℃になるように設定した。
+図\ref{fig:darkroom_situdo}、\ref{fig:darkroom_onndo}は暗室拡張後、湿度・温度が一定に保たれているかを確認した図である。
+図\ref{fig:darkroom_situdo}、\ref{fig:darkroom_onndo}より、
+暗室内は原子核乾板を取り扱うのに適した環境にできていると判断をし、E07実験2ndRunを実施した。
+\begin{figure}[htbp]
+  \centering
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
+            \hspace{1.6cm} (a)除湿器
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
+            \hspace{1.6cm} (b)加湿器
+        \end{minipage}
+    
+      \end{tabular}
+      \caption{使用した除湿器、加湿器\label{fig:kasituki_zyosituki}}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+    \includegraphics[width=140mm]{emulsionorder.png}
+  \caption{暗室内の湿度\label{fig:darkroom_situdo}}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+    \includegraphics[width=140mm]{emulsionorder.png}
+  \caption{暗室内の温度\label{fig:darkroom_onndo}}
+\end{figure}
 \subsubsection{GridMarkネガ}
 2016年にE07実験testRunとしてbeam照射を実施した。
 その際、原子核乾板に焼き付けたGridマークの中にはネガのつまりにより、Gridマークが照射されていないものが存在していた。
@@ -411,35 +448,36 @@ E07実験2ndRunではbeam照射後すぐにGridマークを照射する。
 \subsection{E07実験2ndRunbeam照射}
 \subsubsection{作業内容}
 2017年5月●日～7月●日にかけて100stacksの原子核乾板すべてにbeam照射を行った。
-図\ref{fig:beam_day}にあるように、途中beam照射が止まりながらも照射しきることができた。
+図\ref{fig:beam_day}から、途中beam照射が停止しながらも予定通り100modの原子核乾板にbeamを照射しきることができた。
 \begin{figure}[htbp]
   \centering
      \includegraphics[width=70mm]{thick75_den.png}
   \caption{2ndRunで照射した原子核乾板の数\label{fig:beam_day}}
 \end{figure}
 E07実験2ndRunで岐阜大学グループは原子核乾板の取り扱いに関する部分を実施した。
-図●はE07実験のセットアップを示したものである。
-私たちは図●の暗室内にて1mod分の原子核乾板13枚(厚型:11枚、薄型2枚)を図●のEmulsionCasetteに詰めて図●に示したbeamラインにセットした。
-ここではemulsionカセットに乾板を詰める作業と乾板をカセットから出す。
-作業について書く。
+作業の流れを下に記述する。
+ここではemulsionカセットに乾板を詰める作業と乾板をカセットから出す作業について書く。
 \par
 遠藤修論を参考文献にする。
-\begin{itemize}
- \item 乾板を冷蔵庫から出す。
- \item 袋から乾板を開けて乾板の重さ・厚さを測定し、乾板の番号を記録、乾板のMOD番号を書く。
-\end{itemize}
 暗室内で原子核乾板をEmulsionCasetteに詰める際の流れは以下の通りである。
 \begin{enumerate}
+    \item beam照射8時間前に乾板を冷蔵庫から出し、常温に慣らしておく。
     \item グリスを塗った、Oリングをはめ込む。
     \item カセットの4つ角にL字のSUS板を置く。 
+    \item 袋から乾板を開けて乾板の重さ・厚さを測定し、乾板の番号を記録、乾板のMOD番号を書く。
     \item 乾板をSUS板に沿って原子核乾板13枚をカセットに入れる。
 \end{enumerate}
+図で遠藤修論にあるカセットの図を入れて終了。
 \subsubsection{EmulsionCasetteでの真空度}
 \begin{itemize}
  \item 遠藤修論にある基準をクリアすることを確認しながら実施。
  \item ある真空度グラフをのせ、適切に行えたということを示す。
  \item 残りのModに関しては付録にあると記す。
 \end{itemize}
+図●はE07実験のセットアップを示したものである。
+私たちは図●の暗室内にて1mod分の原子核乾板13枚(厚型:11枚、薄型2枚)を図●のEmulsionCasetteに詰めて図●に示したbeamラインにセットした。
+図●を見れば分かるとおり、EmulsionCasetteとSSDの間には● mmしか距離がない。
+そのため、EmulsionCasetteに原子核乾板を入れ、bema照射中に適切な真空度を保たなければならない。
 \subsubsection{EmulsionCasetteの固定法確立}
 1stRunのbeam照射ではカセットのＳＵＳ箔が18回のカセットでの真空パックにより●回はがれた。
 2ndRunのbeam照射では100回の真空引きを行う必要があるため、この頻度でＳＵＳ箔が剥がれた場合対応しきれない。
@@ -593,7 +631,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
         \begin{minipage}{0.5\hsize}
           \centering
             \includegraphics[clip, width=60mm]{row_hist.png}
-            \hspace{1.6cm} (b)aの輝度値分布
+            \hspace{1.6cm} (b)(a)の輝度値分布
         \end{minipage}
         \\
         \\
@@ -608,7 +646,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
         \begin{minipage}{0.5\hsize}
           \centering
               \includegraphics[clip, width=60mm]{cont_hist.png}
-              \hspace{1.6cm} (d)cの輝度値分布
+              \hspace{1.6cm} (d)(c)の輝度値分布
         \end{minipage}
     
       \end{tabular}
@@ -643,7 +681,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
         \begin{minipage}{0.5\hsize}
           \centering
             \includegraphics[clip, width=60mm]{cont_hist2.png}
-            \hspace{1.6cm} (b)aの中央行の輝度値
+            \hspace{1.6cm} (b)(a)の中央行の輝度値
         \end{minipage}
         \\
         \\
@@ -658,7 +696,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
         \begin{minipage}{0.5\hsize}
           \centering
               \includegraphics[clip, width=60mm]{gau2_hist.png}
-              \hspace{1.6cm} (d)cの中央行の輝度値
+              \hspace{1.6cm} (d)(c)の中央行の輝度値
         \end{minipage}
     
       \end{tabular}
@@ -667,7 +705,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
 \subsubsection{画像の白黒反転}
 次の二値化処理を実施するため、画像の白黒を反転させる必要がある。
 ガウシアンフィルタ処理を施した画像から、コントラスト処理を施した画像の輝度値の差を取ることで白黒を反転する。
-図\ref{fig:do_gau_beforeandafter}の(c)の画像の輝度値から(a)の輝度値情報を引いて作成したのが図\ref{fig:do_sub}である。
+図\ref{fig:do_gau_beforeandafter}(c)の画像の輝度値から(a)の輝度値情報を引いて作成したのが図\ref{fig:do_sub}である。
 図\ref{fig:do_sub}を見れば分かるように差分を取ることで、黒色であった部分が白色に反転した。
 \begin{figure}[htbp]
   \centering
@@ -838,6 +876,7 @@ beam照射は、エマルジョンカセットに13枚の原子核乾板を入�
 その部分が乳剤層と非乳剤層の境界になる。
 各境界面を認識する閾値を設定し、乳剤層である座標を求める。
 \subsubsection{荷電粒子飛跡追跡}
+
 
 \newpage
 \section{E07乾板における開発プログラムでの追跡実績}
