@@ -534,25 +534,73 @@ E07実験2ndRunで岐阜大学グループは原子核乾板の取り扱いに�
     
       \end{tabular}
 \end{figure}
+\newpage
 \subsubsection{EmulsionCasetteでの真空度}
-図●はE07実験のセットアップを示したものである。
-私たちは図●の暗室内にて1mod分の原子核乾板13枚(厚型:11枚、薄型2枚)を図●のEmulsionCasetteに詰めて図●に示したbeamラインにセットした。
-図●を見れば分かるとおり、EmulsionCasetteとSSDの間には● mmしか距離がない。
-そのため、EmulsionCasetteに原子核乾板を入れ、bema照射中に適切な真空度を保たなければならない。
-beamタイム中に4台のカセットを使用し、常にストックを持ち続けながらカセットを供給することができ、beamタイムのロスを最小限にして実験を実施できた。
+図\ref{fig:e07setup}はE07実験のセットアップを示したものである。
+私たちは図●の暗室内にて1mod分の原子核乾板13枚(厚型:11枚、薄型2枚)を図\ref{fig:fig:casette}のEmulsionCasetteに詰めて図\ref{fig:e07setup}に示したbeamラインにセットした。
+図\ref{fig:e07setup}を見れば分かるとおり、EmulsionCasetteとSSDの間には5 mmしか距離がない。
+そのため、EmulsionCasetteに原子核乾板を入れ、bema照射中に適切な真空度を保つことが必要であった。
+\begin{figure}[htbp]
+  \centering
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
+            \hspace{1.6cm} 
+            \caption{E07セットアップ\label{fig:e07setup}}
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
+            \hspace{1.6cm} 
+            \caption{カセット\label{fig:casette}}
+        \end{minipage}
+    
+      \end{tabular}
+\end{figure}
+\par
+私たちはbeamタイム中に4台のカセットを使用し、常にストックを持ち続けながらカセットを供給することができ、beamタイムのロスを最小限にして実験を実施できた。
 beam照射直前までパッキングしたカセットの内圧をモニターし続け、Mod$\#$19~Mod$\#$118の全真空度に問題が無いことを確認したうえで、
 beamラインにカセットを提供した。
 Mod$\#$19~Mod$\#$118のカセットの内圧の結果を付録に記載する。
-例としてMod$\#$015のカセット内圧の変化を図 4-15 に示す。
+例としてMod$\#$015のカセット内圧の変化を図\ref{fig:casette_bakyu-mu}に示す。
 真空度の基準は『減圧後，内圧の変化が 10 時間経過しても 0.02 MPa 以下』と先行研究で定められた。[遠藤修論]
 E07実験2ndRunにおいても定められた真空度の基準をクリアしたEmulsionCasetteをbeamラインに提供した。
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=140mm]{emulsionorder.png}
+  \caption{カセット内圧変化\label{fig:casette_bakyu-mu}}
+\end{figure}
 \subsubsection{EmulsionCasetteの固定法確立}
 1stRunのbeam照射ではカセットのＳＵＳ箔が18回のカセットでの真空パックにより●回はがれた。
 2ndRunのbeam照射では100回の真空引きを行う必要があるため、この頻度でＳＵＳ箔が剥がれた場合対応しきれない。
-そこで、カセットのＳＵＳ箔にかかる負荷軽減のための装置が開発された。[遠藤修論]
-図でその開発したカセット固定のための治具を見せる。
+そこで、カセットのＳＵＳ箔にかかる負荷軽減のための冶具が開発された。(図\ref{fig:casette_fix})
 この治具を使用して、2ndRunの照射を行った。
 これにより、2ndRunでは100回の真空引きに対して1度しかＳＵＳ箔が剥がれなかった。
+\begin{figure}[htbp]
+  \centering
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
+            \hspace{1.6cm} (a)設計図
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
+            \hspace{1.6cm} (b)実物
+        \end{minipage}
+    
+      \end{tabular}
+      \caption{使用したカセット固定冶具\label{fig:casette_fix}}
+\end{figure}
+\newpage
 \subsubsection{照射した乾板の密度}
 2ndRunでは1stRunと同様にemulsionCasetteに乾板を入れる前に乾板の厚さと重さの測定、
 beam照射後に乾板の重さを測定することでbeam照射により乾板の重さに大きな変動がないかを確認した。
@@ -1030,7 +1078,7 @@ trackの長さ、角度が一定で、原子核乾板の密度を変化させた
       \end{tabular}
       \caption{薄型乾板の密度比較\label{fig:compare_thin_den}}
 \end{figure}
-
+\newpage
 \section*{謝辞}
 \addcontentsline{toc}{section}{謝辞}
 ああああああああああああああああああああああああああ
