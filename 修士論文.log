@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  23 NOV 2017 16:20
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  23 NOV 2017 21:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -601,7 +601,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 501--517
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 502--518
  [][][][] 
  []
 
@@ -611,15 +611,15 @@ File: thick75_den.png Graphic file (type bmp)
 File: kasozai.png Graphic file (type bmp)
 <kasozai.png>
  [21]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 556.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 557.
 
  (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 556.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 557.
 
-Overfull \hbox (9.30193pt too wide) in paragraph at lines 562--572
+Overfull \hbox (9.30193pt too wide) in paragraph at lines 563--573
 \OT1/cmr/m/n/12 soark)\JY1/mc/m/n/12 、 現像 \OT1/cmr/m/n/12 (Cold.dev Hot.dev)
 \JY1/mc/m/n/12 、 現像 \OT1/cmr/m/n/12 (Cold.dev Hot.dev)\JY1/mc/m/n/12 、 停止
  \OT1/cmr/m/n/12 (Stop)\JY1/mc/m/n/12 、 定着 \OT1/cmr/m/n/12 (Fix2/4\JY1/mc/m/
@@ -632,7 +632,7 @@ File: emulsionorder.png Graphic file (type bmp)
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 604--620
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 605--621
  [][][][] 
  []
 
@@ -645,7 +645,7 @@ File: cont.png Graphic file (type bmp)
 File: cont_hist.png Graphic file (type bmp)
 <cont_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 628--659
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 629--660
  [][][][] 
  []
 
@@ -659,7 +659,7 @@ File: gau2.png Graphic file (type bmp)
 File: gau2_hist.png Graphic file (type bmp)
 <gau2_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 678--709
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 679--710
  [][][][] 
  []
 
@@ -668,7 +668,7 @@ File: sub.png Graphic file (type bmp)
 File: sub_hist.png Graphic file (type bmp)
 <sub_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 718--734
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 719--735
  [][][][] 
  []
 
@@ -678,7 +678,7 @@ File: thre.png Graphic file (type bmp)
 File: thre_hist.png Graphic file (type bmp)
 <thre_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 746--762
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 747--763
  [][][][] 
  []
 
@@ -695,7 +695,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 910--941
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 911--942
  [][][][] 
  []
 
@@ -704,7 +704,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 945--961
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 946--962
  [][][][] 
  []
 
@@ -721,4 +721,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  35i,11n,48p,10417b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (34 pages, 83808 bytes).
+Output written on 修士論文.dvi (34 pages, 83812 bytes).
