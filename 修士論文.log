@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  1 DEC 2017 17:43
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  1 DEC 2017 18:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -487,6 +487,7 @@ Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
+ [5]
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
 File: process_bdev.png Graphic file (type bmp)
@@ -494,17 +495,17 @@ File: process_bdev.png Graphic file (type bmp)
 File: process_adev.png Graphic file (type bmp)
 <process_adev.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 127--143
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 133--149
  [][][][] 
  []
 
 File: grainfog.png Graphic file (type bmp)
 <grainfog.png>
-[5] [6]
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
+[6]
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
  [7]
@@ -525,26 +526,26 @@ File: emulsionorder.png Graphic file (type bmp)
 File: ref_pro1.png Graphic file (type bmp)
 <ref_pro1.png>
 
-Overfull \hbox (1.42186pt too wide) in paragraph at lines 293--295
+Overfull \hbox (1.42186pt too wide) in paragraph at lines 295--297
  [][] 
  []
 
 File: ref_pro2.png Graphic file (type bmp)
 <ref_pro2.png>
 
-Overfull \hbox (1.42186pt too wide) in paragraph at lines 300--302
+Overfull \hbox (1.42186pt too wide) in paragraph at lines 302--304
  [][] 
  []
 
 File: ref_pro3.png Graphic file (type bmp)
 <ref_pro3.png>
 
-Overfull \hbox (1.42186pt too wide) in paragraph at lines 307--309
+Overfull \hbox (1.42186pt too wide) in paragraph at lines 309--311
  [][] 
  []
 
 
-Overfull \hbox (15.56766pt too wide) in paragraph at lines 289--312
+Overfull \hbox (15.56766pt too wide) in paragraph at lines 291--314
  [][][][] 
  []
 
@@ -555,7 +556,7 @@ File: process_bdev.png Graphic file (type bmp)
 File: process_adev.png Graphic file (type bmp)
 <process_adev.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 327--343
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 329--345
  [][][][] 
  []
 
@@ -565,7 +566,7 @@ File: darkroom_before.png Graphic file (type bmp)
 File: darkroom_after.png Graphic file (type bmp)
 <darkroom_after.png>
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 356--371
+Overfull \hbox (12.0pt too wide) in paragraph at lines 358--373
  [][][][] 
  []
 
@@ -576,7 +577,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 387--403
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 389--405
  [][][][] 
  []
 
@@ -599,7 +600,7 @@ File: tezyun_6.png Graphic file (type bmp)
 File: tezyun_7.png Graphic file (type bmp)
 <tezyun_7.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 476--494
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 478--496
  [][][][] 
  []
 
@@ -608,7 +609,7 @@ File: tezyun_8.png Graphic file (type bmp)
 File: tezyun_9.png Graphic file (type bmp)
 <tezyun_9.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 497--515
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 499--517
  [][][][] 
  []
 
@@ -617,14 +618,14 @@ File: ponpu.png Graphic file (type bmp)
 [20] [21]
 
 LaTeX Warning: Reference `fig:fig:casette' on page 22 undefined on input line 5
-24.
+26.
 
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 529--547
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 531--549
  [][][][] 
  []
 
@@ -636,7 +637,7 @@ File: casette_fix_moderu.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 569--585
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 571--587
  [][][][] 
  []
 
@@ -646,7 +647,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 595--611
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 597--613
  [][][][] 
  []
 
@@ -656,20 +657,20 @@ File: thick75_den.png Graphic file (type bmp)
 File: kasozai.png Graphic file (type bmp)
 <kasozai.png>
  [25]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 650.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 652.
 
  (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 650.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 652.
  [26] [27]
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 706--722
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 708--724
  [][][][] 
  []
 
@@ -682,7 +683,7 @@ File: cont.png Graphic file (type bmp)
 File: cont_hist.png Graphic file (type bmp)
 <cont_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 730--761
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 732--763
  [][][][] 
  []
 
@@ -696,7 +697,7 @@ File: gau2.png Graphic file (type bmp)
 File: gau2_hist.png Graphic file (type bmp)
 <gau2_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 780--811
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 782--813
  [][][][] 
  []
 
@@ -705,7 +706,7 @@ File: sub.png Graphic file (type bmp)
 File: sub_hist.png Graphic file (type bmp)
 <sub_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 820--836
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 822--838
  [][][][] 
  []
 
@@ -715,19 +716,11 @@ File: thre.png Graphic file (type bmp)
 File: thre_hist.png Graphic file (type bmp)
 <thre_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 849--865
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 851--867
  [][][][] 
  []
 
 [31] [32] [33]
-
-LaTeX Warning: Reference `fig:do_hyoumenn_outin_image' on page 34 undefined on 
-input line 976.
-
-
-LaTeX Warning: Reference `fig:do_hyoumenn_outin_image' on page 34 undefined on 
-input line 978.
-
 File: cont.png Graphic file (type bmp)
 <cont.png>
 File: cont_hist2.png Graphic file (type bmp)
@@ -737,21 +730,16 @@ File: gau2.png Graphic file (type bmp)
 File: gau2_hist.png Graphic file (type bmp)
 <gau2_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 984--1015
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 986--1017
  [][][][] 
  []
 
 [34]
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
-
-
-LaTeX Warning: Reference `fig:hyoumenn_kidoti' on page 35 undefined on input li
-ne 1019.
-
 File: kasozai.png Graphic file (type bmp)
 <kasozai.png>
-[35]
+ [35]
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
  [36] [37]
@@ -764,7 +752,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1073--1104
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1075--1106
  [][][][] 
  []
 
@@ -773,7 +761,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1108--1124
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1110--1126
  [][][][] 
  []
 
@@ -785,9 +773,6 @@ Missing character: There is no ^^8a in font cmr12!
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  10814 strings out of 493648
@@ -798,4 +783,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  35i,11n,48p,10417b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (41 pages, 90408 bytes).
+Output written on 修士論文.dvi (41 pages, 90576 bytes).
