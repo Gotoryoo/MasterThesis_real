@@ -923,7 +923,6 @@ x,yとX,Yが対応している地点を3点以上検出し、式を解くこと�
 このとき、系1と系2がある数値分ずれている場合、その数値分ずれたベクトルが多く集計され、その他のベクトルはほとんど集計されないことになる。
 そのベクトルの集計でヒストグラム作成した場合このようにpeakが出現する。
 これにより、系1と系2の間に一定値のずれが存在している場合の位置ズレが取得できる。
-
 \subsubsection{P-barパターンマッチ}
 \begin{itemize}
     \item SSDとemulsionの位置ズレを取得するのに必要。
@@ -966,7 +965,7 @@ predとbasetrackの中から、角度がおおよそ似ている飛跡を追跡�
 \end{itemize}
 beam照射は、エマルジョンカセットに13枚の原子核乾板を入れ、真空度を保ちbeam照射中に原子核乾板がずれないようにして実施した。
 しかし、原子核乾板一枚一枚違いがあり、現像の前後での変形も一様ではないため、
-上流の原子核乾板の位置情報と下流の原子核乾板の位置情報は対応していない。
+上流の原子核乾板の位置情報と下流の原子核乾板の位置情報は、原点を照射したGridマークの中心にしたときに対応しない。
 そこで、beam照射時に原子核乾板に対して垂直に照射されているK$^-$beamを使い、上流乾板と下流乾板の位置の対応をつける。
 \subsubsection{表面認識}
 \begin{itemize}
@@ -974,17 +973,58 @@ beam照射は、エマルジョンカセットに13枚の原子核乾板を入�
     \item 乾板中の位置における輝度値の違いを示す。
 \end{itemize}
 原子核乾板中の飛跡を認識するために、原子核乾板の乳剤と非乳剤の地点を正確に捉える必要がある。
-図●は原子核乾板の乳剤層と非乳剤層で撮影した画像である。
+図\ref{fig:do_hyoumenn_outin_image}(a)、(b)は原子核乾板の乳剤層と非乳剤層で撮影した画像である。
 乳剤中で撮影した画像の場合は飛跡等が記録されているが、非乳剤層では記録されない。
-この画像に対して画像処理を実施したのが図●である。
+この画像に対して画像処理を実施したのが図\ref{fig:do_hyoumenn_outin_image}(c)、(d)である。
 図より乳剤層か非乳剤層かにより画像処理後の画像中で輝度値情報を持つピクセルの数が異なることが分かる。
 輝度値情報を持つピクセルの数により乳剤層か否かを判断する。
+これが表面認識である。
+\begin{figure}[htbp]
+  \centering
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=60mm]{cont.png}
+            \hspace{1.6cm} (a)乳剤層
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=60mm]{cont_hist2.png}
+            \hspace{1.6cm} (b)非乳剤層
+        \end{minipage}
+        \\
+        \\
+        % 3枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+              \includegraphics[clip, width=60mm]{gau2.png}
+              \hspace{1.6cm} (c)画像処理後(乳剤層)
+          \end{minipage}
+          
+        % 4枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+              \includegraphics[clip, width=60mm]{gau2_hist.png}
+              \hspace{1.6cm} (d)画像処理後(非乳剤層)
+        \end{minipage}
+    
+      \end{tabular}
+      \caption{原子核乾板内外での違い\label{fig:do_hyoumenn_outin_image}}
+\end{figure}
 \par
-顕微鏡操作し、乾板中の焦点が合っている箇所のZ軸だけを動かし3µm間隔で画像を撮影し、画像処理を実施する。
-その操作を行い、輝度値情報を持つピクセルの数を縦軸、Z座標を横軸に取り作成したのが図●である。
+顕微鏡操作し、乾板中の焦点が合っている箇所のZ軸だけを動かし3 µm間隔で画像を撮影し、画像処理を実施する。
+その操作を行い、輝度値情報を持つピクセルの数を縦軸、Z座標を横軸に取り作成したのが図\ref{fig:hyoumenn_kidoti}である。
 図より輝度値が急激に変化している箇所が4箇所ほど存在している。
 その部分が乳剤層と非乳剤層の境界になる。
 各境界面を認識する閾値を設定し、乳剤層である座標を求める。
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=140mm]{kasozai.png}
+  \caption{原子核乾板の撮影か所による輝度値情報の推移\label{fig:hyoumenn_kidoti}}
+\end{figure}
 \subsubsection{荷電粒子飛跡追跡}
 荷電粒子飛跡追跡の飛跡を検出する部分と追跡する際の顕微鏡の駆動について記述をする。
 \par
