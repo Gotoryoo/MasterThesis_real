@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  3 DEC 2017 15:55
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  3 DEC 2017 17:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -561,8 +561,8 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 327--343
  []
 
 [13] [14]
-File: darkroom_before.png Graphic file (type bmp)
-<darkroom_before.png>
+File: darkroom_after.png Graphic file (type bmp)
+<darkroom_after.png>
 File: darkroom_after.png Graphic file (type bmp)
 <darkroom_after.png>
 
@@ -570,14 +570,12 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 356--371
  [][][][] 
  []
 
-File: emulsionorder.png Graphic file (type bmp)
-<emulsionorder.png>
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 387--403
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 382--398
  [][][][] 
  []
 
@@ -585,22 +583,23 @@ File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
+[15]
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
+ [16] [17]
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
-[15] [16] [17] [18]
 File: thick75_den.png Graphic file (type bmp)
 <thick75_den.png>
- [19]
+ [18]
 File: tezyun_6.png Graphic file (type bmp)
 <tezyun_6.png>
 File: tezyun_7.png Graphic file (type bmp)
 <tezyun_7.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 476--494
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 471--489
  [][][][] 
  []
 
@@ -609,68 +608,68 @@ File: tezyun_8.png Graphic file (type bmp)
 File: tezyun_9.png Graphic file (type bmp)
 <tezyun_9.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 497--515
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 492--510
  [][][][] 
  []
 
 File: ponpu.png Graphic file (type bmp)
 <ponpu.png>
-[20] [21]
+[19] [20]
 
-LaTeX Warning: Reference `fig:fig:casette' on page 22 undefined on input line 5
-24.
+LaTeX Warning: Reference `fig:fig:casette' on page 21 undefined on input line 5
+19.
 
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 529--547
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 524--542
  [][][][] 
  []
 
 File: vacuum117.png Graphic file (type bmp)
 <vacuum117.png>
-[22]
+[21]
 File: casette_fix_moderu.png Graphic file (type bmp)
 <casette_fix_moderu.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 570--586
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 565--581
  [][][][] 
  []
 
-[23]
+[22]
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 596--612
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 591--607
  [][][][] 
  []
 
-[24]
+[23]
 File: thick75_den.png Graphic file (type bmp)
 <thick75_den.png>
 File: kasozai.png Graphic file (type bmp)
 <kasozai.png>
- [25]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 651.
+ [24]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 646.
 
  (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 651.
- [26] [27]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 646.
+ [25] [26]
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 707--723
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 702--718
  [][][][] 
  []
 
@@ -683,11 +682,11 @@ File: cont.png Graphic file (type bmp)
 File: cont_hist.png Graphic file (type bmp)
 <cont_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 731--762
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 726--757
  [][][][] 
  []
 
-[28] [29]
+[27] [28]
 File: cont.png Graphic file (type bmp)
 <cont.png>
 File: cont_hist2.png Graphic file (type bmp)
@@ -697,7 +696,7 @@ File: gau2.png Graphic file (type bmp)
 File: gau2_hist.png Graphic file (type bmp)
 <gau2_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 781--812
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 776--807
  [][][][] 
  []
 
@@ -706,21 +705,21 @@ File: sub.png Graphic file (type bmp)
 File: sub_hist.png Graphic file (type bmp)
 <sub_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 821--837
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 816--832
  [][][][] 
  []
 
-[30]
+[29]
 File: thre.png Graphic file (type bmp)
 <thre.png>
 File: thre_hist.png Graphic file (type bmp)
 <thre_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 850--866
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 845--861
  [][][][] 
  []
 
-[31] [32] [33]
+[30] [31] [32]
 File: cont.png Graphic file (type bmp)
 <cont.png>
 File: cont_hist2.png Graphic file (type bmp)
@@ -730,19 +729,19 @@ File: gau2.png Graphic file (type bmp)
 File: gau2_hist.png Graphic file (type bmp)
 <gau2_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 985--1016
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 980--1011
  [][][][] 
  []
 
-[34]
+[33]
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
 File: kasozai.png Graphic file (type bmp)
 <kasozai.png>
- [35]
+ [34]
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
- [36] [37]
+ [35] [36]
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
@@ -752,7 +751,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1074--1105
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1069--1100
  [][][][] 
  []
 
@@ -761,15 +760,15 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1109--1125
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1104--1120
  [][][][] 
  []
 
-[38] [39]
+[37] [38]
 Missing character: There is no ^^ef in font cmr12!
 Missing character: There is no ^^a9 in font cmr12!
 Missing character: There is no ^^8a in font cmr12!
- [40] (./修士論文.aux)
+ [39] (./修士論文.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -778,12 +777,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 10815 strings out of 493648
- 211815 string characters out of 6150704
+ 10810 strings out of 493648
+ 211672 string characters out of 6150704
  276336 words of memory out of 5000000
- 14311 multiletter control sequences out of 15000+600000
+ 14308 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,11n,48p,10417b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (41 pages, 90464 bytes).
+Output written on 修士論文.dvi (40 pages, 90208 bytes).
