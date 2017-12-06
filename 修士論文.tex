@@ -213,33 +213,33 @@ $\Lambda$粒子の核内での結合エネルギー(\ce{B_{$\Lambda$$\Lambda$}} 
 J-PARC E07実験はハイブリッド-エマルジョン法によりKEK-PS E373実験の10倍の統計量を目指す実験である。
 表\ref{tab:compare_E07_E373}はJ-PARC E07実験とKEK-PS E373実験の比較をしたものである。
 表にあるように、beamのK$^-$/$\pi$$^-$を約3.5倍、原子核乳剤の量を約3倍にすることで10倍の$\Xi$$^-$粒子静止事象を実現する。
+\begin{table}[htbp]
+  \centering
+  \caption{J-PARC E07実験とKEK-PS E373実験の比較\label{tab:compare_E07_E373}}
+  \begin{tabular}{c|c|c}
+  　　　&KEK-PS E373実験&J-PARC E07実験\\
+  \hline
+  \hline
+  $\Xi$$^-$粒子静止事象 & ～10$^3$    & ～10$^4$  \\
+  K$^-$/$\pi$$^-$ & 1/4  & 6/1 \\
+  原子核乳剤量 & 0.8t & 2.1t  \\
+  \hline
+  \end{tabular}
+\end{table}
 \par
-E07実験ではカウンターとしてSSDを採用している。
+図\ref{fig:e07setup}はE07実験のセットアップを示している。
+1.8 GeV/cのK$^-$beamをダイアモンド標的に照射し、$\Xi$$^-$粒子を生成する。
+E07実験では、原子核乾板の上流と下流にSSD(Silicon Strip Detector)を設置している。
 SSDは電荷をもった粒子が通過した際に、通過した粒子が原子核乾板スタックのどの位置にどのような角度で照射されているかの情報を記録する検出器である。
 SSDは4層構造になっているため、同タイミングで4層に渡って検出された座標情報を使い、通過した荷電粒子の角度を推定することができる。
-原子核乾板スタックを2つのSSDで挟むことで、Diamond Targetで生成された$\Xi$$^-$粒子だけでなく、原子核乾板内で反応した$\Xi$$^-$粒子の情報も記録できる。
-SSDの情報を使い、emulsionに記録された飛跡の中で$\Xi$$^-$粒子である確率の高い飛跡のみを追跡することでいち早くDouble-$\Lambda$Hyper核を検出する。
-SSDの精度と前回の検出器の精度の違いを示す。
-\begin{table}[htbp]
-\centering
-\caption{J-PARC E07実験とKEK-PS E373実験の比較\label{tab:compare_E07_E373}}
-\begin{tabular}{c|c|c}
-　　　&KEK-PS E373実験&J-PARC E07実験\\
-\hline
-\hline
-$\Xi$$^-$粒子静止事象 & ～10$^3$    & ～10$^4$  \\
-K$^-$/$\pi$$^-$ & 1/4  & 6/1 \\
-原子核乳剤量 & 0.8t & 2.1t  \\
-\hline
-\end{tabular}
-\end{table}
-\begin{table}[htbp]
-\centering
-\caption{原子核乾板中に記録されるtrackとgrainの様子\label{tab:grain_track}}
-\begin{center}
-    \includegraphics[width=70mm]{grainfog.png}
-\end{center}
-\end{table}
+原子核乾板スタックを2つのSSDで挟むことで、原子核乾板に照射された荷電粒子の位置情報、角度情報を記録する。
+SSDに記録された情報を使い、
+emulsionに記録された飛跡の中で$\Xi$$^-$粒子である確率の高い飛跡のみを追跡することでいち早くDouble-$\Lambda$Hyper核を検出する。
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=95mm]{e07setup.png}
+  \caption{E07実験のセットアップ\label{fig:e07setup}}
+\end{figure}
 
 
 \newpage
