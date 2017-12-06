@@ -317,7 +317,7 @@ J-PARC E07実験で使用する原子核乾板約1400枚はすべて岐阜大学
 \newpage
 \subsubsection{原理}
 写真フィルムには撮影してから現像するまでに時間を経ると、映像が消えていく性質(潜像退行性)がある。[式(\ref{eq:gennzou})]
-また、潜像退行性は高温高湿度の環境で著しく進むことが明らかになっている。
+ また、潜像退行性は高温高湿度の環境で著しく進むことが明らかになっている。
 \begin{equation}
     \ce{Ag4 + O2 + 2H2O -> 4Ag+ + 4OH-}
 \label{eq:gennzou}
@@ -326,12 +326,12 @@ J-PARC E07実験で使用する原子核乾板約1400枚はすべて岐阜大学
 原子核乾板は塗布されてから現像されるまでの間に、自然放射線や宇宙線の影響を受け潜像が蓄積される。
 そこで、蓄積された潜像を消去するための手法として強制潜像退行処理(Refresh処理)と呼ばれる方法が開発されている。
 \cite{takusann}
-Refresh処理は原子核乾板の持つ現像退行性を利用する。
+ Refresh処理は原子核乾板の持つ現像退行性を利用する。
 図\ref{fig:intr_refresh}はRefresh処理の模式図である。
 原子核乾板には荷電粒子が通過した跡に対して潜像核が形成されている。(図\ref{fig:intr_refresh}(a))
-原子核乾板中に記録された潜像核に対して式\ref{eq:gennzou}の反応を起こすことで、形成されていた潜像核がイオンになり現像されない状態になる。
+ 原子核乾板中に記録された潜像核に対して式\ref{eq:gennzou}の反応を起こすことで、形成されていた潜像核がイオンになり現像されない状態になる。
 (図\ref{fig:intr_refresh}(b))
-この化学反応は温度が高くなるほど反応が促進されるため、原子核乾板を高温高湿度の環境下に置くことで潜像退行が促進される。
+ この化学反応は温度が高くなるほど反応が促進されるため、原子核乾板を高温高湿度の環境下に置くことで潜像退行が促進される。
 よって、Refresh処理によりbeam照射の前に記録されたBackgroundを消去できる。(図\ref{fig:intr_refresh}(c))
 \begin{figure}[htbp]
   \centering
@@ -363,7 +363,8 @@ Refresh処理は原子核乾板の持つ現像退行性を利用する。
 \subsubsection{実施環境}
 E07実験で使用する原子核乾板に対してRefresh処理を実施場合は温度25度、湿度90％の環境を維持することが必要である。[大橋卒論]
 そこで、温度と湿度をコントロールするチェンバーを作成した。(図\ref{fig:refresh_masi-nn})
-このチェンバーは1度の処理で100枚の原子核乾板のRefresh処理を実施可能である。
+ このチェンバーは1度の処理で100枚の原子核乾板のRefresh処理を実施可能である。
+図\ref{fig:refresh_hanga__}に示した乾板ハンガーを使用し、2枚一組の状態にして原子核乾板をチェンバーの中に入れた。
 1stRunではこの装置を使い4回のRefresh処理を実施し、温度湿度の制御を手動で行った。
 2ndRunでは13回のRefresh処理を、温度・湿度の調整を自動制御で実施した。[村本卒論]
 \begin{figure}[htbp]
@@ -373,23 +374,8 @@ E07実験で使用する原子核乾板に対してRefresh処理を実施場合�
 \end{figure}
 \begin{figure}[htbp]
   \centering
-      \begin{tabular}{c}
-        % 1枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-            \includegraphics[clip, width=60mm]{process_bdev.png}
-            \hspace{1.6cm} (a)加湿器
-        \end{minipage}
-        
-        % 2枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-            \includegraphics[clip, width=60mm]{process_adev.png}
-            \hspace{1.6cm} (b)除湿器
-        \end{minipage}
-    
-      \end{tabular}
-      \caption{Refreashに使用した加湿器・除湿器\label{fig:refresh_mizumasi-nn}}
+     \includegraphics[width=100mm]{refresh_hanga.png}
+  \caption{乾板ハンガー\label{fig:refresh_hanga__}}
 \end{figure}
 \subsection{GridMark照射環境の最適化}
 \subsubsection{暗室の拡張}
