@@ -2,6 +2,9 @@
 \usepackage[top=35truemm, bottom=35truemm, left=30truemm, right=30truemm]{geometry}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage[version=3]{mhchem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+
 \setcounter{tocdepth}{\maxdimen} %subsubsectionまで目次を表示する
 \bibliographystyle{junsrt} %参照のスタイル
 \makeatletter
@@ -256,21 +259,10 @@ J-PARC E07実験で使用する原子核乾板約1400枚はすべて岐阜大学
 制作は2013年12月～2014年3月の期間で完了している。
 当初の予定では乾板製造後すぐにbeam照射を実施する予定であったが、J-PARCでの放射能漏れ事故により実験は延期になった。
 \par
-製造した原子核乾板は現像されるまで空気中の宇宙線やコンプトン電子を記録していく。
+製造した原子核乾板は現像されるまで空気中の宇宙線やコンプトン電子等の荷電粒子を記録していく。
 図\ref{fig:compton_and_cosmicray_in_emulsion}は原子核乾板中に記録されたコンプトン電子と宇宙線を示している。
 これらのgrainや飛跡がバックグラウンドとして増加すると、beam照射後の解析に支障を来す恐れがある。
 そこで、宇宙線の影響が少ない神岡鉱山内に鉛ブロックで箱を作り、製造した原子核乾板を保管した。(図\ref{fig:emulsion_in_Kamioka})
-\par
-図\ref{fig:stragecompton}は製造からの時間経過による原子核乾板記録された宇宙線、コンプトン電子の増加傾向を示している。
-赤色が岐阜大学の冷蔵庫内で保管した場合、青色が神岡鉱山鉛箱内で保管した場合である。
-二つの線の傾きを比較すると、神岡鉱山内で保管したことで非常に多くのバックグラウンドを削減することができたということが分かる。
-\par
-しかし、製造からbeam照射まで2年の期間が経過したため、神岡鉱山内で保管していたとしても解析に支障を及ぼすレベルまでバックグラウンドが蓄積してしまった。
-図\ref{fig:beam_efficiency_to_compton}はコンプトンの蓄積量に対するbeam検出効率を示したものである。
-制作から約2年間経過した原子核乾板には期間中神岡鉱山内で保管した場合、バックグラウンドが●●となる。
-図からバックグラウンドが●●となると、beam検出効率が著しく低下することが分かる。
-そのため、蓄積されたバックグラウンドの消去のために原子核乾板に対して強制潜像退行処理(Refresh処理)を実施した。
-\par
 \begin{figure}[htbp]
   \centering
       \begin{tabular}{c}
@@ -289,19 +281,39 @@ J-PARC E07実験で使用する原子核乾板約1400枚はすべて岐阜大学
             \hspace{1.6cm} 
             \caption{神岡鉱山内の鉛ブロック中に原子核乾板の保管状況\label{fig:emulsion_in_Kamioka}}
         \end{minipage}
-    
       \end{tabular}
 \end{figure}
+\par
+図\ref{fig:stragecompton}は製造からの時間経過による原子核乾板記録された宇宙線、コンプトン電子の増加傾向を示している。
+赤色が岐阜大学の冷蔵庫内で保管した場合、青色が神岡鉱山鉛箱内で保管した場合である。
+二つの線の傾きを比較すると、神岡鉱山内で保管したことで非常に多くのバックグラウンドを削減することができたということが分かる。
+\par
+しかし、製造からbeam照射まで2年の期間が経過したため、神岡鉱山内で保管していたとしても解析に支障を及ぼすレベルまでバックグラウンドが蓄積してしまった。
+制作から約2年間経過した原子核乾板には期間中神岡鉱山内で保管した場合、バックグラウンドが約130 event/10$^6$ $\mu$m$^3$となる。
+図\ref{fig:beam_efficiency_to_compton}はコンプトンの蓄積量に対するbeam検出効率を示したものである。
+図から2017年4月ごろにはバックグラウンドの蓄積によりbeam検出効率が50％にまで低下することが分かる。
+そのため、蓄積されたバックグラウンドの消去のために原子核乾板に対して強制潜像退行処理(Refresh処理)を実施した。
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=70mm]{beam_efficiency_to_compton.png}
-  \caption{保管地点によるコンプトンの蓄積量\label{fig:stragecompton}}
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=70mm]{beam_efficiency_to_compton.png}
+            \hspace{1.6cm} 
+            \caption{保管地点によるコンプトンの蓄積量\label{fig:stragecompton}}
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=70mm]{beam_efficiency_to_compton.png}
+            \hspace{1.6cm} 
+            \caption{コンプトンの蓄積量に対するbeamの検出効率\label{fig:beam_efficiency_to_compton}}
+        \end{minipage}
+      \end{tabular}
 \end{figure}
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=70mm]{beam_efficiency_to_compton.png}
-  \caption{コンプトンの蓄積量に対するbeamの検出効率\label{fig:beam_efficiency_to_compton}}
-\end{figure}
+
 \newpage
 \subsubsection{原理}
 写真フィルムには撮影してから現像するまでに時間を経ると、映像が消えていく性質(潜像退行性)がある。[式(\ref{eq:gennzou})]
