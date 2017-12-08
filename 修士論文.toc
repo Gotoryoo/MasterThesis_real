@@ -22,12 +22,12 @@
 \contentsline {subsection}{\numberline {2.4}現像}{24}
 \contentsline {subsubsection}{\numberline {2.4.1}原理}{24}
 \contentsline {subsubsection}{\numberline {2.4.2}実施環境}{25}
-\contentsline {section}{\numberline {3}荷電粒子飛跡追跡の自動化}{26}
-\contentsline {subsection}{\numberline {3.1}目的}{26}
-\contentsline {subsection}{\numberline {3.2}$\Xi $$^-$候補＆beam認識に用いる画像処理}{26}
-\contentsline {subsubsection}{\numberline {3.2.1}コントラスト処理}{26}
+\contentsline {section}{\numberline {3}荷電粒子飛跡追跡の自動化}{27}
+\contentsline {subsection}{\numberline {3.1}目的}{27}
+\contentsline {subsection}{\numberline {3.2}$\Xi $$^-$候補＆beam認識に用いる画像処理}{27}
+\contentsline {subsubsection}{\numberline {3.2.1}コントラスト処理}{27}
 \contentsline {subsubsection}{\numberline {3.2.2}ガウシアンフィルタ処理}{27}
-\contentsline {subsubsection}{\numberline {3.2.3}画像の白黒反転}{27}
+\contentsline {subsubsection}{\numberline {3.2.3}画像の白黒反転}{30}
 \contentsline {subsubsection}{\numberline {3.2.4}二値化}{30}
 \contentsline {subsection}{\numberline {3.3}座標変換}{30}
 \contentsline {subsection}{\numberline {3.4}自動追跡の要素技術}{31}
@@ -36,8 +36,8 @@
 \contentsline {subsubsection}{\numberline {3.4.3}$\Xi $$^-$候補飛跡の選択}{32}
 \contentsline {subsubsection}{\numberline {3.4.4}K$^-$beamパターンマッチ}{33}
 \contentsline {subsubsection}{\numberline {3.4.5}表面認識}{33}
-\contentsline {subsubsection}{\numberline {3.4.6}荷電粒子飛跡追跡}{35}
-\contentsline {section}{\numberline {4}E07乾板における開発プログラムでの追跡実績}{37}
-\contentsline {section}{\numberline {5}まとめ}{38}
-\contentsline {section}{付録}{38}
-\contentsline {section}{謝辞}{40}
+\contentsline {subsubsection}{\numberline {3.4.6}荷電粒子飛跡追跡}{34}
+\contentsline {section}{\numberline {4}E07乾板における開発プログラムでの追跡実績}{36}
+\contentsline {section}{\numberline {5}まとめ}{37}
+\contentsline {section}{付録}{37}
+\contentsline {section}{謝辞}{39}
