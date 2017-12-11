@@ -26,10 +26,10 @@
 \contentsline {subsection}{\numberline {3.1}目的}{27}
 \contentsline {subsection}{\numberline {3.2}$\Xi $$^-$候補＆beam認識に用いる画像処理}{27}
 \contentsline {subsubsection}{\numberline {3.2.1}コントラスト処理}{27}
-\contentsline {subsubsection}{\numberline {3.2.2}ガウシアンフィルタ処理}{27}
-\contentsline {subsubsection}{\numberline {3.2.3}画像の白黒反転}{30}
-\contentsline {subsubsection}{\numberline {3.2.4}二値化}{30}
-\contentsline {subsection}{\numberline {3.3}座標変換}{30}
+\contentsline {subsubsection}{\numberline {3.2.2}ガウシアンフィルタ処理}{29}
+\contentsline {subsubsection}{\numberline {3.2.3}画像の白黒反転}{29}
+\contentsline {subsubsection}{\numberline {3.2.4}二値化}{29}
+\contentsline {subsection}{\numberline {3.3}座標変換}{29}
 \contentsline {subsection}{\numberline {3.4}自動追跡の要素技術}{31}
 \contentsline {subsubsection}{\numberline {3.4.1}beamパターンマッチ}{31}
 \contentsline {subsubsection}{\numberline {3.4.2}P-barパターンマッチ}{32}

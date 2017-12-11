@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  8 DEC 2017 17:04
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  11 DEC 2017 15:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -740,10 +740,10 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 664--682
 File: gennzou_timetable.png Graphic file (type bmp)
 <gennzou_timetable.png>
 [25] [26]
-File: emulsionorder.png Graphic file (type bmp)
-<emulsionorder.png>
-File: emulsionorder.png Graphic file (type bmp)
-<emulsionorder.png>
+File: emulsion_up.png Graphic file (type bmp)
+<emulsion_up.png>
+File: emulsion_low.png Graphic file (type bmp)
+<emulsion_low.png>
 
 Overfull \hbox (15.91663pt too wide) in paragraph at lines 721--737
  [][][][] 
@@ -772,7 +772,7 @@ File: gau2.png Graphic file (type bmp)
 File: gau2_hist.png Graphic file (type bmp)
 <gau2_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 795--826
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 796--827
  [][][][] 
  []
 
@@ -781,31 +781,30 @@ File: sub.png Graphic file (type bmp)
 File: sub_hist.png Graphic file (type bmp)
 <sub_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 835--851
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 836--852
  [][][][] 
  []
 
-[29]
 File: thre.png Graphic file (type bmp)
 <thre.png>
 File: thre_hist.png Graphic file (type bmp)
 <thre_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 864--880
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 865--881
  [][][][] 
  []
 
-[30] [31] [32]
-File: cont.png Graphic file (type bmp)
-<cont.png>
-File: cont_hist2.png Graphic file (type bmp)
-<cont_hist2.png>
+[29] [30] [31] [32]
+File: emulsion_in.png Graphic file (type bmp)
+<emulsion_in.png>
+File: emulsion_out.png Graphic file (type bmp)
+<emulsion_out.png>
 File: gau2.png Graphic file (type bmp)
 <gau2.png>
 File: gau2_hist.png Graphic file (type bmp)
 <gau2_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 999--1030
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1000--1031
  [][][][] 
  []
 
@@ -827,7 +826,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1088--1119
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1089--1120
  [][][][] 
  []
 
@@ -836,7 +835,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1123--1139
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1124--1140
  [][][][] 
  []
 
@@ -844,14 +843,18 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 1123--1139
 Missing character: There is no ^^ef in font cmr12!
 Missing character: There is no ^^a9 in font cmr12!
 Missing character: There is no ^^8a in font cmr12!
- [39] (./修士論文.aux) ) 
+ [39] (./修士論文.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 11322 strings out of 493648
- 220184 string characters out of 6150704
+ 11338 strings out of 493648
+ 220576 string characters out of 6150704
  277010 words of memory out of 5000000
- 14781 multiletter control sequences out of 15000+600000
+ 14789 multiletter control sequences out of 15000+600000
  545080 words of font info for 80 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 35i,13n,48p,10372b,434s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (40 pages, 93820 bytes).
+Output written on 修士論文.dvi (40 pages, 93844 bytes).
