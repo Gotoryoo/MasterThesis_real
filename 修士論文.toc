@@ -27,17 +27,17 @@
 \contentsline {subsection}{\numberline {3.2}$\Xi $$^-$候補＆beam認識に用いる画像処理}{27}
 \contentsline {subsubsection}{\numberline {3.2.1}コントラスト処理}{27}
 \contentsline {subsubsection}{\numberline {3.2.2}ガウシアンフィルタ処理}{29}
-\contentsline {subsubsection}{\numberline {3.2.3}画像の白黒反転}{29}
-\contentsline {subsubsection}{\numberline {3.2.4}二値化}{29}
-\contentsline {subsection}{\numberline {3.3}座標変換}{29}
-\contentsline {subsection}{\numberline {3.4}自動追跡の要素技術}{31}
-\contentsline {subsubsection}{\numberline {3.4.1}beamパターンマッチ}{31}
-\contentsline {subsubsection}{\numberline {3.4.2}P-barパターンマッチ}{32}
-\contentsline {subsubsection}{\numberline {3.4.3}$\Xi $$^-$候補飛跡の選択}{32}
-\contentsline {subsubsection}{\numberline {3.4.4}K$^-$beamパターンマッチ}{33}
-\contentsline {subsubsection}{\numberline {3.4.5}表面認識}{33}
-\contentsline {subsubsection}{\numberline {3.4.6}荷電粒子飛跡追跡}{34}
-\contentsline {section}{\numberline {4}E07乾板における開発プログラムでの追跡実績}{36}
-\contentsline {section}{\numberline {5}まとめ}{37}
-\contentsline {section}{付録}{37}
-\contentsline {section}{謝辞}{39}
+\contentsline {subsubsection}{\numberline {3.2.3}画像の白黒反転}{31}
+\contentsline {subsubsection}{\numberline {3.2.4}二値化}{32}
+\contentsline {subsection}{\numberline {3.3}座標変換}{33}
+\contentsline {subsection}{\numberline {3.4}自動追跡の要素技術}{33}
+\contentsline {subsubsection}{\numberline {3.4.1}beamパターンマッチ}{33}
+\contentsline {subsubsection}{\numberline {3.4.2}P-barパターンマッチ}{34}
+\contentsline {subsubsection}{\numberline {3.4.3}$\Xi $$^-$候補飛跡の選択}{34}
+\contentsline {subsubsection}{\numberline {3.4.4}K$^-$beamパターンマッチ}{35}
+\contentsline {subsubsection}{\numberline {3.4.5}表面認識}{35}
+\contentsline {subsubsection}{\numberline {3.4.6}荷電粒子飛跡追跡}{37}
+\contentsline {section}{\numberline {4}E07乾板における開発プログラムでの追跡実績}{38}
+\contentsline {section}{\numberline {5}まとめ}{39}
+\contentsline {section}{付録}{39}
+\contentsline {section}{謝辞}{41}

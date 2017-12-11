@@ -709,13 +709,6 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
 二つの写真の違いは原子核乾板の位置で、左が上側乳剤層、右が下側乳剤層で撮影したものである。
 図より撮影地点が異なれば画像のコントラストが大きく異なることが分かる。
 そこで原子核乾板中で撮影した画像を、撮影地点によらず飛跡情報を取得するために画像のコントラストの違いをなくす必要がある。
-\par
-コントラストとは、画像の濃淡情報の分布の広さに関する性質で、画像の最大輝度を$I_{max}$、最小輝度を$I_{min}$とするとき式(\ref{eq:cont})で表す。
-コントラスト処理に使う変化式はまた調べて記入する。
-\begin{equation}
-  C = \frac{I_{max} - I_{min}}{I_{max} + I_{min}}
-\label{eq:cont}
-\end{equation}
 \begin{figure}[htbp]
   \centering
       \begin{tabular}{c}
@@ -736,6 +729,13 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
       \end{tabular}
       \caption{撮影地点によるコントラストの違い\label{fig:diff_contrust}}
 \end{figure}
+\par
+コントラストとは、画像の濃淡情報の分布の広さに関する性質で、画像の最大輝度を$I_{max}$、最小輝度を$I_{min}$とするとき式(\ref{eq:cont})で表す。
+コントラスト処理に使う変化式はまた調べて記入する。
+\begin{equation}
+  C = \frac{I_{max} - I_{min}}{I_{max} + I_{min}}
+\label{eq:cont}
+\end{equation}
 \par
 画像のコントラストをよくするために用いる式は以下の通りである。
 図\ref{fig:do_contrust_beforeandafter}はこの式を使用して画像にコントラスト処理を施した画像である。
@@ -826,6 +826,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
       \end{tabular}
       \caption{ガウシアンフィルタ処理による輝度値の違い\label{fig:do_gau_beforeandafter}}
 \end{figure}
+\newpage
 \subsubsection{画像の白黒反転}
 次の二値化処理を実施するため、画像の白黒を反転させる必要がある。
 ガウシアンフィルタ処理を施した画像から、コントラスト処理を施した画像の輝度値の差を取ることで白黒を反転する。
@@ -851,6 +852,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
       \end{tabular}
       \caption{輝度値差分処理後の画像\label{fig:do_sub}}
 \end{figure}
+\newpage
 \subsubsection{二値化}
 図\ref{fig:do_sub}を見ると、視野中心にある飛跡情報以外に多くの輝度値情報が記録されていることが分かる。
 これらの情報は飛跡追跡を実施するのに不必要であり、飛跡の誤検出を招く恐れがある。
@@ -880,6 +882,7 @@ SSDとE373実験の際に使用された検出機の精度をまとめた表を�
       \end{tabular}
       \caption{二値化処理後の画像\label{fig:do_thre}}
 \end{figure}
+\newpage
 \subsection{座標変換}
 \begin{itemize}
     \item affine変換について書く。
