@@ -1021,17 +1021,12 @@ beam照射は、エマルジョンカセットに13枚の原子核乾板を入�
   \caption{K$^-$beamパターンマッチ模式図\label{fig:beam_mosikizu}}
 \end{figure}
 \subsubsection{表面認識}
-\begin{itemize}
-    \item 乳剤層と非乳剤層の境界面を取得するために行う。
-    \item 乾板中の位置における輝度値の違いを示す。
-\end{itemize}
 原子核乾板中の飛跡を認識するために、原子核乾板の乳剤と非乳剤の地点を正確に捉える必要がある。
 図\ref{fig:do_hyoumenn_outin_image}(a)、(b)は原子核乾板の乳剤層と非乳剤層で撮影した画像である。
 乳剤中で撮影した画像の場合は飛跡等が記録されているが、非乳剤層では記録されない。
 この画像に対して画像処理を実施したのが図\ref{fig:do_hyoumenn_outin_image}(c)、(d)である。
 図より乳剤層か非乳剤層かにより画像処理後の画像中で輝度値情報を持つピクセルの数が異なることが分かる。
 輝度値情報を持つピクセルの数により乳剤層か否かを判断する。
-これが表面認識である。
 \begin{figure}[htbp]
   \centering
       \begin{tabular}{c}
@@ -1053,14 +1048,14 @@ beam照射は、エマルジョンカセットに13枚の原子核乾板を入�
         % 3枚目の画像
         \begin{minipage}{0.5\hsize}
           \centering
-              \includegraphics[clip, width=60mm]{gau2.png}
+              \includegraphics[clip, width=60mm]{emul_in_thre.png}
               \hspace{1.6cm} (c)画像処理後(乳剤層)
           \end{minipage}
           
         % 4枚目の画像
         \begin{minipage}{0.5\hsize}
           \centering
-              \includegraphics[clip, width=60mm]{gau2_hist.png}
+              \includegraphics[clip, width=60mm]{emul_out_thre.png}
               \hspace{1.6cm} (d)画像処理後(非乳剤層)
         \end{minipage}
     
