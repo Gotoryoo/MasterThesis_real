@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  12 DEC 2017 17:39
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  12 DEC 2017 19:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -801,7 +801,10 @@ File: pbar_mosikizu.png Graphic file (type bmp)
 <pbar_mosikizu.png>
 File: pbar_pattern.png Graphic file (type bmp)
 <pbar_pattern.png>
- [34] [35]
+ [34]
+File: pl01_mosikizu.png Graphic file (type bmp)
+<pl01_mosikizu.png>
+ [35] [36]
 File: emulsion_in.png Graphic file (type bmp)
 <emulsion_in.png>
 File: emulsion_out.png Graphic file (type bmp)
@@ -811,7 +814,7 @@ File: gau2.png Graphic file (type bmp)
 File: gau2_hist.png Graphic file (type bmp)
 <gau2_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1033--1064
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1036--1067
  [][][][] 
  []
 
@@ -819,10 +822,9 @@ Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
 File: kasozai.png Graphic file (type bmp)
 <kasozai.png>
-[36] [37]
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
- [38] [39] [40]
+[37] [38] [39] [40]
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
@@ -832,7 +834,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1122--1153
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1125--1156
  [][][][] 
  []
 
@@ -841,7 +843,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1157--1173
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1160--1176
  [][][][] 
  []
 
@@ -855,12 +857,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 11350 strings out of 493648
- 220838 string characters out of 6150704
+ 11355 strings out of 493648
+ 220961 string characters out of 6150704
  277046 words of memory out of 5000000
- 14797 multiletter control sequences out of 15000+600000
+ 14800 multiletter control sequences out of 15000+600000
  545080 words of font info for 80 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,434s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (44 pages, 97592 bytes).
+Output written on 修士論文.dvi (44 pages, 97848 bytes).

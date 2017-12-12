@@ -991,13 +991,11 @@ SSDで検出したbeamのプロットの中で赤くプロットされている�
   \caption{P-barパターンマッチ\label{fig:pbar_pattern}}
 \end{figure}
 \subsubsection{$\Xi$$^-$候補飛跡の選択}
-\begin{itemize}
-    \item 追跡の際に考える必要のある座標系について書く。
-    \item それらの座標系をつなぐためにaffine変換をつかい、目的の飛跡の位置に行くことが必要である。
-\end{itemize}
 追跡するために、SSDで検出した$\Xi$$^-$候補とpl01に記録された荷電粒子飛跡の対応をつける。
-先述したP-barパターンマッチにより、SSDと原子核乾板の座標の対応がついている。
-SSDで検出された$\Xi$$^-$候補の位置情報と角度情報を使い、$\Xi$$^-$候補の位置を薄型原子核乾板1枚目のbase上面まで外挿する。
+先述したP-barパターンマッチにより、SSDと原子核乾板の座標の対応がついており、
+Detector座標系からGrid座標系へのaffineパラメータを求められていることが前提である。
+affineパラメータにより、SSDで検出した$\Xi$$^-$候補が原子核乾板上でどの位置に記録されているかを求める。
+そして、SSDで検出された$\Xi$$^-$候補の位置情報と角度情報を使い、$\Xi$$^-$候補の位置を薄型原子核乾板1枚目のbase上面まで外挿する。
 これにより$\Xi$$^-$候補の薄型原子核乾板1枚目のbase上面における位置がおおよそ分かる。
 この薄型原子核乾板1枚目のbase上面における位置情報と角度情報を合わせてprediction(pred)とする。
 \par
@@ -1006,6 +1004,11 @@ predの座標を中心にして$\Xi$$^-$候補の角度により、原子核乾�
 検出した飛跡の中から、baseをまたいで繋がるものを薄型一枚目を通過している飛跡(basetrack)として記録する。
 basetrackは位置情報、角度情報を持っている。
 predとbasetrackの中から、角度がおおよそ似ている飛跡を追跡対象として下流の原子核乾板に接続し、飛跡追跡を行う。
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=140mm]{pl01_mosikizu.png}
+  \caption{$\Xi$$^-$候補飛跡模式図\label{fig:pl01_mosikizu}}
+\end{figure}
 \subsubsection{K$^-$beamパターンマッチ}
 \begin{itemize}
     \item emulsionとemulsionの位置ズレを補正するために行う。
