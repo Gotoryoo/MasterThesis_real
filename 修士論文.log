@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  11 DEC 2017 15:23
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  12 DEC 2017 15:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -759,7 +759,7 @@ File: cont.png Graphic file (type bmp)
 File: cont_hist.png Graphic file (type bmp)
 <cont_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 745--776
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 754--785
  [][][][] 
  []
 
@@ -773,7 +773,7 @@ File: gau2.png Graphic file (type bmp)
 File: gau2_hist.png Graphic file (type bmp)
 <gau2_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 802--833
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 811--842
  [][][][] 
  []
 
@@ -783,7 +783,7 @@ File: sub.png Graphic file (type bmp)
 File: sub_hist.png Graphic file (type bmp)
 <sub_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 844--860
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 854--870
  [][][][] 
  []
 
@@ -793,7 +793,7 @@ File: thre.png Graphic file (type bmp)
 File: thre_hist.png Graphic file (type bmp)
 <thre_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 874--890
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 884--900
  [][][][] 
  []
 
@@ -807,7 +807,7 @@ File: gau2.png Graphic file (type bmp)
 File: gau2_hist.png Graphic file (type bmp)
 <gau2_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1010--1041
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1020--1051
  [][][][] 
  []
 
@@ -828,7 +828,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1099--1130
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1109--1140
  [][][][] 
  []
 
@@ -837,7 +837,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1134--1150
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1144--1160
  [][][][] 
  []
 
@@ -847,12 +847,12 @@ Missing character: There is no ^^a9 in font cmr12!
 Missing character: There is no ^^8a in font cmr12!
  [41] (./修士論文.aux) ) 
 Here is how much of TeX's memory you used:
- 11338 strings out of 493648
- 220576 string characters out of 6150704
- 277010 words of memory out of 5000000
- 14789 multiletter control sequences out of 15000+600000
+ 11339 strings out of 493648
+ 220588 string characters out of 6150704
+ 277021 words of memory out of 5000000
+ 14790 multiletter control sequences out of 15000+600000
  545080 words of font info for 80 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,434s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (42 pages, 94900 bytes).
+Output written on 修士論文.dvi (42 pages, 95368 bytes).
