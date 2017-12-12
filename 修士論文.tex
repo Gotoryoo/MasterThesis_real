@@ -1010,15 +1010,16 @@ predとbasetrackの中から、角度がおおよそ似ている飛跡を追跡�
   \caption{$\Xi$$^-$候補飛跡模式図\label{fig:pl01_mosikizu}}
 \end{figure}
 \subsubsection{K$^-$beamパターンマッチ}
-\begin{itemize}
-    \item emulsionとemulsionの位置ズレを補正するために行う。
-    \item これにより、例pl01で記録された飛跡とpl02で記録された飛跡の対応付けをする。
-    \item どこをスキャンして、どのようになるのかを書く。模式図を書く。
-\end{itemize}
 beam照射は、エマルジョンカセットに13枚の原子核乾板を入れ、真空度を保ちbeam照射中に原子核乾板がずれないようにして実施した。
-しかし、原子核乾板一枚一枚違いがあり、現像の前後での変形も一様ではないため、
-上流の原子核乾板の位置情報と下流の原子核乾板の位置情報は、原点を照射したGridマークの中心にしたときに対応しない。
+しかし、人の手でカセットに入れており、原子核乾板一枚一枚違いがあり、現像の前後での変形も一様ではないため、
+各原子核乾板の位置情報は、原点を照射したGridマークの中心にしたときに対応しない。
 そこで、beam照射時に原子核乾板に対して垂直に照射されているK$^-$beamを使い、上流乾板と下流乾板の位置の対応をつける。
+これにより、上流の原子核乾板に記録されている$\Xi$$^-$候補飛跡と下流の原子核乾板に記録されている$\Xi$$^-$候補飛跡が一対一対応する。
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=120mm]{beam_mosikizu.png}
+  \caption{K$^-$beamパターンマッチ模式図\label{fig:beam_mosikizu}}
+\end{figure}
 \subsubsection{表面認識}
 \begin{itemize}
     \item 乳剤層と非乳剤層の境界面を取得するために行う。
