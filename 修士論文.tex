@@ -952,7 +952,8 @@ x,yとX,Yが対応している地点を3点以上検出し、式を解くこと�
 その変換パラメータを使い、対応がついていない地点の座標を推定する。
 \subsection{自動追跡の要素技術}
 \subsubsection{beamパターンマッチ}
-カウンターと原子核乾板の位置ズレや乾板間の位置ズレを正確に取得する手法としてbeamパターンマッチという手法が開発された。[大輔修論]
+カウンターと原子核乾板の位置ズレや乾板間の位置ズレを正確に取得する手法としてbeamパターンマッチという手法が開発された。
+\cite{daisuke}
 図●はパターンマッチの模式図である。
 系1と系2に記録されたbeamの形状が変化しておらず、互いの系において座標が異なる場合、使用できる。
 パターンマッチをするために系1と系2に記録されたbeamの座標の差分を総当たりで計算をする。
@@ -961,24 +962,34 @@ x,yとX,Yが対応している地点を3点以上検出し、式を解くこと�
 このとき、系1と系2がある数値分ずれている場合、その数値分ずれたベクトルが多く集計され、その他のベクトルはほとんど集計されないことになる。
 そのベクトルの集計でヒストグラム作成した場合このようにpeakが出現する。
 これにより、系1と系2の間に一定値のずれが存在している場合の位置ズレが取得できる。
+\par
+この手法により座標系間の位置対応、乾板間の位置対応をつけ、上述したaffine変換やtrack追跡に使用する。
 \subsubsection{P-barパターンマッチ}
-\begin{itemize}
-    \item SSDとemulsionの位置ズレを取得するのに必要。
-    \item 乾板の四隅に照射されているものを使う。(なぜP-barを使うのか、どのようにP-barが照射されているか確認する。)
-    \item どのようにP-barを取得するのか(スキャンする場所等を書く)を書く。
-    \item 四隅のうち3点箇所でパターンマッチがとれればズレが取得できる。(精度について書く。)
-\end{itemize}
 原子核乾板にはSSDとemulsionの照射時の位置差を取得するために反陽子ビームが照射されている。
 照射されているのは乾板の四つ角1cm1cmの領域であり、SSDと原子核乾板に対して垂直に照射されている。
 照射されている反陽子beamの濃度は1平方センチあたり10$^4$である。
 K$^-$beamは乾板に対して10$^6$照射されており、SSDとemulsionのパターンマッチをするには密に照射されているためp-barが必要になる。
 (おそらくSSDのワイヤーの張る間隔が10の6乗より疎であるから、K-では不可能)
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=140mm]{pbar_mosikizu.png}
+  \caption{P-barパターンマッチ模式図\label{fig:pbar_mosikizu}}
+\end{figure}
 \par
 角から1cmずつ内陸側に移動し、そこで5mm×5mmの領域をスキャンする。
 上側乳剤層と下側乳剤層をスキャンし、baseを挟んで接続された垂直なbeamを選び出すことで、原子核乾板薄型一枚目での飛跡集団のパターンを取得する。
 また、SSDに記録された垂直な飛跡集団を選び出すことでSSDに記録された飛跡集団のパターンを取得する。
-\par
-SSDと原子核乾板薄型一枚目での飛跡集団同士でパターンマッチを行うことで、SSDとemulsionの座標系の対応をつける。
+図\ref{fig:pbar_pattern}はスキャンにより取得したbeamとSSDで検出したbeamをプロットしたものである。
+左が原子核乾板に記録された垂直なbeam、右がSSDで検出した垂直なbeamである。
+二つのグラフの大きさは、それぞれのスキャン範囲の大きさに対応している。
+この二つの座標系のbeamの対応を上述したbeamパターンマッチによりつける。
+SSDで検出したbeamのプロットの中で赤くプロットされている部分が、原子核乾板に記録されたbeamが対応している部分である。
+このように薄型原子核乾板の四か所においてbeam位置の対応をつけることでDetector座標系(SSD座標系)、Grid座標系(現像前座標系)の対応をつける。
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=90mm]{pbar_pattern.png}
+  \caption{P-barパターンマッチ\label{fig:pbar_pattern}}
+\end{figure}
 \subsubsection{$\Xi$$^-$候補飛跡の選択}
 \begin{itemize}
     \item 追跡の際に考える必要のある座標系について書く。
@@ -1169,8 +1180,9 @@ trackの長さ、角度が一定で、原子核乾板の密度を変化させた
 \bibitem{Nagara} 「Double-$\Lambda$Hypernuclei observed in a hybrid emulsion experiment」PHYSICAL REVIEW C NUCLEAR PHYSICS Vol.88,No.1, July 2013
 \bibitem{Nagara2} 「”NAGARA event”が語る相互作用―KEK-PS E373 ダブルハイパー核実験―」仲澤和馬(岐阜大学)、高橋仁(京都大学)、PS-E373 共同実験グループ 高エネルギーニュース Vol.20 No.5 p.206 2002
 \bibitem{takusann} 学位論文「大規模実験用高性能原子核乾板OPERA Filmの開発」第四章 Refresh処理 名古屋大学大学院理学研究科素粒子宇宙物理学専攻F研究室 中村琢 著(2005年)
-\bibitem{endo} Y.Endo,Master.Thesis, Gifu University (2017).
-\bibitem{muramoto} N.Muramoto, Graduation. Thesis, Gifu University (2016).
 \bibitem{oohashi} M.Ohashi, Graduation. Thesis, Gifu University (2015).
+\bibitem{muramoto} N.Muramoto, Graduation. Thesis, Gifu University (2016).
+\bibitem{endo} Y.Endo,Master.Thesis, Gifu University (2016).
+\bibitem{daisuke} D.Daisuke,Master.Thesis, Gifu University (2016).
 \end{thebibliography}
 \end{document} 

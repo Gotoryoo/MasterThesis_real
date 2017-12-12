@@ -34,10 +34,10 @@
 \contentsline {subsubsection}{\numberline {3.4.1}beamパターンマッチ}{34}
 \contentsline {subsubsection}{\numberline {3.4.2}P-barパターンマッチ}{34}
 \contentsline {subsubsection}{\numberline {3.4.3}$\Xi $$^-$候補飛跡の選択}{35}
-\contentsline {subsubsection}{\numberline {3.4.4}K$^-$beamパターンマッチ}{35}
+\contentsline {subsubsection}{\numberline {3.4.4}K$^-$beamパターンマッチ}{36}
 \contentsline {subsubsection}{\numberline {3.4.5}表面認識}{36}
-\contentsline {subsubsection}{\numberline {3.4.6}荷電粒子飛跡追跡}{37}
-\contentsline {section}{\numberline {4}E07乾板における開発プログラムでの追跡実績}{39}
-\contentsline {section}{\numberline {5}まとめ}{40}
-\contentsline {section}{付録}{40}
-\contentsline {section}{謝辞}{42}
+\contentsline {subsubsection}{\numberline {3.4.6}荷電粒子飛跡追跡}{38}
+\contentsline {section}{\numberline {4}E07乾板における開発プログラムでの追跡実績}{40}
+\contentsline {section}{\numberline {5}まとめ}{41}
+\contentsline {section}{付録}{41}
+\contentsline {section}{謝辞}{43}
