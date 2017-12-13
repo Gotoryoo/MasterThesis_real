@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  12 DEC 2017 20:01
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  13 DEC 2017 11:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -545,21 +545,26 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 37.
- (./修士論文.toc)
+ (./修士論文.toc
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+ [1])
 \tf@toc=\write3
 \openout3 = `修士論文.toc'.
 
- [1]
+ [2]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 41.
 File: den_barion.png Graphic file (type bmp)
 <den_barion.png>
- [2]
+ [3]
 File: makehyper.png Graphic file (type bmp)
 <makehyper.png>
- [3]
+ [4]
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
 Missing character: There is no ^^c2 in font cmr12!
@@ -570,7 +575,7 @@ Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
- [4]
+ [5]
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
 File: process_bdev.png Graphic file (type bmp)
@@ -588,21 +593,10 @@ Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
-[5]
+[6]
 File: microscope.png Graphic file (type bmp)
 <microscope.png>
- [6]
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 177.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 177.
-
-
-LaTeX Warning: Citation `Nagara' on page 7 undefined on input line 177.
-
-
-LaTeX Warning: Citation `Nagara2' on page 7 undefined on input line 178.
-
+ [7]
 File: Nagara_witheq.png Graphic file (type bmp)
 <Nagara_witheq.png>
 File: Kiso_witheq.png Graphic file (type bmp)
@@ -612,10 +606,10 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 196--214
  [][][][] 
  []
 
-[7]
+[8]
 File: e07setup.png Graphic file (type bmp)
 <e07setup.png>
- [8]
+ [9]
 File: compton_cosmiclay.png Graphic file (type bmp)
 <compton_cosmiclay.png>
 File: emulsion_in_Kamioka.png Graphic file (type bmp)
@@ -625,7 +619,7 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 268--285
  [][][][] 
  []
 
-[9]
+[10]
 File: beam_efficiency_to_compton.png Graphic file (type bmp)
 <beam_efficiency_to_compton.png>
 File: beam_efficiency_to_compton.png Graphic file (type bmp)
@@ -635,10 +629,7 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 298--315
  [][][][] 
  []
 
-[10]
-
-LaTeX Warning: Citation `takusann' on page 11 undefined on input line 328.
-
+[11]
 File: ref_pro1.png Graphic file (type bmp)
 <ref_pro1.png>
 
@@ -665,22 +656,16 @@ Overfull \hbox (15.56766pt too wide) in paragraph at lines 338--361
  [][][][] 
  []
 
-
-LaTeX Warning: Citation `oohashi' on page 11 undefined on input line 364.
-
-
-LaTeX Warning: Citation `muramoto' on page 11 undefined on input line 369.
-
 File: refresh_chember.png Graphic file (type bmp)
 <refresh_chember.png>
 File: refresh_hanga.png Graphic file (type bmp)
 <refresh_hanga.png>
-[11] [12]
+[12] [13]
 File: darkroom_after.png Graphic file (type bmp)
 <darkroom_after.png>
 File: darkroom_view.png Graphic file (type bmp)
 <darkroom_view.png>
- [13]
+ [14]
 File: darkroom_temp.png Graphic file (type bmp)
 <darkroom_temp.png>
 File: darkroom_mist.png Graphic file (type bmp)
@@ -689,14 +674,10 @@ File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
- [14] [15]
+ [15] [16]
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
-
-
-LaTeX Warning: Citation `endo' on page 16 undefined on input line 458.
-
-[16]
+ [17]
 File: tezyun_6.png Graphic file (type bmp)
 <tezyun_6.png>
 File: tezyun_7.png Graphic file (type bmp)
@@ -717,13 +698,9 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 495--513
 
 File: ponpu.png Graphic file (type bmp)
 <ponpu.png>
-[17] [18]
+[18] [19]
 File: e07setup_real.png Graphic file (type bmp)
 <e07setup_real.png>
-
-
-LaTeX Warning: Citation `endo' on page 19 undefined on input line 537.
-
 File: vacuum117.png Graphic file (type bmp)
 <vacuum117.png>
 File: casette_fix_moderu.png Graphic file (type bmp)
@@ -735,7 +712,7 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 552--566
  [][][][] 
  []
 
-[19] [20]
+[20] [21]
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
@@ -745,12 +722,12 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 576--592
  [][][][] 
  []
 
-[21]
+[22]
 File: thick75_den.png Graphic file (type bmp)
 <thick75_den.png>
 File: kasozai.png Graphic file (type bmp)
 <kasozai.png>
- [22] [23]
+ [23] [24]
 File: gennzou_condition.png Graphic file (type bmp)
 <gennzou_condition.png>
 File: gennzou_turusi.png Graphic file (type bmp)
@@ -762,7 +739,7 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 664--682
 
 File: gennzou_timetable.png Graphic file (type bmp)
 <gennzou_timetable.png>
-[24] [25]
+[25] [26]
 File: emulsion_up.png Graphic file (type bmp)
 <emulsion_up.png>
 File: emulsion_low.png Graphic file (type bmp)
@@ -772,7 +749,7 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 714--730
  [][][][] 
  []
 
-[26]
+[27]
 File: row.png Graphic file (type bmp)
 <row.png>
 File: row_hist.png Graphic file (type bmp)
@@ -786,7 +763,7 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 755--786
  [][][][] 
  []
 
-[27] [28]
+[28] [29]
 File: cont.png Graphic file (type bmp)
 <cont.png>
 File: cont_hist2.png Graphic file (type bmp)
@@ -800,7 +777,7 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 812--843
  [][][][] 
  []
 
-[29] [30]
+[30] [31]
 File: sub.png Graphic file (type bmp)
 <sub.png>
 File: sub_hist.png Graphic file (type bmp)
@@ -819,30 +796,17 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 886--902
  [][][][] 
  []
 
-[31]
-
-LaTeX Warning: Citation `daisuke' on page 32 undefined on input line 956.
-
-[32]
+[32] [33]
 File: pbar_mosikizu.png Graphic file (type bmp)
 <pbar_mosikizu.png>
 File: pbar_pattern.png Graphic file (type bmp)
 <pbar_pattern.png>
- [33]
+ [34]
 File: pl01_mosikizu.png Graphic file (type bmp)
 <pl01_mosikizu.png>
- [34]
+ [35]
 File: beam_mosikizu.png Graphic file (type bmp)
 <beam_mosikizu.png>
- [35]
-
-LaTeX Warning: Reference `fig:do_hyoumenn_outin_image' on page 36 undefined on 
-input line 1029.
-
-
-LaTeX Warning: Reference `fig:do_hyoumenn_outin_image' on page 36 undefined on 
-input line 1031.
-
 File: emulsion_in.png Graphic file (type bmp)
 <emulsion_in.png>
 File: emulsion_out.png Graphic file (type bmp)
@@ -852,22 +816,18 @@ File: emul_in_thre.png Graphic file (type bmp)
 File: emul_out_thre.png Graphic file (type bmp)
 <emul_out_thre.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1036--1067
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1032--1063
  [][][][] 
  []
 
+[36]
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
-
-LaTeX Warning: Reference `fig:hyoumenn_kidoti' on page 36 undefined on input li
-ne 1071.
-
 File: kasozai.png Graphic file (type bmp)
 <kasozai.png>
-[36] [37]
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
- [38] [39]
+ [37] [38] [39] [40]
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
@@ -877,7 +837,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1125--1156
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1121--1152
  [][][][] 
  []
 
@@ -886,29 +846,26 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1160--1176
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1156--1172
  [][][][] 
  []
 
-[40] [41]
+[41] [42]
 Missing character: There is no ^^ef in font cmr12!
 Missing character: There is no ^^a9 in font cmr12!
 Missing character: There is no ^^8a in font cmr12!
- [42] (./修士論文.aux)
-
-LaTeX Warning: There were undefined references.
-
+ [43] (./修士論文.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 11368 strings out of 493648
- 221288 string characters out of 6150704
- 275992 words of memory out of 5000000
- 14807 multiletter control sequences out of 15000+600000
- 545080 words of font info for 80 fonts, out of 8000000 for 9000
+ 11365 strings out of 493648
+ 221252 string characters out of 6150704
+ 277068 words of memory out of 5000000
+ 14805 multiletter control sequences out of 15000+600000
+ 544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 35i,13n,48p,10372b,434s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (43 pages, 87616 bytes).
+Output written on 修士論文.dvi (44 pages, 97640 bytes).
