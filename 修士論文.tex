@@ -435,26 +435,39 @@ E07実験2ndRunの原子核乾板には図\ref{fig:nega_2ndRun}を使いGridマ�
 \end{figure}
 \subsubsection{GridMark照射装置}
 E071stRunではタイマーを用いて10秒間原子核乾板に露光した。
-この先行研究と同様の手法(田村卒論)で1mod分照射するのに約1時間半の時間が必要になる。
+図\ref{fig:grid_1stRun}は1stRunのGridマーク照射の模式図である。
+1stRunは先行研究と同様の方法を用いて照射をした。\cite{tamura}
+Gridマーク照射装置の操作者がストロボ装置のスイッチを入れると同時にストップウォッチのスイッチを入れる。
+ストップウォッチで10秒間露光した後ストロボ装置の電源を切り、Gridマーク照射を終了する。
+この先行研究と同様の手法では1mod分照射するのに約1時間半の時間が必要になる。
 E07実験2ndRunではbeam照射後すぐにGridマークを照射する。
 従来の手法から変更することで照射の時間短縮及び疲労の削減のために照射装置の改造を行った。
-\par
-図\ref{fig:grid_1stRun}は1stRunのGridマーク照射の模式図である。
-1stRunは先行研究と同様の方法を用いて照射をした。
 \begin{figure}[htbp]
   \centering
      \includegraphics[width=140mm]{grid_1stRun.png}
   \caption{1stRunGridマーク照射模式図\label{fig:grid_1stRun}}
 \end{figure}
-田村卒論を確認して、露光時間、最終的にどれくらい照射すれば良いのか、照射装置の構造の写真を引用して載せる。
-\par
-吉田氏が組んだ回路の図を載せる。
-2ndRunのGridマークはこの装置を使用して焼き付けた。
-田村さんの卒論からGridマークを焼き付けるのにどれくらい照射する必要があるのかを確認して引用する。
 \begin{figure}[htbp]
   \centering
      \includegraphics[width=140mm]{grid_printer.png}
   \caption{Gridマーク照射装置\label{fig:grid_masi-nn}}
+\end{figure}
+\par
+2ndRunのGridマーク照射ではストロボスタートボタンを設け、指定の回数発行した後自動でストロボのスイッチを切るように設定した。
+1stRunで運用したストロボ光照射条件は、点滅周期1024 rpmで動作時間10秒だった。\cite{tamura}
+1024 rpmは17.07 Hz(T=58.6msec.)なので発光回数は約171回。
+したがってストロボスタートボタンの挙動は100Hz*1.71秒(10msec*171回)とした。
+\par
+2ndRunのGridマーク照射は図\ref{fig:grid_botan}を押すことで高速での照射を可能にした。
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=140mm]{grid_kairo.png}
+  \caption{Gridマークトリガー回路\label{fig:grid_kairo}}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=140mm]{grid_botan.png}
+  \caption{Gridマークトリガーボタン\label{fig:grid_botan}}
 \end{figure}
 \subsection{E07実験2ndRunbeam照射}
 \subsubsection{作業内容}
@@ -1202,8 +1215,9 @@ trackの長さ、角度が一定で、原子核乾板の密度を変化させた
 \bibitem{Nagara} 「Double-$\Lambda$Hypernuclei observed in a hybrid emulsion experiment」PHYSICAL REVIEW C NUCLEAR PHYSICS Vol.88,No.1, July 2013
 \bibitem{Nagara2} 「”NAGARA event”が語る相互作用―KEK-PS E373 ダブルハイパー核実験―」仲澤和馬(岐阜大学)、高橋仁(京都大学)、PS-E373 共同実験グループ 高エネルギーニュース Vol.20 No.5 p.206 2002
 \bibitem{takusann} 学位論文「大規模実験用高性能原子核乾板OPERA Filmの開発」第四章 Refresh処理 名古屋大学大学院理学研究科素粒子宇宙物理学専攻F研究室 中村琢 著(2005年)
-\bibitem{oohashi} M.Ohashi, Graduation. Thesis, Gifu University (2015).
-\bibitem{muramoto} N.Muramoto, Graduation. Thesis, Gifu University (2016).
+\bibitem{oohashi} M.Ohashi,Graduation.Thesis,Gifu University (2015).
+\bibitem{muramoto} N.Muramoto,Graduation.Thesis,Gifu University (2016).
+\bibitem{tamura} K.Tamura,,Graduation.Thesis,Gifu University (2015).
 \bibitem{endo} Y.Endo,Master.Thesis, Gifu University (2016).
 \bibitem{daisuke} D.Daisuke,Master.Thesis, Gifu University (2016).
 \end{thebibliography}
