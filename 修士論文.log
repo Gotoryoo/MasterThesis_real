@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  18 DEC 2017 16:27
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  18 DEC 2017 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -837,8 +837,8 @@ Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
 File: tuiseki_gazou.png Graphic file (type bmp)
 <tuiseki_gazou.png>
-File: kasozai.png Graphic file (type bmp)
-<kasozai.png>
+File: tuiseki_gazou2.png Graphic file (type bmp)
+<tuiseki_gazou2.png>
  [40]
 File: sekisou_step1.png Graphic file (type bmp)
 <sekisou_step1.png>
@@ -846,9 +846,10 @@ File: sekisou_step2.png Graphic file (type bmp)
 <sekisou_step2.png>
 File: sekisou_step3.png Graphic file (type bmp)
 <sekisou_step3.png>
+ [41]
 File: sekisou_step4.png Graphic file (type bmp)
 <sekisou_step4.png>
- [41] [42] [43]
+ [42] [43]
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
@@ -858,7 +859,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1207--1238
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1208--1239
  [][][][] 
  []
 
@@ -867,7 +868,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1242--1258
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1243--1259
  [][][][] 
  []
 
@@ -875,14 +876,18 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 1242--1258
 Missing character: There is no ^^ef in font cmr12!
 Missing character: There is no ^^a9 in font cmr12!
 Missing character: There is no ^^8a in font cmr12!
- [46] (./修士論文.aux) ) 
+ [46] (./修士論文.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 11411 strings out of 493648
- 222324 string characters out of 6150704
+ 11415 strings out of 493648
+ 222432 string characters out of 6150704
  277181 words of memory out of 5000000
- 14833 multiletter control sequences out of 15000+600000
+ 14835 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (47 pages, 104696 bytes).
+Output written on 修士論文.dvi (47 pages, 104952 bytes).
