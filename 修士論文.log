@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  17 DEC 2017 17:07
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  18 DEC 2017 15:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -835,7 +835,18 @@ File: kasozai.png Graphic file (type bmp)
  [38] [39]
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
- [40] [41] [42]
+File: kasozai.png Graphic file (type bmp)
+<kasozai.png>
+ [40]
+File: sekisou_step1.png Graphic file (type bmp)
+<sekisou_step1.png>
+File: sekisou_step2.png Graphic file (type bmp)
+<sekisou_step2.png>
+File: sekisou_step3.png Graphic file (type bmp)
+<sekisou_step3.png>
+File: sekisou_step4.png Graphic file (type bmp)
+<sekisou_step4.png>
+ [41] [42] [43]
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
@@ -845,7 +856,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1157--1188
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1198--1229
  [][][][] 
  []
 
@@ -854,22 +865,26 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1192--1208
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1233--1249
  [][][][] 
  []
 
-[43] [44]
+[44] [45]
 Missing character: There is no ^^ef in font cmr12!
 Missing character: There is no ^^a9 in font cmr12!
 Missing character: There is no ^^8a in font cmr12!
- [45] (./修士論文.aux) ) 
+ [46] (./修士論文.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 11385 strings out of 493648
- 221689 string characters out of 6150704
- 277109 words of memory out of 5000000
- 14817 multiletter control sequences out of 15000+600000
+ 11408 strings out of 493648
+ 222239 string characters out of 6150704
+ 277193 words of memory out of 5000000
+ 14832 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (46 pages, 100980 bytes).
+Output written on 修士論文.dvi (47 pages, 103804 bytes).
