@@ -1124,7 +1124,19 @@ mask内のみの情報を残した画像を使い、重心検出を行う。
 \begin{figure}[htbp]
   \centering
      \includegraphics[width=140mm]{kasozai.png}
-  \caption{原子核乾板の撮影か所による輝度値情報の推移\label{fig:sekisou_nitika}}
+  \caption{積層画像に対する二値化処理\label{fig:sekisou_nitika}}
+\end{figure}
+\par
+原子核乾板中に記録された荷電粒子飛跡が直線的に記録されているのならば、撮影した画像をそのまま積層することで、飛跡の重心を算出することができる。
+しかし、原子核乾板中で荷電粒子は他の荷電粒子との相互作用や原子核乾板の状態により湾曲して記録される部分がある。
+これにより、予測した角度とは違う角度で原子核乾板に記録されることになる。
+追跡している飛跡の角度と予測した角度が異なるまま撮影した画像をそのまま積層すると、追跡している荷電粒子飛跡の重心を検出することができない。
+そのため、飛跡追跡では撮影した画像の積層方法を変化させている。
+図\ref{fig:sekisou_method}は積層方法の模式図である。
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=140mm]{kasozai.png}
+  \caption{撮影画像の積層方法\label{fig:sekisou_method}}
 \end{figure}
 \par
 追跡には、上述した表面認識、K$^-$beamパターンマッチによる$\Xi$$^-$候補飛跡の乾板間接続が成功し、
