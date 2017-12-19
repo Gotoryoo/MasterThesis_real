@@ -39,7 +39,7 @@
 \contentsline {subsubsection}{\numberline {3.4.6}荷電粒子飛跡追跡}{40}
 \contentsline {section}{\numberline {4}E07乾板の追跡結果}{44}
 \contentsline {subsection}{\numberline {4.1}薄型一枚目における$\Xi $$^-$候補飛跡選び出し}{44}
-\contentsline {subsection}{\numberline {4.2}$\Xi $$^-$候補飛跡追跡}{44}
-\contentsline {section}{\numberline {5}まとめ}{45}
-\contentsline {section}{付録}{45}
-\contentsline {section}{謝辞}{47}
+\contentsline {subsection}{\numberline {4.2}$\Xi $$^-$候補飛跡追跡}{45}
+\contentsline {section}{\numberline {5}まとめ}{46}
+\contentsline {section}{付録}{46}
+\contentsline {section}{謝辞}{48}
