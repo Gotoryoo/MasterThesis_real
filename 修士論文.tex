@@ -1112,39 +1112,6 @@ mask内のみの情報を残した画像を使い、重心検出を行う。
   \caption{積層画像に対する二値化処理\label{fig:sekisou_nitika}}
 \end{figure}
 \par
-原子核乾板中に記録された荷電粒子飛跡が直線的に記録されているのならば、撮影した画像をそのまま積層することで、飛跡の重心を算出することができる。
-(図\ref{fig:sekisou_step1})
-しかし、追跡している飛跡の角度と予測した角度が異なるまま撮影した画像をそのまま積層すると、追跡している荷電粒子飛跡の重心を検出することができない。
-(図\ref{fig:sekisou_step2})
-そのため、飛跡追跡では撮影した画像の積層方法を変化させている。
-図\ref{fig:sekisou_step3}は積層方法の模式図である。
-撮影した画像をただ積層するだけではなく、ずらして積層させる。
-これにより、ただ積層させる場合より適切に飛跡の重心を算出する。
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=100mm]{sekisou_step1.png}
-  \caption{撮影画像の単純な積層\label{fig:sekisou_step1}}
-\end{figure}
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=100mm]{sekisou_step2.png}
-  \caption{撮影画像の単純な積層による失敗例\label{fig:sekisou_step2}}
-\end{figure}
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=100mm]{sekisou_step3.png}
-  \caption{撮影画像の積層方法\label{fig:sekisou_step3}}
-\end{figure}
-\par
-この積層手法を用いると、図\ref{fig:sekisou_step4}のように複数の飛跡が画像内に記録されていた場合、
-飛跡すべてが検出される。
-そのため検出した後に、predictionで算出した位置、角度情報と比較し、最も追跡している飛跡に近いものを追跡する。
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=100mm]{sekisou_step4.png}
-  \caption{積層により検出した飛跡\label{fig:sekisou_step4}}
-\end{figure}
-\par
 この画像撮影と飛跡の重心検出を繰り返すことで、原子核乾板内に記録された飛跡を乾板をまたいで追跡し、静止点まで追跡する。
 
 
