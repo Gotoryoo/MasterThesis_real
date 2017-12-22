@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  21 DEC 2017 17:41
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  22 DEC 2017 19:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -691,7 +691,6 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 490--508
  [][][][] 
  []
 
-[18]
 File: tezyun_8.png Graphic file (type bmp)
 <tezyun_8.png>
 File: tezyun_9.png Graphic file (type bmp)
@@ -703,21 +702,23 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 511--529
 
 File: ponpu.png Graphic file (type bmp)
 <ponpu.png>
-[19] [20]
+[18] [19]
 File: e07setup_real.png Graphic file (type bmp)
 <e07setup_real.png>
+ [20]
 File: vacuum117.png Graphic file (type bmp)
 <vacuum117.png>
+ [21]
 File: casette_fix_moderu.png Graphic file (type bmp)
 <casette_fix_moderu.png>
 File: casettefix.png Graphic file (type bmp)
 <casettefix.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 568--582
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 570--584
  [][][][] 
  []
 
-[21] [22]
+[22]
 File: thick75_den.png Graphic file (type bmp)
 <thick75_den.png>
 File: kasozai.png Graphic file (type bmp)
@@ -727,24 +728,19 @@ File: gennzou_condition.png Graphic file (type bmp)
 <gennzou_condition.png>
 File: gennzou_turusi.png Graphic file (type bmp)
 <gennzou_turusi.png>
-
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 660--678
- [][][][] 
- []
-
 File: gennzou_timetable.png Graphic file (type bmp)
 <gennzou_timetable.png>
-[25] [26]
+ [25] [26] [27]
 File: emulsion_up.png Graphic file (type bmp)
 <emulsion_up.png>
 File: emulsion_low.png Graphic file (type bmp)
 <emulsion_low.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 710--726
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 701--717
  [][][][] 
  []
 
-[27]
+[28]
 File: row.png Graphic file (type bmp)
 <row.png>
 File: row_hist.png Graphic file (type bmp)
@@ -754,11 +750,11 @@ File: cont.png Graphic file (type bmp)
 File: cont_hist.png Graphic file (type bmp)
 <cont_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 751--782
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 742--773
  [][][][] 
  []
 
-[28] [29]
+[29] [30]
 File: cont.png Graphic file (type bmp)
 <cont.png>
 File: cont_hist2.png Graphic file (type bmp)
@@ -768,17 +764,17 @@ File: gau2.png Graphic file (type bmp)
 File: gau2_hist.png Graphic file (type bmp)
 <gau2_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 808--839
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 799--830
  [][][][] 
  []
 
-[30] [31]
+[31] [32]
 File: sub.png Graphic file (type bmp)
 <sub.png>
 File: sub_hist.png Graphic file (type bmp)
 <sub_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 853--869
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 844--860
  [][][][] 
  []
 
@@ -787,19 +783,19 @@ File: thre.png Graphic file (type bmp)
 File: thre_hist.png Graphic file (type bmp)
 <thre_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 882--898
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 873--889
  [][][][] 
  []
 
-[32] [33]
+[33] [34]
 File: pbar_mosikizu.png Graphic file (type bmp)
 <pbar_mosikizu.png>
 File: pbar_pattern.png Graphic file (type bmp)
 <pbar_pattern.png>
- [34]
+ [35]
 File: pl01_mosikizu.png Graphic file (type bmp)
 <pl01_mosikizu.png>
- [35]
+ [36]
 File: beam_mosikizu.png Graphic file (type bmp)
 <beam_mosikizu.png>
 File: emulsion_in.png Graphic file (type bmp)
@@ -811,23 +807,23 @@ File: emul_in_thre.png Graphic file (type bmp)
 File: emul_out_thre.png Graphic file (type bmp)
 <emul_out_thre.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1030--1061
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1021--1052
  [][][][] 
  []
 
-[36]
+[37]
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
 File: kasozai.png Graphic file (type bmp)
 <kasozai.png>
- [37] [38]
+ [38] [39]
 Missing character: There is no ^^c2 in font cmr12!
 Missing character: There is no ^^b5 in font cmr12!
 File: tuiseki_gazou.png Graphic file (type bmp)
 <tuiseki_gazou.png>
 File: tuiseki_gazou2.png Graphic file (type bmp)
 <tuiseki_gazou2.png>
- [39] [40]
+ [40] [41]
 File: sekisou_step4.png Graphic file (type bmp)
 <sekisou_step4.png>
 File: gennzou_condition.png Graphic file (type bmp)
@@ -835,11 +831,11 @@ File: gennzou_condition.png Graphic file (type bmp)
 File: gennzou_turusi.png Graphic file (type bmp)
 <gennzou_turusi.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1138--1156
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1129--1147
  [][][][] 
  []
 
-[41] [42]
+[42] [43]
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
@@ -849,7 +845,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1187--1218
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1178--1209
  [][][][] 
  []
 
@@ -858,26 +854,26 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1222--1238
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1213--1229
  [][][][] 
  []
 
-[43] [44]
+[44] [45]
 Missing character: There is no ^^ef in font cmr12!
 Missing character: There is no ^^a9 in font cmr12!
 Missing character: There is no ^^8a in font cmr12!
- [45] (./修士論文.aux)
+ [46] (./修士論文.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 11411 strings out of 493648
- 222252 string characters out of 6150704
- 277227 words of memory out of 5000000
- 14835 multiletter control sequences out of 15000+600000
+ 11407 strings out of 493648
+ 222176 string characters out of 6150704
+ 277179 words of memory out of 5000000
+ 14831 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (46 pages, 105796 bytes).
+Output written on 修士論文.dvi (47 pages, 105872 bytes).
