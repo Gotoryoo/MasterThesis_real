@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  22 DEC 2017 19:50
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  23 DEC 2017 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -565,19 +565,9 @@ File: den_barion.png Graphic file (type bmp)
 File: makehyper.png Graphic file (type bmp)
 <makehyper.png>
  [4]
-Missing character: There is no ^^c2 in font cmr12!
-Missing character: There is no ^^b5 in font cmr12!
-Missing character: There is no ^^c2 in font cmr12!
-Missing character: There is no ^^b5 in font cmr12!
-Missing character: There is no ^^c2 in font cmr12!
-Missing character: There is no ^^b5 in font cmr12!
-Missing character: There is no ^^c2 in font cmr12!
-Missing character: There is no ^^b5 in font cmr12!
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
  [5]
-Missing character: There is no ^^c2 in font cmr12!
-Missing character: There is no ^^b5 in font cmr12!
 File: process_bdev.png Graphic file (type bmp)
 <process_bdev.png>
 File: process_adev.png Graphic file (type bmp)
@@ -589,10 +579,6 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 137--153
 
 File: grainfog.png Graphic file (type bmp)
 <grainfog.png>
-Missing character: There is no ^^c2 in font cmr12!
-Missing character: There is no ^^b5 in font cmr12!
-Missing character: There is no ^^c2 in font cmr12!
-Missing character: There is no ^^b5 in font cmr12!
 [6]
 File: microscope.png Graphic file (type bmp)
 <microscope.png>
@@ -812,13 +798,9 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 1021--1052
  []
 
 [37]
-Missing character: There is no ^^c2 in font cmr12!
-Missing character: There is no ^^b5 in font cmr12!
 File: kasozai.png Graphic file (type bmp)
 <kasozai.png>
  [38] [39]
-Missing character: There is no ^^c2 in font cmr12!
-Missing character: There is no ^^b5 in font cmr12!
 File: tuiseki_gazou.png Graphic file (type bmp)
 <tuiseki_gazou.png>
 File: tuiseki_gazou2.png Graphic file (type bmp)
@@ -870,10 +852,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  11407 strings out of 493648
  222176 string characters out of 6150704
- 277179 words of memory out of 5000000
+ 277177 words of memory out of 5000000
  14831 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (47 pages, 105872 bytes).
+Output written on 修士論文.dvi (47 pages, 105908 bytes).
