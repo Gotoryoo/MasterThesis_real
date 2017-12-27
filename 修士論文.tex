@@ -243,6 +243,9 @@ emulsionに記録された飛跡の中で$\Xi$$^-$粒子である確率の高い
      \includegraphics[width=95mm]{e07setup.png}
   \caption{E07実験のセットアップ\label{fig:e07setup}}
 \end{figure}
+\par
+我々は、E071stRunを2016年6月18日〜30日に実施した。
+1stRunでは18stacksへのbeam照射に成功した。
 
 
 \newpage
@@ -1104,7 +1107,7 @@ mask内のみの情報を残した画像を使い、重心検出を行う。
 \newpage
 \section{E07乾板の追跡結果}
 \subsection{薄型一枚目における$\Xi$$^-$候補飛跡選び出し}
-\ref{pl01_track}に記述した手法を用いてMod005pl01で$\Xi$$^-$候補飛跡の読み取りを実施した。
+\ref{pl01_track}に記述した手法を用いてMod009pl01で$\Xi$$^-$候補飛跡の読み取りを実施した。
 SSDで検出した$\Xi$$^-$候補の位置情報、角度情報を使い、薄型乾板一枚目をスキャンした。
 スキャンした結果から、$\Xi$$^-$候補飛跡の位置と角度が似ているものを$\Xi$$^-$候補飛跡の追跡候補として選び出した。
 図\ref{fig:ssd_pl01}はSSDで検出した$\Xi$$^-$候補とスキャン結果から検出した$\Xi$$^-$候補飛跡の位置差を示している。
@@ -1117,7 +1120,7 @@ SSDよって検出した$\Xi$$^-$候補と検出した飛跡の位置座標が�
 \begin{figure}[htbp]
   \centering
      \includegraphics[width=100mm]{sekisou_step4.png}
-  \caption{SSDで検出した$\Xi$$^-$候補飛跡と原子核乾板のスキャンから検出した荷電粒子飛跡の位置差\label{fig:ssd_pl01}}
+  \caption{SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出した荷電粒子飛跡の位置差\label{fig:ssd_pl01}}
 \end{figure}
 \begin{figure}[htbp]
   \centering
@@ -1127,7 +1130,7 @@ SSDよって検出した$\Xi$$^-$候補と検出した飛跡の位置座標が�
           \centering
             \includegraphics[clip, width=70mm]{gennzou_condition.png}
             \hspace{1.6cm} 
-            \caption{SSDで検出した$\Xi$$^-$候補飛跡と原子核乾板のスキャンから検出した荷電粒子飛跡のx方向の位置差、角度差\label{fig:ssd_pl01_x}}
+            \caption{SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出した荷電粒子飛跡のx方向の位置差、角度差\label{fig:ssd_pl01_x}}
         \end{minipage}
         
         % 2枚目の画像
@@ -1135,11 +1138,60 @@ SSDよって検出した$\Xi$$^-$候補と検出した飛跡の位置座標が�
           \centering
             \includegraphics[clip, width=70mm]{gennzou_turusi.png}
             \hspace{1.6cm} 
-            \caption{SSDで検出した$\Xi$$^-$候補飛跡と原子核乾板のスキャンから検出した荷電粒子飛跡のy方向の位置差、角度差\label{fig:ssd_pl01_y}}
+            \caption{SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出した荷電粒子飛跡のy方向の位置差、角度差\label{fig:ssd_pl01_y}}
         \end{minipage}
-    
       \end{tabular}
 \end{figure}
+\par
+図\ref{fig:ssd_pl01}を見ると、
+SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出した荷電粒子飛跡の位置差のデータ点が図の原点付近にないことが分かる。
+原子核乾板に照射されたGridマークの座標を取得することで、座標変換のパラメータを取得しスキャンを実施している。
+そのため、Gridマーク座標記録の数を増加し、原子核乾板全域において適切に変換可能なパラメータの算出をすることで、
+原点付近にデータ点が近づくのかを検証した。
+\begin{figure}[htbp]
+  \centering
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=70mm]{gennzou_condition.png}
+            \hspace{1.6cm} 
+            \caption{SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出した荷電粒子飛跡のx方向の位置差、角度差}
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=70mm]{gennzou_turusi.png}
+            \hspace{1.6cm} 
+            \caption{SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出した荷電粒子飛跡のy方向の位置差、角度差}
+        \end{minipage}
+      \end{tabular}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=70mm]{gennzou_condition.png}
+            \hspace{1.6cm} 
+            \caption{SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出した荷電粒子飛跡のx方向の位置差、角度差}
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=70mm]{gennzou_turusi.png}
+            \hspace{1.6cm} 
+            \caption{SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出した荷電粒子飛跡のy方向の位置差、角度差}
+        \end{minipage}
+      \end{tabular}
+\end{figure}
+\par
+Gridマーク測定点5点でMod000pl01のスキャンを実施した結果が図●、Gridマーク測定点9点でMod000pl01のスキャンを実施した結果が図●である。
+
+
 \newpage
 \subsection{$\Xi$$^-$候補飛跡追跡}
 図\ref{fig:ssd_pl01}にプロットされたデータ点の数だけ追跡を行い、静止点まで追跡を行った。
