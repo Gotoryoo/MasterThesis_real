@@ -5,41 +5,41 @@
 \contentsline {subsection}{\numberline {1.4}光学顕微鏡}{7}
 \contentsline {subsection}{\numberline {1.5}KEK-PS E373実験}{8}
 \contentsline {subsection}{\numberline {1.6}J-PARC E07実験}{9}
-\contentsline {section}{\numberline {2}J-PARC E07実験2ndRun}{10}
-\contentsline {subsection}{\numberline {2.1}Refresh処理の実施}{10}
-\contentsline {subsubsection}{\numberline {2.1.1}実施背景}{10}
-\contentsline {subsubsection}{\numberline {2.1.2}原理}{13}
-\contentsline {subsubsection}{\numberline {2.1.3}実施環境}{13}
-\contentsline {subsection}{\numberline {2.2}GridMark照射環境の最適化}{15}
-\contentsline {subsubsection}{\numberline {2.2.1}暗室の拡張}{15}
-\contentsline {subsubsection}{\numberline {2.2.2}GridMarkネガ}{17}
-\contentsline {subsubsection}{\numberline {2.2.3}GridMark照射装置}{17}
-\contentsline {subsection}{\numberline {2.3}E07実験2ndRunbeam照射}{19}
-\contentsline {subsubsection}{\numberline {2.3.1}作業内容}{19}
-\contentsline {subsubsection}{\numberline {2.3.2}EmulsionCasetteでの真空度}{21}
-\contentsline {subsubsection}{\numberline {2.3.3}EmulsionCasetteの固定法確立}{23}
-\contentsline {subsubsection}{\numberline {2.3.4}照射した乾板の密度}{24}
-\contentsline {subsection}{\numberline {2.4}現像}{26}
-\contentsline {subsubsection}{\numberline {2.4.1}原理}{26}
-\contentsline {subsubsection}{\numberline {2.4.2}実施環境}{26}
-\contentsline {section}{\numberline {3}荷電粒子飛跡追跡の自動化}{29}
-\contentsline {subsection}{\numberline {3.1}目的}{29}
-\contentsline {subsection}{\numberline {3.2}$\Xi $$^-$候補＆beam認識に用いる画像処理}{29}
-\contentsline {subsubsection}{\numberline {3.2.1}コントラスト処理}{29}
-\contentsline {subsubsection}{\numberline {3.2.2}ガウシアンフィルタ処理}{32}
-\contentsline {subsubsection}{\numberline {3.2.3}画像の白黒反転}{34}
-\contentsline {subsubsection}{\numberline {3.2.4}二値化}{34}
-\contentsline {subsection}{\numberline {3.3}座標変換}{35}
-\contentsline {subsection}{\numberline {3.4}自動追跡の要素技術}{36}
-\contentsline {subsubsection}{\numberline {3.4.1}beamパターンマッチ}{36}
-\contentsline {subsubsection}{\numberline {3.4.2}P-barパターンマッチ}{36}
-\contentsline {subsubsection}{\numberline {3.4.3}$\Xi $$^-$候補飛跡の選択}{37}
-\contentsline {subsubsection}{\numberline {3.4.4}K$^-$beamパターンマッチ}{38}
-\contentsline {subsubsection}{\numberline {3.4.5}表面認識}{39}
-\contentsline {subsubsection}{\numberline {3.4.6}荷電粒子飛跡追跡}{41}
-\contentsline {section}{\numberline {4}E07乾板の追跡結果}{43}
-\contentsline {subsection}{\numberline {4.1}薄型一枚目における$\Xi $$^-$候補飛跡選び出し}{43}
-\contentsline {subsection}{\numberline {4.2}$\Xi $$^-$候補飛跡追跡}{44}
-\contentsline {section}{\numberline {5}まとめ}{45}
-\contentsline {section}{付録}{45}
-\contentsline {section}{謝辞}{47}
+\contentsline {section}{\numberline {2}J-PARC E07実験2ndRun}{11}
+\contentsline {subsection}{\numberline {2.1}Refresh処理の実施}{11}
+\contentsline {subsubsection}{\numberline {2.1.1}実施背景}{11}
+\contentsline {subsubsection}{\numberline {2.1.2}原理}{14}
+\contentsline {subsubsection}{\numberline {2.1.3}実施環境}{14}
+\contentsline {subsection}{\numberline {2.2}GridMark照射環境の最適化}{16}
+\contentsline {subsubsection}{\numberline {2.2.1}暗室の拡張}{16}
+\contentsline {subsubsection}{\numberline {2.2.2}GridMarkネガ}{18}
+\contentsline {subsubsection}{\numberline {2.2.3}GridMark照射装置}{18}
+\contentsline {subsection}{\numberline {2.3}E07実験2ndRunbeam照射}{20}
+\contentsline {subsubsection}{\numberline {2.3.1}作業内容}{20}
+\contentsline {subsubsection}{\numberline {2.3.2}EmulsionCasetteでの真空度}{22}
+\contentsline {subsubsection}{\numberline {2.3.3}EmulsionCasetteの固定法確立}{24}
+\contentsline {subsubsection}{\numberline {2.3.4}照射した乾板の密度}{25}
+\contentsline {subsection}{\numberline {2.4}現像}{27}
+\contentsline {subsubsection}{\numberline {2.4.1}原理}{27}
+\contentsline {subsubsection}{\numberline {2.4.2}実施環境}{27}
+\contentsline {section}{\numberline {3}荷電粒子飛跡追跡の自動化}{30}
+\contentsline {subsection}{\numberline {3.1}目的}{30}
+\contentsline {subsection}{\numberline {3.2}$\Xi $$^-$候補＆beam認識に用いる画像処理}{30}
+\contentsline {subsubsection}{\numberline {3.2.1}コントラスト処理}{30}
+\contentsline {subsubsection}{\numberline {3.2.2}ガウシアンフィルタ処理}{33}
+\contentsline {subsubsection}{\numberline {3.2.3}画像の白黒反転}{35}
+\contentsline {subsubsection}{\numberline {3.2.4}二値化}{35}
+\contentsline {subsection}{\numberline {3.3}座標変換}{36}
+\contentsline {subsection}{\numberline {3.4}自動追跡の要素技術}{37}
+\contentsline {subsubsection}{\numberline {3.4.1}beamパターンマッチ}{37}
+\contentsline {subsubsection}{\numberline {3.4.2}P-barパターンマッチ}{37}
+\contentsline {subsubsection}{\numberline {3.4.3}$\Xi $$^-$候補飛跡の選択}{38}
+\contentsline {subsubsection}{\numberline {3.4.4}K$^-$beamパターンマッチ}{39}
+\contentsline {subsubsection}{\numberline {3.4.5}表面認識}{40}
+\contentsline {subsubsection}{\numberline {3.4.6}荷電粒子飛跡追跡}{42}
+\contentsline {section}{\numberline {4}E07乾板の追跡結果}{44}
+\contentsline {subsection}{\numberline {4.1}薄型一枚目における$\Xi $$^-$候補飛跡選び出し}{44}
+\contentsline {subsection}{\numberline {4.2}$\Xi $$^-$候補飛跡追跡}{47}
+\contentsline {section}{\numberline {5}まとめ}{48}
+\contentsline {section}{付録}{48}
+\contentsline {section}{謝辞}{50}
