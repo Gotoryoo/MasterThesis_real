@@ -1148,15 +1148,28 @@ SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出�
 原子核乾板のスキャンを開始する前には原子核乾板に照射されたGridマークの座標を取得することで、座標変換のパラメータを取得しスキャンを実施している。
 そのため、Gridマーク座標記録の数を増加し、原子核乾板全域において適切に変換可能なパラメータの算出をすることで、
 原点付近にデータ点が近づくのかを検証した。
+\par
+図\ref{fig:grid5}はMod013pl01に記録されたGridと、Gridマークの検出点と予想点の位置差を示したものである。
+赤丸で囲われた5点のGridマーク測定により算出したaffineパラメータを使用し、pl01のGridマーク測定を実施した。
+検出点と予想点の差を示した矢印が大きくなるほどズレが大きいことを示している。
+位置差を示した図の下部に青い矢印で示した部分がある。
+ここを確認すると、原子核乾板の下辺部分にて100 $\mu$m程度の差が生じている。
+そこで、affineパラメータを算出するために測定するGridマークの数を9点に増やした結果が図\ref{fig:grid9}である。
+図\ref{fig:grid9}の位置差を確認すると、5点測定の際に生じていた位置差が50 $\mu$mほどになった。
+これにより、SSDとpl01のdx、dy分布が50 $\mu$m程度に収まると考え、pl01の測定を実施した。
+\par
+図\ref{fig:dxdy5}はGridマークを5点測定して算出したaffineパラメータを使いpl01のスキャンを実施した結果、
+図\ref{fig:dxdy9}はGridマークを9点測定して算出したaffineパラメータを使いpl01のスキャンを実施した結果である。
+これらの図を比較すると、Gridマークの測定点を増加させても、SSDとpl01の位置差が収束しないことが分かる。
 \begin{figure}[htbp]
   \centering
      \includegraphics[width=150mm]{grid5_pl01scan.png}
-  \caption{積層画像に対する二値化処理}
+  \caption{薄型乾板に記録されたGridマークと、5点のGridマーク測定により算出したパラメータを使用した際のGridマークの検出点と予想点の位置差\label{fig:grid5}}
 \end{figure}
 \begin{figure}[htbp]
   \centering
      \includegraphics[width=150mm]{grid9_pl01scan.png}
-  \caption{積層画像に対する二値化処理}
+  \caption{薄型乾板に記録されたGridマークと、9点のGridマーク測定により算出したパラメータを使用した際のGridマークの検出点と予想点の位置差\label{fig:grid9}}
 \end{figure}
 \begin{figure}[htbp]
   \centering
@@ -1166,7 +1179,7 @@ SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出�
           \centering
             \includegraphics[clip, width=70mm]{dx_dy_grid5.png}
             \hspace{1.6cm} 
-            \caption{原子核乾板のスキャンから検出した荷電粒子飛跡とSSDで検出した$\Xi$$^-$候補のx方向の位置差、角度差}
+            \caption{Gridマーク5点測定による原子核乾板のスキャンから検出した荷電粒子飛跡とSSDで検出した$\Xi$$^-$候補の位置差\label{fig:dxdy5}}
         \end{minipage}
         
         % 2枚目の画像
@@ -1174,12 +1187,10 @@ SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出�
           \centering
             \includegraphics[clip, width=70mm]{dx_dy_grid9.png}
             \hspace{1.6cm} 
-            \caption{原子核乾板のスキャンから検出した荷電粒子飛跡とSSDで検出した$\Xi$$^-$候補のy方向の位置差、角度差}
+            \caption{Gridマーク9点測定による原子核乾板のスキャンから検出した荷電粒子飛跡とSSDで検出した$\Xi$$^-$候補の位置差\label{fig:dxdy9}}
         \end{minipage}
       \end{tabular}
 \end{figure}
-\par
-Gridマーク測定点5点でMod000pl01のスキャンを実施した結果が図●、Gridマーク測定点9点でMod000pl01のスキャンを実施した結果が図●である。
 
 
 \newpage
