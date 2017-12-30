@@ -1102,7 +1102,17 @@ mask内のみの情報を残した画像を使い、重心検出を行う。
 \end{figure}
 \par
 この画像撮影と飛跡の重心検出を繰り返すことで、原子核乾板内に記録された飛跡を乾板をまたいで追跡し、静止点まで追跡する。
-
+静止点まで追跡し、追跡した飛跡が消失した場合は積層画像を撮影する。
+すべての飛跡を追跡した後に積層画像を確認することで、イベントかどうかの判断をする。
+\par
+開発したプログラムを用いて、E373実験で検出されたNagara Eventを追跡した。
+図\ref{fig:nagara_sekisou}はNagara Eventを生成した飛跡を追跡し、追跡した飛跡が消失した地点で撮影した積層画像である。
+図より、静止点近傍まで追跡をし、積層画像を確認することでイベントかどうかの判断ができることが分かる。
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=60mm]{superimpsed_org4.png}
+  \caption{Nagara Eventを追跡して作成された積層画像\label{fig:nagara_sekisou}}
+\end{figure}
 
 \newpage
 \section{E07乾板の追跡結果}
@@ -1161,6 +1171,8 @@ SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出�
 図\ref{fig:dxdy5}はGridマークを5点測定して算出したaffineパラメータを使いpl01のスキャンを実施した結果、
 図\ref{fig:dxdy9}はGridマークを9点測定して算出したaffineパラメータを使いpl01のスキャンを実施した結果である。
 これらの図を比較すると、Gridマークの測定点を増加させても、SSDとpl01の位置差が収束しないことが分かる。
+しかし、SSDからpl01への外挿距離を変化させて位置差と角度の相関を示したのが図●である。
+外挿距離の変化に伴って、位置差に変化が生じるため$\Xi$$^-$候補飛跡を検出できていると判断し、データ点すべてを追跡した。
 \begin{figure}[htbp]
   \centering
      \includegraphics[width=150mm]{grid5_pl01scan.png}
