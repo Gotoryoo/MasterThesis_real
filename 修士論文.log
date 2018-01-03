@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  30 DEC 2017 23:09
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  3 JAN 2018 22:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -595,47 +595,47 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 196--214
 [8]
 File: e07setup.png Graphic file (type bmp)
 <e07setup.png>
- [9] [10]
+ [9]
 File: compton_cosmiclay.png Graphic file (type bmp)
 <compton_cosmiclay.png>
 File: emulsion_in_Kamioka.png Graphic file (type bmp)
 <emulsion_in_Kamioka.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 271--288
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 268--285
  [][][][] 
  []
 
-[11]
+[10]
 File: nodata.png Graphic file (type bmp)
 <nodata.png>
 File: compton_strage.png Graphic file (type bmp)
 <compton_strage.png>
 File: beam_efficiency_to_compton.png Graphic file (type bmp)
 <beam_efficiency_to_compton.png>
- [12] [13]
+ [11] [12]
 File: ref_pro1.png Graphic file (type bmp)
 <ref_pro1.png>
 
-Overfull \hbox (1.42186pt too wide) in paragraph at lines 341--343
+Overfull \hbox (1.42186pt too wide) in paragraph at lines 338--340
  [][] 
  []
 
 File: ref_pro2.png Graphic file (type bmp)
 <ref_pro2.png>
 
-Overfull \hbox (1.42186pt too wide) in paragraph at lines 348--350
+Overfull \hbox (1.42186pt too wide) in paragraph at lines 345--347
  [][] 
  []
 
 File: ref_pro3.png Graphic file (type bmp)
 <ref_pro3.png>
 
-Overfull \hbox (1.42186pt too wide) in paragraph at lines 355--357
+Overfull \hbox (1.42186pt too wide) in paragraph at lines 352--354
  [][] 
  []
 
 
-Overfull \hbox (15.56766pt too wide) in paragraph at lines 337--360
+Overfull \hbox (15.56766pt too wide) in paragraph at lines 334--357
  [][][][] 
  []
 
@@ -643,28 +643,29 @@ File: refresh_chember.png Graphic file (type bmp)
 <refresh_chember.png>
 File: refresh_hanga.png Graphic file (type bmp)
 <refresh_hanga.png>
-[14] [15]
+[13] [14]
 File: darkroom_after.png Graphic file (type bmp)
 <darkroom_after.png>
 File: darkroom_view.png Graphic file (type bmp)
 <darkroom_view.png>
- [16]
+ [15]
 File: darkroom_temp.png Graphic file (type bmp)
 <darkroom_temp.png>
 File: darkroom_mist.png Graphic file (type bmp)
 <darkroom_mist.png>
-File: grid_nega.png Graphic file (type bmp)
-<grid_nega.png>
- [17]
+File: grid_nega2.png Graphic file (type bmp)
+<grid_nega2.png>
+ [16] [17]
 File: grid_1stRun.png Graphic file (type bmp)
 <grid_1stRun.png>
 File: grid_printer.png Graphic file (type bmp)
 <grid_printer.png>
+ [18]
 File: grid_kairo.png Graphic file (type bmp)
 <grid_kairo.png>
 File: grid_botan.png Graphic file (type bmp)
 <grid_botan.png>
- [18] [19]
+ [19]
 File: tezyun_6.png Graphic file (type bmp)
 <tezyun_6.png>
 File: tezyun_7.png Graphic file (type bmp)
@@ -771,16 +772,22 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 871--887
  []
 
 [35] [36]
+File: beam_pattern1.png Graphic file (type bmp)
+<beam_pattern1.png>
+File: beam_pattern2.png Graphic file (type bmp)
+<beam_pattern2.png>
+ [37]
 File: pbar_mosikizu.png Graphic file (type bmp)
 <pbar_mosikizu.png>
+ [38]
 File: pbar_pattern.png Graphic file (type bmp)
 <pbar_pattern.png>
- [37]
+ [39]
 File: pl01_mosikizu.png Graphic file (type bmp)
 <pl01_mosikizu.png>
- [38]
 File: beam_mosikizu.png Graphic file (type bmp)
 <beam_mosikizu.png>
+ [40]
 File: emulsion_in.png Graphic file (type bmp)
 <emulsion_in.png>
 File: emulsion_out.png Graphic file (type bmp)
@@ -790,22 +797,21 @@ File: emul_in_thre.png Graphic file (type bmp)
 File: emul_out_thre.png Graphic file (type bmp)
 <emul_out_thre.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1019--1050
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1031--1062
  [][][][] 
  []
 
-[39]
 File: kasozai.png Graphic file (type bmp)
 <kasozai.png>
- [40] [41]
+[41] [42]
 File: tuiseki_gazou.png Graphic file (type bmp)
 <tuiseki_gazou.png>
 File: tuiseki_gazou2.png Graphic file (type bmp)
 <tuiseki_gazou2.png>
- [42]
+ [43]
 File: superimpsed_org4.png Graphic file (type bmp)
 <superimpsed_org4.png>
- [43]
+ [44]
 File: dx_dy.png Graphic file (type bmp)
 <dx_dy.png>
 File: dx_ax.png Graphic file (type bmp)
@@ -813,11 +819,11 @@ File: dx_ax.png Graphic file (type bmp)
 File: dy_ay.png Graphic file (type bmp)
 <dy_ay.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1137--1154
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1149--1166
  [][][][] 
  []
 
-[44] [45]
+[45] [46]
 File: grid5_pl01scan.png Graphic file (type bmp)
 <grid5_pl01scan.png>
 File: grid9_pl01scan.png Graphic file (type bmp)
@@ -827,11 +833,11 @@ File: dx_dy_grid5.png Graphic file (type bmp)
 File: dx_dy_grid9.png Graphic file (type bmp)
 <dx_dy_grid9.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1188--1205
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1200--1217
  [][][][] 
  []
 
-[46] [47] [48]
+[47] [48] [49]
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
@@ -841,7 +847,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1238--1269
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1250--1281
  [][][][] 
  []
 
@@ -850,18 +856,22 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1273--1289
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1285--1301
  [][][][] 
  []
 
-[49] [50] [51] (./修士論文.aux) ) 
+[50] [51] [52] (./修士論文.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 11448 strings out of 493648
- 223060 string characters out of 6150704
- 277235 words of memory out of 5000000
- 14854 multiletter control sequences out of 15000+600000
+ 11458 strings out of 493648
+ 223312 string characters out of 6150704
+ 277259 words of memory out of 5000000
+ 14860 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (52 pages, 111888 bytes).
+Output written on 修士論文.dvi (53 pages, 112100 bytes).

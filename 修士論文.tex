@@ -243,9 +243,6 @@ emulsionに記録された飛跡の中で$\Xi$$^-$粒子である確率の高い
      \includegraphics[width=95mm]{e07setup.png}
   \caption{E07実験のセットアップ\label{fig:e07setup}}
 \end{figure}
-\par
-我々は、E071stRunを2016年6月18日〜30日に実施した。
-1stRunでは18stacksへのbeam照射に成功した。
 
 
 \newpage
@@ -424,9 +421,10 @@ beam照射からGridマーク照射までの間に乾板の変形があったせ
 E07実験2ndRunの原子核乾板には図\ref{fig:nega_2ndRun}を使いGridマークを照射した。
 \begin{figure}[htbp]
   \centering
-    \includegraphics[width=140mm]{grid_nega.png}
+    \includegraphics[width=140mm]{grid_nega2.png}
   \caption{E07実験2ndRunネガ\label{fig:nega_2ndRun}}
 \end{figure}
+\newpage
 \subsubsection{GridMark照射装置}
 E071stRunではタイマーを用いて10秒間原子核乾板に露光した。
 図\ref{fig:grid_1stRun}は1stRunのGridマーク照射の模式図である。
@@ -446,6 +444,7 @@ E07実験2ndRunではbeam照射後すぐにGridマークを照射する。
      \includegraphics[width=120mm]{grid_printer.png}
   \caption{Gridマーク照射装置\label{fig:grid_masi-nn}}
 \end{figure}
+\newpage
 \par
 2ndRunのGridマーク照射ではストロボスタートボタンを設け、指定の回数発行した後自動でストロボのスイッチを切るように設定した。
 1stRunで運用したストロボ光照射条件は、点滅周期1024 rpmで動作時間10秒だった。\cite{tamura}
@@ -463,6 +462,7 @@ E07実験2ndRunではbeam照射後すぐにGridマークを照射する。
      \includegraphics[width=120mm]{grid_botan.png}
   \caption{Gridマークトリガーボタン\label{fig:grid_botan}}
 \end{figure}
+\newpage
 \subsection{E07実験2ndRunbeam照射}
 \subsubsection{作業内容}
 2017年5月●日～7月●日にかけて100stacksの原子核乾板すべてにbeam照射を行った。
@@ -558,11 +558,11 @@ E07実験2ndRunにおいても定められた真空度の基準をクリアし�
 \end{figure}
 \newpage
 \subsubsection{EmulsionCasetteの固定法確立}
-1stRunのbeam照射ではカセットのＳＵＳ箔が18回のカセットでの真空パックにより●回はがれた。
+1stRunのbeam照射ではカセットのＳＵＳ箔が18回の真空パックにより何度もはがれた。
 2ndRunのbeam照射では100回の真空引きを行う必要があるため、この頻度でＳＵＳ箔が剥がれた場合対応しきれない。
 そこで、カセットのＳＵＳ箔にかかる負荷軽減のための冶具が開発された。(図\ref{fig:casette_fix})
 この治具を使用して、2ndRunの照射を行った。
-これにより、2ndRunでは100回の真空引きに対して1度しかＳＵＳ箔が剥がれなかった。
+これにより、2ndRunでは100回の真空引きに対して1度しかＳＵＳ箔が剥がれなかったため、全beam照射を通してカセットを提供することができた。
 \begin{figure}[htbp]
   \centering
       \begin{tabular}{c}
@@ -939,28 +939,39 @@ x,yとX,Yが対応している地点を3点以上検出し、式を解くこと�
 \subsubsection{beamパターンマッチ}
 カウンターと原子核乾板の位置ズレや乾板間の位置ズレを正確に取得する手法としてbeamパターンマッチという手法が開発された。
 \cite{daisuke}
-図●はパターンマッチの模式図である。
+図\ref{fig:beam_mosikizu1}、\ref{fig:beam_mosikizu2}はパターンマッチの模式図である。
 系1と系2に記録されたbeamの形状が変化しておらず、互いの系において座標が異なる場合、使用できる。
 パターンマッチをするために系1と系2に記録されたbeamの座標の差分を総当たりで計算をする。
+この二つのbeamパターンを適当に一つの座標系に並べ、すべての組み合わせでベクトルを引く。
 系1のbeam一点に対して複数のbeamの位置差をとることになるので、計算後系1のbeam一点に対して複数のベクトルが引けることになる。
-この作業をすべてのbeamで実施したのち、そのすべてのベクトルを集計する。
+この作業をすべてのbeamで実施したのち、そのすべてのベクトルの原点を合わせて二次元平面で集計する。
 このとき、系1と系2がある数値分ずれている場合、その数値分ずれたベクトルが多く集計され、その他のベクトルはほとんど集計されないことになる。
-そのベクトルの集計でヒストグラム作成した場合このようにpeakが出現する。
 これにより、系1と系2の間に一定値のずれが存在している場合の位置ズレが取得できる。
 \par
 この手法により座標系間の位置対応、乾板間の位置対応をつけ、上述したaffine変換やtrack追跡に使用する。
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=80mm]{beam_pattern1.png}
+  \caption{beamパターンマッチ模式図\label{fig:beam_mosikizu1}}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=120mm]{beam_pattern2.png}
+  \caption{beamパターンマッチ模式図\label{fig:beam_mosikizu2}}
+\end{figure}
+\newpage
 \subsubsection{P-barパターンマッチ}
 原子核乾板にはSSDとemulsionの照射時の位置差を取得するために反陽子ビームが照射されている。
 照射されているのは乾板の四つ角1cm1cmの領域であり、SSDと原子核乾板に対して垂直に照射されている。
 照射されている反陽子beamの濃度は1平方センチあたり10$^4$である。
 K$^-$beamは乾板に対して10$^6$照射されており、SSDとemulsionのパターンマッチをするには密に照射されているためp-barが必要になる。
-(おそらくSSDのワイヤーの張る間隔が10の6乗より疎であるから、K-では不可能)
 \begin{figure}[htbp]
   \centering
      \includegraphics[width=140mm]{pbar_mosikizu.png}
   \caption{P-barパターンマッチ模式図\label{fig:pbar_mosikizu}}
 \end{figure}
 \par
+\newpage
 角から1cmずつ内陸側に移動し、そこで5mm×5mmの領域をスキャンする。
 上側乳剤層と下側乳剤層をスキャンし、baseを挟んで接続された垂直なbeamを選び出すことで、原子核乾板薄型一枚目での飛跡集団のパターンを取得する。
 また、SSDに記録された垂直な飛跡集団を選び出すことでSSDに記録された飛跡集団のパターンを取得する。
@@ -975,6 +986,7 @@ SSDで検出したbeamのプロットの中で赤くプロットされている�
      \includegraphics[width=90mm]{pbar_pattern.png}
   \caption{P-barパターンマッチ\label{fig:pbar_pattern}}
 \end{figure}
+\newpage
 \subsubsection{$\Xi$$^-$候補飛跡の選択}\label{pl01_track}
 追跡するために、SSDで検出した$\Xi$$^-$候補とpl01に記録された荷電粒子飛跡の対応をつける。
 先述したP-barパターンマッチにより、SSDと原子核乾板の座標の対応がついており、
