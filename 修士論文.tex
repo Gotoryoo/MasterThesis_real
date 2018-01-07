@@ -377,7 +377,7 @@ E07実験で使用する原子核乾板に対してRefresh処理を実施場合�
 \subsubsection{暗室の拡張}
 1stRunではbeam照射後の原子核乾板を岐阜に持ち帰り、現像の数日前に岐阜でGridマークを照射した。
 beam照射からGridマーク照射までの間に乾板の変形があったせいか、Gridマークの位置ズレが一様でなかったため一視野内に飛跡を持ってくることが困難になった。
-そこで、2ndRunではbeam照射後の原子核乾板に対してJ-PARC内の暗室下でGridMark照射を実施した。
+1stRunの結果から、2ndRunではbeam照射後の原子核乾板に対してJ-PARC内の暗室下でGridMark照射を実施した。
 そのためGridMark照射装置を設置するためE07実験1stRun時に設置した暗室の拡張を行った。
 \par
 図\ref{fig:darkroom_mosikizu}、\ref{fig:darkroom_view}は暗室拡張後を示したものである。
@@ -448,7 +448,7 @@ E07実験2ndRunではbeam照射後すぐにGridマークを照射する。
 \par
 2ndRunのGridマーク照射ではストロボスタートボタンを設け、指定の回数発行した後自動でストロボのスイッチを切るように設定した。
 1stRunで運用したストロボ光照射条件は、点滅周期1024 rpmで動作時間10秒だった。\cite{tamura}
-1024 rpmは17.07 Hz(T=58.6msec.)なので発光回数は約171回。
+1024 rpmは17.07 Hz(T=58.6msec.)のため発光回数は約171回。
 したがってストロボスタートボタンの挙動は100Hz*1.71秒(10msec*171回)とした。
 \par
 2ndRunのGridマーク照射は図\ref{fig:grid_botan}を押すことで高速での照射を可能にした。
@@ -466,8 +466,8 @@ E07実験2ndRunではbeam照射後すぐにGridマークを照射する。
 \subsection{E07実験2ndRunbeam照射}
 \subsubsection{作業内容}
 2017年5月～7月にかけて100stacksの原子核乾板すべてにbeam照射を行った。
-途中beam照射が停止しながらも予定通り100modの原子核乾板にbeamを照射しきることができた。
-E07実験2ndRunで岐阜大学グループは原子核乾板の取り扱いに関する部分を実施した。
+原子核乾板にbeam照射を実施するために、温度、湿度が調整された暗室内で原子核乾板をEmulsionCasetteに詰め、
+カセット内部の真空度を調節することが必要になる。
 暗室内で原子核乾板をEmulsionCasetteに詰める際の流れは以下の通りである。
 この作業は、先行研究で確立した方法に基づいて実施した。\cite{endo}
 \begin{enumerate}
@@ -1008,7 +1008,7 @@ predとbasetrackの中から、位置差、角度差が小さな飛跡を追跡�
      \includegraphics[width=140mm]{pl01_mosikizu.png}
   \caption{$\Xi$$^-$候補飛跡模式図\label{fig:pl01_mosikizu}}
 \end{figure}
-\subsubsection{K$^-$beamパターンマッチ}
+\subsubsection{乾板間接続K$^-$beamパターンマッチ}
 beam照射は、エマルジョンカセットに13枚の原子核乾板を入れ、真空度を保ちbeam照射中に原子核乾板がずれないようにして実施した。
 しかし、人の手でカセットに入れており、原子核乾板一枚一枚違いがあり、現像の前後での変形も一様ではないため、
 各原子核乾板の位置情報は、原点を照射したGridマークの中心にしたときに対応しない。
@@ -1072,6 +1072,7 @@ beam照射は、エマルジョンカセットに13枚の原子核乾板を入�
      \includegraphics[width=70mm]{hyoumenn.png}
   \caption{原子核乾板の撮影か所による白ピクセル数の推移\label{fig:hyoumenn_kidoti}}
 \end{figure}
+\subsubsection{視野合わせK$^-$beamパターンマッチ}
 \newpage
 \subsubsection{荷電粒子飛跡追跡}\label{track_following}
 原子核乾板中に記録された荷電粒子飛跡を認識するために最も重要なのは、荷電粒子飛跡の重心を正確にとらえることである。
