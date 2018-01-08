@@ -951,74 +951,15 @@ x,yとX,Yが対応している地点を3点以上検出し、式を解くこと�
 この手法により座標系間の位置対応、乾板間の位置対応をつけ、上述したaffine変換やtrack追跡に使用する。
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=80mm]{beam_pattern1.png}
+     \includegraphics[width=50mm]{beam_pattern1.png}
   \caption{beamパターンマッチ模式図\label{fig:beam_mosikizu1}}
 \end{figure}
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=120mm]{beam_pattern2.png}
+     \includegraphics[width=90mm]{beam_pattern2.png}
   \caption{beamパターンマッチ模式図\label{fig:beam_mosikizu2}}
 \end{figure}
 \newpage
-\subsubsection{P-barパターンマッチ}
-原子核乾板にはSSDとemulsionの照射時の位置差を取得するために反陽子ビームが照射されている。
-照射されているのは乾板の四つ角1cm1cmの領域であり、SSDと原子核乾板に対して垂直に照射されている。
-照射されている反陽子beamの濃度は1平方センチあたり10$^4$である。
-K$^-$beamは乾板に対して10$^6$照射されており、SSDとemulsionのパターンマッチをするには密に照射されているためp-barが必要になる。
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=140mm]{pbar_mosikizu.png}
-  \caption{P-barパターンマッチ模式図\label{fig:pbar_mosikizu}}
-\end{figure}
-\par
-\newpage
-角から1cmずつ内陸側に移動し、そこで5mm×5mmの領域をスキャンする。
-上側乳剤層と下側乳剤層をスキャンし、baseを挟んで接続された垂直なbeamを選び出すことで、原子核乾板薄型一枚目での飛跡集団のパターンを取得する。
-また、SSDに記録された垂直な飛跡集団を選び出すことでSSDに記録された飛跡集団のパターンを取得する。
-図\ref{fig:pbar_pattern}はスキャンにより取得したbeamとSSDで検出したbeamをプロットしたものである。
-左が原子核乾板に記録された垂直なbeam、右がSSDで検出した垂直なbeamである。
-二つのグラフの大きさは、それぞれのスキャン範囲の大きさに対応している。
-この二つの座標系のbeamの対応を上述したbeamパターンマッチによりつける。
-SSDで検出したbeamのプロットの中で赤くプロットされている部分が、原子核乾板に記録されたbeamが対応している部分である。
-このように薄型原子核乾板の四か所においてbeam位置の対応をつけることでDetector座標系(SSD座標系)、Grid座標系(現像前座標系)の対応をつける。
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=90mm]{pbar_pattern.png}
-  \caption{P-barパターンマッチ\label{fig:pbar_pattern}}
-\end{figure}
-\newpage
-\subsubsection{$\Xi$$^-$候補飛跡の選択}\label{pl01_track}
-追跡するために、SSDで検出した$\Xi$$^-$候補とpl01に記録された荷電粒子飛跡の対応をつける。
-先述したP-barパターンマッチにより、SSDと原子核乾板の座標の対応がついており、
-Detector座標系からGrid座標系へのaffineパラメータを求められていることが前提である。
-図\ref{fig:pl01_mosikizu}は原子核乾板に記録された飛跡からSSDで検出した$\Xi$$^-$候補を選び出す過程を模式図で示したものである。
-affineパラメータにより、SSDで検出した$\Xi$$^-$候補が原子核乾板上でどの位置に記録されているかを求める。
-そして、SSDで検出された$\Xi$$^-$候補の位置情報と角度情報を使い、$\Xi$$^-$候補の位置を薄型原子核乾板1枚目のbase上面まで外挿する。
-これにより$\Xi$$^-$候補の薄型原子核乾板1枚目のbase上面における位置がおおよそ分かる。
-この薄型原子核乾板1枚目のbase上面における位置情報と角度情報を合わせてprediction(pred)とする。
-\par
-predの座標を中心にして$\Xi$$^-$候補の角度により、原子核乾板中をスキャンする範囲を設定する。
-図の赤枠がscan範囲とする。
-設定した範囲を元に、原子核乾板の上側乳剤層、下側乳剤層をscanし、原子核乾板中に記録されている荷電粒子飛跡を検出する。
-検出した飛跡の中から、baseをまたいで繋がるものを薄型一枚目を通過している飛跡(basetrack)として記録する。
-basetrackは位置情報、角度情報を持っている。
-predとbasetrackの中から、位置差、角度差が小さな飛跡を追跡対象として下流の原子核乾板に接続し、飛跡追跡を行う。
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=140mm]{pl01_mosikizu.png}
-  \caption{$\Xi$$^-$候補飛跡模式図\label{fig:pl01_mosikizu}}
-\end{figure}
-\subsubsection{乾板間接続K$^-$beamパターンマッチ}
-beam照射は、エマルジョンカセットに13枚の原子核乾板を入れ、真空度を保ちbeam照射中に原子核乾板がずれないようにして実施した。
-しかし、人の手でカセットに入れており、原子核乾板一枚一枚違いがあり、現像の前後での変形も一様ではないため、
-各原子核乾板の位置情報は、原点を照射したGridマークの中心にしたときに対応しない。
-そこで、beam照射時に原子核乾板に対して垂直に照射されているK$^-$beamを使い、上流乾板と下流乾板の位置の対応をつける。
-これにより、上流の原子核乾板に記録されている$\Xi$$^-$候補飛跡と下流の原子核乾板に記録されている$\Xi$$^-$候補飛跡が一対一対応する。
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=120mm]{beam_mosikizu.png}
-  \caption{K$^-$beamパターンマッチ模式図\label{fig:beam_mosikizu}}
-\end{figure}
 \subsubsection{表面認識}
 原子核乾板中の飛跡を認識するために、原子核乾板の乳剤と非乳剤の地点を正確に捉える必要がある。
 図\ref{fig:do_hyoumenn_outin_image}(a)、(b)は原子核乾板の乳剤層と非乳剤層で撮影した画像である。
@@ -1061,6 +1002,7 @@ beam照射は、エマルジョンカセットに13枚の原子核乾板を入�
       \end{tabular}
       \caption{原子核乾板内外での違い\label{fig:do_hyoumenn_outin_image}}
 \end{figure}
+\newpage
 \par
 顕微鏡操作し、乾板中の焦点が合っている箇所のZ軸だけを動かし3 $\mu$m間隔で画像を撮影し、画像処理を実施する。
 その操作を行い、輝度値情報を持つピクセルの数を縦軸、Z座標を横軸に取り作成したのが図\ref{fig:hyoumenn_kidoti}である。
@@ -1069,10 +1011,9 @@ beam照射は、エマルジョンカセットに13枚の原子核乾板を入�
 各境界面を認識する閾値を設定し、乳剤層である座標を求める。
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=70mm]{hyoumenn.png}
+     \includegraphics[width=90mm]{hyoumenn.png}
   \caption{原子核乾板の撮影か所による白ピクセル数の推移\label{fig:hyoumenn_kidoti}}
 \end{figure}
-\subsubsection{視野合わせK$^-$beamパターンマッチ}
 \newpage
 \subsubsection{荷電粒子飛跡追跡}\label{track_following}
 原子核乾板中に記録された荷電粒子飛跡を認識するために最も重要なのは、荷電粒子飛跡の重心を正確にとらえることである。
@@ -1139,6 +1080,76 @@ mask内のみの情報を残した画像を使い、重心検出を行う。
      \includegraphics[width=60mm]{superimpsed_org4.png}
   \caption{Nagara Eventを追跡して作成された積層画像\label{fig:nagara_sekisou}}
 \end{figure}
+\subsection{自動追跡の流れ}
+\subsubsection{原子核乾板の顕微鏡貼り付け時の座標変換パラメータの算出}
+Grid測ってstegeとGrid座標系の変換パラメータを算出する部分を書く。
+これは原子核乾板を顕微鏡に貼るたびに測定する必要がある。
+\subsubsection{P-barパターンマッチ}
+検出器の情報から選び出された$\Xi$$^-$候補を、
+SSDの情報を使い薄型乾板1枚目(pl01)で$\Xi$$^-$候補飛跡として検出するために、
+SSDと原子核乾板の座標系の位置合わせを行う必要がある。
+原子核乾板にはSSDとemulsionの照射時の位置差を取得するために反陽子ビームが照射されている。
+反陽子beamを使い、上述したbeamパターンマッチを実施する。
+照射されているのは乾板の四つ角1cm1cmの領域であり、SSDと原子核乾板に対して垂直に照射されている。
+照射されている反陽子beamの濃度は1平方センチあたり10$^4$である。
+K$^-$beamは乾板に対して10$^6$照射されており、SSDとemulsionのパターンマッチをするには密に照射されているためp-barが必要になる。
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=140mm]{pbar_mosikizu.png}
+  \caption{P-barパターンマッチ模式図\label{fig:pbar_mosikizu}}
+\end{figure}
+\par
+\newpage
+角から1cmずつ内陸側に移動し、そこで5mm×5mmの領域をスキャンする。
+上側乳剤層と下側乳剤層をスキャンし、baseを挟んで接続された垂直なbeamを選び出すことで、原子核乾板薄型一枚目での飛跡集団のパターンを取得する。
+また、SSDに記録された垂直な飛跡集団を選び出すことでSSDに記録された飛跡集団のパターンを取得する。
+図\ref{fig:pbar_pattern}はスキャンにより取得したbeamとSSDで検出したbeamをプロットしたものである。
+左が原子核乾板に記録された垂直なbeam、右がSSDで検出した垂直なbeamである。
+二つのグラフの大きさは、それぞれのスキャン範囲の大きさに対応している。
+この二つの座標系のbeamの対応を上述したbeamパターンマッチによりつける。
+SSDで検出したbeamのプロットの中で赤くプロットされている部分が、原子核乾板に記録されたbeamが対応している部分である。
+このように薄型原子核乾板の四か所においてbeam位置の対応をつけることでDetector座標系(SSD座標系)、Grid座標系(現像前座標系)の対応をつける。
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=90mm]{pbar_pattern.png}
+  \caption{P-barパターンマッチ\label{fig:pbar_pattern}}
+\end{figure}
+\newpage
+\subsubsection{$\Xi$$^-$候補飛跡の選択}\label{pl01_track}
+追跡するために、SSDで検出した$\Xi$$^-$候補とpl01に記録された荷電粒子飛跡の対応をつける。
+先述したP-barパターンマッチにより、SSDと原子核乾板の座標の対応がついており、
+Detector座標系からGrid座標系へのaffineパラメータを求められていることが前提である。
+図\ref{fig:pl01_mosikizu}は原子核乾板に記録された飛跡からSSDで検出した$\Xi$$^-$候補を選び出す過程を模式図で示したものである。
+affineパラメータにより、SSDで検出した$\Xi$$^-$候補が原子核乾板上でどの位置に記録されているかを求める。
+そして、SSDで検出された$\Xi$$^-$候補の位置情報と角度情報を使い、$\Xi$$^-$候補の位置を薄型原子核乾板1枚目のbase上面まで外挿する。
+これにより$\Xi$$^-$候補の薄型原子核乾板1枚目のbase上面における位置がおおよそ分かる。
+この薄型原子核乾板1枚目のbase上面における位置情報と角度情報を合わせてprediction(pred)とする。
+\par
+predの座標を中心にして$\Xi$$^-$候補の角度により、原子核乾板中をスキャンする範囲を設定する。
+図の赤枠がscan範囲とする。
+設定した範囲を元に、原子核乾板の上側乳剤層、下側乳剤層をscanし、原子核乾板中に記録されている荷電粒子飛跡を検出する。
+検出した飛跡の中から、baseをまたいで繋がるものを薄型一枚目を通過している飛跡(basetrack)として記録する。
+basetrackは位置情報、角度情報を持っている。
+predとbasetrackの中から、位置差、角度差が小さな飛跡を追跡対象として下流の原子核乾板に接続し、飛跡追跡を行う。
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=140mm]{pl01_mosikizu.png}
+  \caption{$\Xi$$^-$候補飛跡模式図\label{fig:pl01_mosikizu}}
+\end{figure}
+\subsubsection{乾板間接続K$^-$beamパターンマッチ}
+beam照射は、エマルジョンカセットに13枚の原子核乾板を入れ、真空度を保ちbeam照射中に原子核乾板がずれないようにして実施した。
+しかし、人の手でカセットに入れており、原子核乾板一枚一枚違いがあり、現像の前後での変形も一様ではないため、
+各原子核乾板の位置情報は、原点を照射したGridマークの中心にしたときに対応しない。
+そこで、beam照射時に原子核乾板に対して垂直に照射されているK$^-$beamを使い、上流乾板と下流乾板の位置の対応をつける。
+これにより、上流の原子核乾板に記録されている$\Xi$$^-$候補飛跡と下流の原子核乾板に記録されている$\Xi$$^-$候補飛跡が一対一対応する。
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=120mm]{beam_mosikizu.png}
+  \caption{K$^-$beamパターンマッチ模式図\label{fig:beam_mosikizu}}
+\end{figure}
+
+\subsubsection{視野合わせK$^-$beamパターンマッチ}
+
 
 \newpage
 \section{E07乾板の追跡結果}
