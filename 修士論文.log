@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  8 JAN 2018 23:53
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  9 JAN 2018 00:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -814,9 +814,7 @@ File: pbar_pattern.png Graphic file (type bmp)
  [44]
 File: pl01_mosikizu.png Graphic file (type bmp)
 <pl01_mosikizu.png>
-File: beam_mosikizu.png Graphic file (type bmp)
-<beam_mosikizu.png>
- [45] [46]
+ [45]
 File: dx_dy.png Graphic file (type bmp)
 <dx_dy.png>
 File: dx_ax.png Graphic file (type bmp)
@@ -824,11 +822,11 @@ File: dx_ax.png Graphic file (type bmp)
 File: dy_ay.png Graphic file (type bmp)
 <dy_ay.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1189--1206
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1173--1190
  [][][][] 
  []
 
-[47] [48]
+[46] [47]
 File: grid5_pl01scan.png Graphic file (type bmp)
 <grid5_pl01scan.png>
 File: grid9_pl01scan.png Graphic file (type bmp)
@@ -838,11 +836,40 @@ File: dx_dy_grid5.png Graphic file (type bmp)
 File: dx_dy_grid9.png Graphic file (type bmp)
 <dx_dy_grid9.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1240--1257
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1225--1242
  [][][][] 
  []
 
-[49] [50] [51]
+[48] [49]
+File: beam_mosikizu.png Graphic file (type bmp)
+<beam_mosikizu.png>
+ [50]
+File: dx_dy.png Graphic file (type bmp)
+<dx_dy.png>
+File: dx_ax.png Graphic file (type bmp)
+<dx_ax.png>
+File: dy_ay.png Graphic file (type bmp)
+<dy_ay.png>
+
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1278--1295
+ [][][][] 
+ []
+
+[51]
+File: grid5_pl01scan.png Graphic file (type bmp)
+<grid5_pl01scan.png>
+File: grid9_pl01scan.png Graphic file (type bmp)
+<grid9_pl01scan.png>
+File: dx_dy_grid5.png Graphic file (type bmp)
+<dx_dy_grid5.png>
+File: dx_dy_grid9.png Graphic file (type bmp)
+<dx_dy_grid9.png>
+
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1329--1346
+ [][][][] 
+ []
+
+[52] [53] [54] [55]
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
@@ -852,7 +879,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1290--1321
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1379--1410
  [][][][] 
  []
 
@@ -861,22 +888,18 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1325--1341
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1414--1430
  [][][][] 
  []
 
-[52] [53] [54] (./修士論文.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[56] [57] [58] (./修士論文.aux) ) 
 Here is how much of TeX's memory you used:
  11472 strings out of 493648
  223630 string characters out of 6150704
- 277283 words of memory out of 5000000
+ 277290 words of memory out of 5000000
  14868 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (55 pages, 117268 bytes).
+Output written on 修士論文.dvi (59 pages, 125264 bytes).
