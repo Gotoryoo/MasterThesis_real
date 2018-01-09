@@ -1153,8 +1153,7 @@ predとbasetrackの中から、位置差、角度差が小さな飛跡を追跡�
 \end{figure}
 \newpage
 \par
-実際にMod009pl01の$\Xi$$^-$候補飛跡の読み取りを実施した。
-SSDで検出した$\Xi$$^-$候補の位置情報、角度情報を使い、薄型乾板一枚目をスキャンした。
+SSDで検出した$\Xi$$^-$候補の位置情報、角度情報を使い、Mod009薄型乾板一枚目をスキャンした。
 スキャンした結果から、$\Xi$$^-$候補飛跡の位置と角度が似ているものを$\Xi$$^-$候補飛跡の追跡候補として選び出した。
 図\ref{fig:ssd_pl01}はSSDで検出した$\Xi$$^-$候補とスキャン結果から検出した$\Xi$$^-$候補飛跡の位置差を示している。
 SSDよって検出した$\Xi$$^-$候補と検出した飛跡の位置座標が同じであれば図の原点にプロットされる。
@@ -1163,6 +1162,8 @@ SSDよって検出した$\Xi$$^-$候補と検出した飛跡の位置座標が�
 それに対して、原子核乾板に記録されているバックグラウンドを飛跡として検出している場合、
 図の中心から外れた場所に位置差のデータ点がプロットされる。
 このデータ点すべてを追跡候補として下流の原子核乾板に接続し、静止点まで追跡する。
+図\ref{fig:ssd_pl01}は536本の$\Xi$$^-$候補をもとに薄型乾板一枚目スキャンし検出した$\Xi$$^-$候補飛跡との位置差をプロットした結果である。
+データ点は536個存在している。
 \begin{figure}[htbp]
   \centering
      \includegraphics[width=80mm]{dx_dy.png}
@@ -1208,7 +1209,7 @@ SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出�
 図\ref{fig:dxdy5}はGridマークを5点測定して算出したaffineパラメータを使いpl01のスキャンを実施した結果、
 図\ref{fig:dxdy9}はGridマークを9点測定して算出したaffineパラメータを使いpl01のスキャンを実施した結果である。
 これらの図を比較すると、Gridマークの測定点を増加させても、SSDとpl01の位置差が収束しないことが分かる。
-しかし、SSDからpl01への外挿距離を変化させて位置差と角度の相関を示したのが図●である。
+しかし、SSDからpl01への外挿距離を変化させて位置差と角度の相関を示したのが図\ref{fig:ssd_pl01_x02}~\ref{fig:ssd_pl01_y_02}である。
 外挿距離の変化に伴って、位置差に変化が生じるため$\Xi$$^-$候補飛跡を検出できていると判断し、データ点すべてを追跡した。
 \begin{figure}[htbp]
   \centering
@@ -1237,6 +1238,46 @@ SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出�
             \includegraphics[clip, width=70mm]{dx_dy_grid9.png}
             \hspace{1.6cm} 
             \caption{Gridマーク9点測定による原子核乾板のスキャンから検出した荷電粒子飛跡とSSDで検出した$\Xi$$^-$候補の位置差\label{fig:dxdy9}}
+        \end{minipage}
+      \end{tabular}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=70mm]{ssdpl01_x_02.png}
+            \hspace{1.6cm} 
+            \caption{$\Xi$$^-$候補のx方向の位置差、角度差 外装距離-0.2 mm\label{fig:ssd_pl01_x_02}}
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=70mm]{ssdpl01_y_02.png}
+            \hspace{1.6cm} 
+            \caption{$\Xi$$^-$候補のy方向の位置差、角度差 外装距離-0.2 mm\label{fig:ssd_pl01_y_02}}
+        \end{minipage}
+      \end{tabular}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+      \begin{tabular}{c}
+        % 1枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=70mm]{ssdpl01_x02.png}
+            \hspace{1.6cm} 
+            \caption{$\Xi$$^-$候補のx方向の位置差、角度差 外装距離0.2 mm\label{fig:ssd_pl01_x02}}
+        \end{minipage}
+        
+        % 2枚目の画像
+        \begin{minipage}{0.5\hsize}
+          \centering
+            \includegraphics[clip, width=70mm]{ssdpl01_y02.png}
+            \hspace{1.6cm} 
+            \caption{$\Xi$$^-$候補のy方向の位置差、角度差 外装距離0.2 mm\label{fig:ssd_pl01_y02}}
         \end{minipage}
       \end{tabular}
 \end{figure}
@@ -1311,8 +1352,6 @@ $\Xi$$^-$候補飛跡を追跡するため座標変換パラメータを使い�
 これを見ると、どの角度領域においても、予測と飛跡の検出地点の差が一定であることが分かる。
 位置差が一定であることから、追跡する$\Xi$$^-$候補飛跡の角度に依存せず適切に追跡ができていることが分かる。
 
-\newpage
-\section{E07乾板の追跡結果}
 
 
 \newpage

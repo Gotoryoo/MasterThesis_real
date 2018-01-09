@@ -38,9 +38,8 @@
 \contentsline {subsubsection}{\numberline {3.5.1}原子核乾板の顕微鏡貼り付け時の座標変換パラメータの算出}{43}
 \contentsline {subsubsection}{\numberline {3.5.2}P-barパターンマッチ}{44}
 \contentsline {subsubsection}{\numberline {3.5.3}$\Xi $$^-$候補飛跡の選択}{45}
-\contentsline {subsubsection}{\numberline {3.5.4}K$^-$beamパターンマッチ}{50}
-\contentsline {subsubsection}{\numberline {3.5.5}$\Xi $$^-$候補飛跡追跡}{52}
-\contentsline {section}{\numberline {4}E07乾板の追跡結果}{53}
-\contentsline {section}{\numberline {5}まとめ}{54}
+\contentsline {subsubsection}{\numberline {3.5.4}K$^-$beamパターンマッチ}{51}
+\contentsline {subsubsection}{\numberline {3.5.5}$\Xi $$^-$候補飛跡追跡}{53}
+\contentsline {section}{\numberline {4}まとめ}{54}
 \contentsline {section}{付録}{54}
 \contentsline {section}{謝辞}{56}
