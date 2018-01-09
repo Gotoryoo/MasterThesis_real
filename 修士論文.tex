@@ -1241,118 +1241,78 @@ SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出�
       \end{tabular}
 \end{figure}
 \newpage
-\subsubsection{乾板間接続K$^-$beamパターンマッチ}
+\subsubsection{K$^-$beamパターンマッチ}
 beam照射は、エマルジョンカセットに13枚の原子核乾板を入れ、真空度を保ちbeam照射中に原子核乾板がずれないようにして実施した。
 しかし、人の手でカセットに入れており、原子核乾板一枚一枚違いがあり、現像の前後での変形も一様ではないため、
 各原子核乾板の位置情報は、原点を照射したGridマークの中心にしたときに対応しない。
 そこで、beam照射時に原子核乾板に対して垂直に照射されているK$^-$beamを使い、上流乾板と下流乾板の位置の対応をつける。
 これにより、上流の原子核乾板に記録されている$\Xi$$^-$候補飛跡と下流の原子核乾板に記録されている$\Xi$$^-$候補飛跡が一対一対応する。
+\par
+追跡を行うために上流の原子核乾板、下流の原子核乾板間に生じているズレを算出する。
+図\ref{fig:beam_mosikizu}はパターンマッチの模式図である。
+原子核乾板の各辺の中点付近をスキャンし、垂直に照射されているK$^-$beamを検出する。
+図の赤い範囲がスキャンした範囲である。
+上流の原子核乾板は下側乳剤層を約0.5 mm×0.5 mmの範囲をスキャンする。
+下流の原子核乾板は上側乳剤層を約1 mm×1 mmの範囲をスキャンする。
+スキャンした範囲に記録されたK$^-$beamをDetector座標系に直し、パターンマッチを行う。
+\par
+図\ref{fig:kbeam1}、\ref{fig:kbeam2}は実際のパターンマッチの結果である。
+パターンマッチの結果求められた、四か所分の乾板間のズレを用いてDetector座標系、Grid座標系間の座標変換パラメータを算出する。
+このパラメータは乾板を顕微鏡に貼るたびに変化するStage座標系とは関係ないため、
+一度算出すれば何度も使用することができる。
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=120mm]{beam_mosikizu.png}
+     \includegraphics[width=70mm]{kbeam_pattern.png}
   \caption{K$^-$beamパターンマッチ模式図\label{fig:beam_mosikizu}}
 \end{figure}
-\subsubsection{視野合わせK$^-$beamパターンマッチ}
-
-
-\newpage
-\section{E07乾板の追跡結果}
-\subsection{薄型一枚目における$\Xi$$^-$候補飛跡選び出し}
-\ref{pl01_track}に記述した手法を用いてMod009pl01で$\Xi$$^-$候補飛跡の読み取りを実施した。
-SSDで検出した$\Xi$$^-$候補の位置情報、角度情報を使い、薄型乾板一枚目をスキャンした。
-スキャンした結果から、$\Xi$$^-$候補飛跡の位置と角度が似ているものを$\Xi$$^-$候補飛跡の追跡候補として選び出した。
-図\ref{fig:ssd_pl01}はSSDで検出した$\Xi$$^-$候補とスキャン結果から検出した$\Xi$$^-$候補飛跡の位置差を示している。
-SSDよって検出した$\Xi$$^-$候補と検出した飛跡の位置座標が同じであれば図の原点にプロットされる。
-そのため適切に予測、検出がされていれば、SSDで検出された$\Xi$$^-$候補をもとに薄型乾板一枚目で検出された飛跡は
-図の中心付近にプロットされる。
-それに対して、原子核乾板に記録されているバックグラウンドを飛跡として検出している場合、
-図の中心から外れた場所に位置差のデータ点がプロットされる。
-このデータ点すべてを追跡候補として下流の原子核乾板に接続し、静止点まで追跡する。
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=80mm]{dx_dy.png}
-  \caption{原子核乾板のスキャンから検出した荷電粒子飛跡とSSDで検出した$\Xi$$^-$候補の位置差}
-\end{figure}
 \begin{figure}[htbp]
   \centering
       \begin{tabular}{c}
         % 1枚目の画像
         \begin{minipage}{0.5\hsize}
           \centering
-            \includegraphics[clip, width=70mm]{dx_ax.png}
+            \includegraphics[clip, width=70mm]{kbeam1.png}
             \hspace{1.6cm} 
-            \caption{原子核乾板のスキャンから検出した荷電粒子飛跡とSSDで検出した$\Xi$$^-$候補のx方向の位置差、角度差}
+            \caption{K$^-$beamパターンマッチ結果\label{fig:kbeam1}}
         \end{minipage}
         
         % 2枚目の画像
         \begin{minipage}{0.5\hsize}
           \centering
-            \includegraphics[clip, width=70mm]{dy_ay.png}
+            \includegraphics[clip, width=70mm]{kbeam2.png}
             \hspace{1.6cm} 
-            \caption{原子核乾板のスキャンから検出した荷電粒子飛跡とSSDで検出した$\Xi$$^-$候補のy方向の位置差、角度差}
+            \caption{K$^-$beamパターンマッチ結果拡大図\label{fig:kbeam2}}
         \end{minipage}
       \end{tabular}
 \end{figure}
-\newpage
-図\ref{fig:ssd_pl01}を見ると、
-SSDで検出した$\Xi$$^-$候補と原子核乾板のスキャンから検出した荷電粒子飛跡の位置差のデータ点が図の原点付近にないことが分かる。
-原子核乾板のスキャンを開始する前には原子核乾板に照射されたGridマークの座標を取得することで、座標変換のパラメータを取得しスキャンを実施している。
-そのため、Gridマーク座標記録の数を増加し、原子核乾板全域において適切に変換可能なパラメータの算出をすることで、
-原点付近にデータ点が近づくのかを検証した。
 \par
-図\ref{fig:grid5}はMod013pl01に記録されたGridと、Gridマークの検出点と予想点の位置差を示したものである。
-赤丸で囲われた5点のGridマーク測定により算出したaffineパラメータを使用し、pl01のGridマーク測定を実施した。
-検出点と予想点の差を示した矢印が大きくなるほどズレが大きいことを示している。
-位置差を示した図の下部に青い矢印で示した部分がある。
-ここを確認すると、原子核乾板の下辺部分にて100 $\mu$m程度の差が生じている。
-そこで、affineパラメータを算出するために測定するGridマークの数を9点に増やした結果が図\ref{fig:grid9}である。
-図\ref{fig:grid9}の位置差を確認すると、5点測定の際に生じていた位置差が50 $\mu$mほどになった。
-これにより、SSDとpl01のdx、dy分布が50 $\mu$m程度に収まると考え、pl01の測定を実施した。
+乾板間パターンマッチによるDetector座標系、Grid座標系間の座標変換パラメータ算出後、
+$\Xi$$^-$候補飛跡を追跡するため座標変換パラメータを使い、
+原子核乾板上の$\Xi$$^-$候補飛跡が記録されている地点に移動をする。
+この移動により、追跡対象となる$\Xi$$^-$候補飛跡は顕微鏡の一視野内におさまるが、
+視野中心に追跡対象の飛跡がない場合がある。
+そのため、追跡対象の飛跡を視野中心に移動させるために、
+追跡対象の飛跡付近でのK$^-$beamパターンマッチを実施する。
 \par
-図\ref{fig:dxdy5}はGridマークを5点測定して算出したaffineパラメータを使いpl01のスキャンを実施した結果、
-図\ref{fig:dxdy9}はGridマークを9点測定して算出したaffineパラメータを使いpl01のスキャンを実施した結果である。
-これらの図を比較すると、Gridマークの測定点を増加させても、SSDとpl01の位置差が収束しないことが分かる。
-しかし、SSDからpl01への外挿距離を変化させて位置差と角度の相関を示したのが図●である。
-外挿距離の変化に伴って、位置差に変化が生じるため$\Xi$$^-$候補飛跡を検出できていると判断し、データ点すべてを追跡した。
+図\ref{fig:beam_mosikizu2}は追跡時に追跡対象を視野中心に移動させるためのK$^-$beamパターンマッチの模式図である。
+上流の原子核乾板の下側乳剤層下面における追跡対象付近のK$^-$beamと、
+下流の原子核乾板の上側乳剤層上面における追跡対象付近のK$^-$beamのパターンマッチを行う。
+これにより、追跡対象付近の位置ズレを正確に取得することができ、
+追跡対象となる$\Xi$$^-$候補飛跡を視野中心に移動させて追跡を行うことができる。
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=150mm]{grid5_pl01scan.png}
-  \caption{薄型乾板に記録されたGridマークと、5点のGridマーク測定により算出したパラメータを使用した際のGridマークの検出点と予想点の位置差}
+     \includegraphics[width=100mm]{beam_mosikizu.png}
+  \caption{$\Xi$$^-$候補飛跡追跡のためのK$^-$beamパターンマッチ模式図\label{fig:beam_mosikizu2}}
 \end{figure}
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=150mm]{grid9_pl01scan.png}
-  \caption{薄型乾板に記録されたGridマークと、9点のGridマーク測定により算出したパラメータを使用した際のGridマークの検出点と予想点の位置差}
-\end{figure}
-\begin{figure}[htbp]
-  \centering
-      \begin{tabular}{c}
-        % 1枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-            \includegraphics[clip, width=70mm]{dx_dy_grid5.png}
-            \hspace{1.6cm} 
-            \caption{Gridマーク5点測定による原子核乾板のスキャンから検出した荷電粒子飛跡とSSDで検出した$\Xi$$^-$候補の位置差}
-        \end{minipage}
-        
-        % 2枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-            \includegraphics[clip, width=70mm]{dx_dy_grid9.png}
-            \hspace{1.6cm} 
-            \caption{Gridマーク9点測定による原子核乾板のスキャンから検出した荷電粒子飛跡とSSDで検出した$\Xi$$^-$候補の位置差}
-        \end{minipage}
-      \end{tabular}
-\end{figure}
-
-
 \newpage
-\subsection{$\Xi$$^-$候補飛跡追跡}
+\subsubsection{$\Xi$$^-$候補飛跡追跡}
 図\ref{fig:ssd_pl01}にプロットされたデータ点の数だけ追跡を行い、静止点まで追跡を行った。
 図●は、飛跡追跡の飛跡の予測位置と検出位置の差を角度ごとに示したものである。
 これを見ると、どの角度領域においても、予測と飛跡の検出地点の差が一定であることが分かる。
 位置差が一定であることから、追跡する$\Xi$$^-$候補飛跡の角度に依存せず適切に追跡ができていることが分かる。
-\par
+
+\newpage
+\section{E07乾板の追跡結果}
 
 
 \newpage

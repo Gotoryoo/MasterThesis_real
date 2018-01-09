@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  9 JAN 2018 00:10
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  9 JAN 2018 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -472,7 +472,11 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-) (./修士論文.aux)
+) (./修士論文.aux
+
+LaTeX Warning: Label `fig:beam_mosikizu2' multiply defined.
+
+)
 \openout1 = `修士論文.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -493,8 +497,7 @@ LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
-
-(c:/w32tex/share/texmf-dist/tex/latex/base/ts1cmr.fd
+ (c:/w32tex/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 25.
@@ -841,35 +844,20 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 1225--1242
  []
 
 [48] [49]
+File: kbeam_pattern.png Graphic file (type bmp)
+<kbeam_pattern.png>
+File: kbeam1.png Graphic file (type bmp)
+<kbeam1.png>
+File: kbeam2.png Graphic file (type bmp)
+<kbeam2.png>
+
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1270--1287
+ [][][][] 
+ []
+
 File: beam_mosikizu.png Graphic file (type bmp)
 <beam_mosikizu.png>
- [50]
-File: dx_dy.png Graphic file (type bmp)
-<dx_dy.png>
-File: dx_ax.png Graphic file (type bmp)
-<dx_ax.png>
-File: dy_ay.png Graphic file (type bmp)
-<dy_ay.png>
-
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1278--1295
- [][][][] 
- []
-
-[51]
-File: grid5_pl01scan.png Graphic file (type bmp)
-<grid5_pl01scan.png>
-File: grid9_pl01scan.png Graphic file (type bmp)
-<grid9_pl01scan.png>
-File: dx_dy_grid5.png Graphic file (type bmp)
-<dx_dy_grid5.png>
-File: dx_dy_grid9.png Graphic file (type bmp)
-<dx_dy_grid9.png>
-
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1329--1346
- [][][][] 
- []
-
-[52] [53] [54] [55]
+[50] [51] [52] [53]
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
@@ -879,7 +867,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1379--1410
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1339--1370
  [][][][] 
  []
 
@@ -888,18 +876,22 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1414--1430
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1374--1390
  [][][][] 
  []
 
-[56] [57] [58] (./修士論文.aux) ) 
+[54] [55] [56] (./修士論文.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 11472 strings out of 493648
- 223630 string characters out of 6150704
- 277290 words of memory out of 5000000
- 14868 multiletter control sequences out of 15000+600000
+ 11486 strings out of 493648
+ 223910 string characters out of 6150704
+ 277354 words of memory out of 5000000
+ 14876 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (59 pages, 125264 bytes).
+Output written on 修士論文.dvi (57 pages, 120856 bytes).
