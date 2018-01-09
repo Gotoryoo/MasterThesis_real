@@ -1348,11 +1348,23 @@ $\Xi$$^-$候補飛跡を追跡するため座標変換パラメータを使い�
 \newpage
 \subsubsection{$\Xi$$^-$候補飛跡追跡}
 図\ref{fig:ssd_pl01}にプロットされたデータ点の数だけ追跡を行い、静止点まで追跡を行った。
-図●は、飛跡追跡の飛跡の予測位置と検出位置の差を角度ごとに示したものである。
+図\ref{fig:tan_razial}、\ref{fig:tan_latelal}は飛跡追跡の飛跡の予測位置と検出位置の差を角度ごとに示したものである。
 これを見ると、どの角度領域においても、予測と飛跡の検出地点の差が一定であることが分かる。
 位置差が一定であることから、追跡する$\Xi$$^-$候補飛跡の角度に依存せず適切に追跡ができていることが分かる。
-
-
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=120mm]{radial.png}
+  \caption{$\Xi$$^-$候補飛跡追跡のためのK$^-$beamパターンマッチ模式図\label{fig:tan_razial}}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=120mm]{lateral.png}
+  \caption{$\Xi$$^-$候補飛跡追跡のためのK$^-$beamパターンマッチ模式図\label{fig:tan_latelal}}
+\end{figure}
+\par
+mod009で検出した$\Xi$$^-$候補飛跡535本すべてを追跡した結果、decayが●個、sigme stopが●個であった。
+mod009の追跡ではHyper核eventは検出できなかったが、$\Xi$$^-$由来のeventを検出できているため、
+今後追跡を継続して行うことでHyper核eventを検出できると考えられる。
 
 \newpage
 \section{まとめ}

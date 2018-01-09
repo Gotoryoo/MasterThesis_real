@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  9 JAN 2018 15:43
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  9 JAN 2018 17:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -875,7 +875,12 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 1311--1328
 
 File: beam_mosikizu.png Graphic file (type bmp)
 <beam_mosikizu.png>
-[51] [52] [53]
+[51] [52]
+File: radial.png Graphic file (type bmp)
+<radial.png>
+File: lateral.png Graphic file (type bmp)
+<lateral.png>
+ [53]
 File: 1stRun_thin_den.png Graphic file (type bmp)
 <1stRun_thin_den.png>
 File: 2ndRun_thin_den.png Graphic file (type bmp)
@@ -885,7 +890,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1378--1409
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1390--1421
  [][][][] 
  []
 
@@ -894,7 +899,7 @@ File: 1stRun_thin_den.png Graphic file (type bmp)
 File: 2ndRun_thin_den.png Graphic file (type bmp)
 <2ndRun_thin_den.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1413--1429
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1425--1441
  [][][][] 
  []
 
@@ -904,12 +909,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11506 strings out of 493648
- 224376 string characters out of 6150704
- 277402 words of memory out of 5000000
- 14888 multiletter control sequences out of 15000+600000
+ 11516 strings out of 493648
+ 224565 string characters out of 6150704
+ 277426 words of memory out of 5000000
+ 14894 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (57 pages, 121968 bytes).
+Output written on 修士論文.dvi (57 pages, 123004 bytes).
