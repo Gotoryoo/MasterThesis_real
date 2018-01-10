@@ -1021,7 +1021,7 @@ x,yとX,Yが対応している地点を3点以上検出し、式を解くこと�
 \ref{image_process}に記した画像処理を用いて画像から重心を取得する。
 \par
 追跡する荷電粒子の位置情報から、飛跡が画像の視野中心にあるとする。
-追跡する荷電粒子の角度情報をもとに飛跡に沿い、常に視野中心にあるように顕微鏡のx,y方向を駆動させながら、ｚ＝-4 $\mu$m間隔で10枚の画像を撮影する。
+追跡する荷電粒子の角度情報をもとに飛跡に沿い、常に視野中心にあるように顕微鏡のx,y方向を駆動させながら、現像前ｚ＝-6×$\tan$$\theta$ $\mu$m間隔で10枚の画像を撮影する。
 10枚の画像すべてに上述した画像処理を施し、輝度値情報が反転した画像に変換する。
 追跡の際に、荷電粒子飛跡が常に画像中心にあるようにして撮影をしているので、画像中に記録された輝度情報をすべて使う必要はない。
 また、追跡している$\Xi$$^-$候補飛跡と同様の角度で照射されている飛跡を誤追跡する可能性も生じる。
@@ -1032,9 +1032,15 @@ x,yとX,Yが対応している地点を3点以上検出し、式を解くこと�
 (d)が(c)-(b)の差分画像、(e)が二値化処理後の画像(閾値 = 100)である。
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=140mm]{tuiseki_gazou.png}
+     \includegraphics[width=60mm]{angle_in_eml.png}
+  \caption{原子核乾板中の飛跡の角度定義}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=120mm]{tuiseki_gazou.png}
   \caption{撮影した画像に対する画像処理\label{fig:tuiseki_gazou}}
 \end{figure}
+\newpage
 \par
 mask内のみの情報を残した画像を使い、重心検出を行う。
 画像処理後の画像をすべて積層させる。
@@ -1062,7 +1068,7 @@ mask内のみの情報を残した画像を使い、重心検出を行う。
 撮影した画像をただ積層するだけではなく、ずらして積層させる。
 これにより、ただ積層させる場合より適切に飛跡の重心を算出する。
 この手法によって複数飛跡候補が出現した場合は、追跡してきた飛跡の角度と予測位置のズレからより適切な飛跡を選択する。
-この操作により飛跡を検出できなかった場合は画像の撮影間隔を狭めて撮影し、同様の処理を行うことで飛跡を検出する。
+この操作により飛跡を検出できなかった場合は画像の撮影間隔を現像前ｚ＝-4×$\tan$$\theta$ $\mu$mで撮影し、同様の処理を行うことで飛跡を検出する。
 \begin{figure}[htbp]
   \centering
      \includegraphics[width=110mm]{sekisou_step3.png}
@@ -1363,19 +1369,19 @@ $\Xi$$^-$候補飛跡を追跡するため座標変換パラメータを使い�
   \caption{追跡時の予測地点と検出地点の位置差lateral方向\label{fig:tan_latelal}}
 \end{figure}
 \par
-mod009で検出した$\Xi$$^-$候補飛跡535本すべてを追跡した結果、decayが●個、sigma stopが●個であった。
+mod009で検出した$\Xi$$^-$候補飛跡535本すべてを追跡した結果、decayが16個、sigma stopが16個であった。
 mod009の追跡ではHyper核eventは検出できなかったが、$\Xi$$^-$由来のeventを検出できているため、
 今後追跡を継続して行うことでHyper核eventを検出できると考えられる。
 
 \newpage
 \section{まとめ}
 私たちはE373実験の10倍の統計量を目指すE07実験Beam照射を実施した。
-今後は●●間相互作用を求めれらる物理データを多く検出することが期待される。
+今後はsクォークを含む$\Lambda$、$\Xi$$^-$から粒子間の相互作用を求めれらる物理データを多く検出することが期待される。
 \par
-E07実験1stRunを●●に、2ndRunが●●に実施した。
+E07実験1stRunを2016年6月18日〜30日に、2ndRunを2017年5月～7月に実施した。
 J-PARCでの放射能漏れによるbeam照射延期により、
 原子核乾板に記録されたバックグラウンド消去のための強制現像退行処理を実施した。
-これにより、荷電粒子飛跡を解析するためにより良い原子核乾板の状態を作り出した。
+これにより、荷電粒子飛跡を解析するために必要な原子核乾板の状態を作り出した。
 \par
 E07実験1stRunにて確立されたPacking手法を用いて、
 2ndRunでは適切な真空度を保ったEmulsionCassetteをbeamline上に提供することができた。
@@ -1385,84 +1391,22 @@ Cassette固定冶具を使用し2ndRunを実施したことで、
 100回のCassette提供に対して、SUS箔の剥がれを1度に抑えることができた。
 これにより、E07実験2ndRunのbeam照射を無事終了することができた。
 \par
-E07実験1stRunの現像は●●、2ndRunは●に実施され、全118modの現像を無事達成した。
+E07実験1stRun、2ndRunは実施され、全118modの現像を無事達成した。
 \par
+ハイブリッドエマルジョン法により、現像されたE07実験の原子核乾板の中に記録された$\Xi$$^-$候補飛跡を追跡した。
+今までは先に行われたE373実験での原子核乾板を使用しての追跡のテストが行われていたが、
+初めてE07実験の原子核乾板を使い自動飛跡追跡を実施した。
+今回私が追跡した原子核乾板からはハイパー核事象は検出できなかったが、
+$\Xi$$^-$由来の事象を複数検出できたことから、
+今後追跡を継続していくことでNagara Eventのように重要な物理データを示すことのできるハイパー核事象を検出できると考えられる。
 
+\newpage
 \section*{付録}
 \addcontentsline{toc}{section}{付録}
-これは付録でいいかな？？？
-\par
-原子核乾板中に記録されたHyper核eventを解析するためには記録されている原子核乾板の密度が重要になる。
-記録された飛跡の飛程からエネルギーを算出する際に乾板の密度が必要になるからである。
-現在核種が一意に決定されている'NagaraEvent'の解析にはevent付近に記録されたα崩壊飛跡を50例使用し、乾板の密度を計算して○.○○とした。
-\par
-表○はNagaraの各trackの長さ、角度を示している。
-trackの長さ、角度が一定で、原子核乾板の密度を変化させたときBΞがどれだけ変化するかを確認した。
-図●はその変化を示している。
-図から分かるように密度の変化によってBΞは大きく変化する。
-そのため原子核乾板の密度を正確に求めること、密度が解析において非常に重要であることが分かる。
-\par
-図を入れる。
-\par
-\begin{figure}[htbp]
-  \centering
-      \begin{tabular}{c}
-        % 1枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-            \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
-            \hspace{1.6cm} (a)1stRun 厚形乾板密度 可塑剤6.0cc
-        \end{minipage}
-        
-        % 2枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-            \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
-            \hspace{1.6cm} (b)2ndRun 厚形乾板密度 可塑剤6.0cc
-        \end{minipage}\\
 
-	　\\
-        % 3枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-              \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
-              \hspace{1.6cm} (c)1stRun 厚形乾板密度 可塑剤7.5cc
-          \end{minipage}
-          
-        % 4枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-              \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
-              \hspace{1.6cm} (d)2ndRun 厚形乾板密度 可塑剤7.5cc
-        \end{minipage}
-    
-      \end{tabular}
-      \caption{厚形乾板の密度比較\label{fig:compare_thick_den}}
-\end{figure}
-\begin{figure}[htbp]
-  \centering
-      \begin{tabular}{c}
-        % 1枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-            \includegraphics[clip, width=60mm]{1stRun_thin_den.png}
-            \hspace{1.6cm} (a)1stRun 薄型密度
-        \end{minipage}
-        
-        % 2枚目の画像
-        \begin{minipage}{0.5\hsize}
-          \centering
-            \includegraphics[clip, width=60mm]{2ndRun_thin_den.png}
-            \hspace{1.6cm} (b)2ndRun 薄型密度
-        \end{minipage}
-    
-      \end{tabular}
-      \caption{薄型乾板の密度比較\label{fig:compare_thin_den}}
-\end{figure}
 \newpage
 \section*{謝辞}
 \addcontentsline{toc}{section}{謝辞}
-ああああああああああああああああああああああああああ
 \begin{thebibliography}{99}
 \bibitem{Nagara} J. K. Ahn et al., Phys. Rev. C 88, 014003 (2013).
 \bibitem{Nagara2} K. Nakazawa et al., Prog. Theor. Exp. Phys. 2015, 033D02.
