@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  10 JAN 2018 11:55
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  10 JAN 2018 13:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -882,18 +882,29 @@ File: radial.png Graphic file (type bmp)
 <radial.png>
 File: lateral.png Graphic file (type bmp)
 <lateral.png>
- [53] [54] [55] [56] (./修士論文.aux)
+File: sigma.png Graphic file (type bmp)
+<sigma.png>
+File: decay.png Graphic file (type bmp)
+<decay.png>
+
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1377--1394
+ [][][][] 
+ []
+
+File: nodata.png Graphic file (type bmp)
+<nodata.png>
+[53] [54] [55] [56] [57] (./修士論文.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11510 strings out of 493648
- 224396 string characters out of 6150704
- 277404 words of memory out of 5000000
- 14890 multiletter control sequences out of 15000+600000
+ 11519 strings out of 493648
+ 224557 string characters out of 6150704
+ 277428 words of memory out of 5000000
+ 14896 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (57 pages, 123824 bytes).
+Output written on 修士論文.dvi (58 pages, 124292 bytes).
