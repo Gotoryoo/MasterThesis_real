@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  10 JAN 2018 13:44
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  15 JAN 2018 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -893,18 +893,83 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 1377--1394
 
 File: nodata.png Graphic file (type bmp)
 <nodata.png>
-[53] [54] [55] [56] [57] (./修士論文.aux)
+[53] [54] [55]
+Missing character: There is no ^^e2 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^b0 in font cmr12!
+File: vol_019.png Graphic file (type bmp)
+<vol_019.png>
+File: vol_020.png Graphic file (type bmp)
+<vol_020.png>
+File: vol_021.png Graphic file (type bmp)
+<vol_021.png>
+File: vol_022.png Graphic file (type bmp)
+<vol_022.png>
+File: vol_023.png Graphic file (type bmp)
+<vol_023.png>
+File: vol_024.png Graphic file (type bmp)
+<vol_024.png>
+File: vol_025.png Graphic file (type bmp)
+<vol_025.png>
+File: vol_026.png Graphic file (type bmp)
+<vol_026.png>
+File: vol_027.png Graphic file (type bmp)
+<vol_027.png>
+File: vol_028.png Graphic file (type bmp)
+<vol_028.png>
+File: vol_029.png Graphic file (type bmp)
+<vol_029.png>
+File: vol_030.png Graphic file (type bmp)
+<vol_030.png>
+File: vol_031.png Graphic file (type bmp)
+<vol_031.png>
+File: vol_032.png Graphic file (type bmp)
+<vol_032.png>
+File: vol_033.png Graphic file (type bmp)
+<vol_033.png>
+File: vol_034.png Graphic file (type bmp)
+<vol_034.png>
+File: vol_035.png Graphic file (type bmp)
+<vol_035.png>
+File: vol_036.png Graphic file (type bmp)
+<vol_036.png>
+File: vol_037.png Graphic file (type bmp)
+<vol_037.png>
+File: vol_038.png Graphic file (type bmp)
+<vol_038.png>
+File: vol_039.png Graphic file (type bmp)
+<vol_039.png>
+File: vol_040.png Graphic file (type bmp)
+<vol_040.png>
+File: vol_041.png Graphic file (type bmp)
+<vol_041.png>
+File: vol_042.png Graphic file (type bmp)
+<vol_042.png>
+File: vol_043.png Graphic file (type bmp)
+<vol_043.png>
+File: vol_044.png Graphic file (type bmp)
+<vol_044.png>
+File: vol_045.png Graphic file (type bmp)
+<vol_045.png>
+File: vol_046.png Graphic file (type bmp)
+<vol_046.png>
+File: vol_047.png Graphic file (type bmp)
+<vol_047.png>
+File: vol_048.png Graphic file (type bmp)
+<vol_048.png>
+ [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67]
+[68] (./修士論文.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11519 strings out of 493648
- 224557 string characters out of 6150704
+ 11639 strings out of 493648
+ 226957 string characters out of 6150704
  277428 words of memory out of 5000000
- 14896 multiletter control sequences out of 15000+600000
+ 14956 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (58 pages, 124292 bytes).
+Output written on 修士論文.dvi (69 pages, 131420 bytes).
