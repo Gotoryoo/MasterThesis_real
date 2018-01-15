@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  15 JAN 2018 14:21
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  15 JAN 2018 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -957,19 +957,37 @@ File: vol_047.png Graphic file (type bmp)
 <vol_047.png>
 File: vol_048.png Graphic file (type bmp)
 <vol_048.png>
+File: vol_049.png Graphic file (type bmp)
+<vol_049.png>
+File: vol_050.png Graphic file (type bmp)
+<vol_050.png>
+File: vol_051.png Graphic file (type bmp)
+<vol_051.png>
+File: vol_052.png Graphic file (type bmp)
+<vol_052.png>
+File: vol_053.png Graphic file (type bmp)
+<vol_053.png>
+File: vol_054.png Graphic file (type bmp)
+<vol_054.png>
+File: vol_056.png Graphic file (type bmp)
+<vol_056.png>
+File: vol_057.png Graphic file (type bmp)
+<vol_057.png>
+File: vol_058.png Graphic file (type bmp)
+<vol_058.png>
  [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67]
-[68] (./修士論文.aux)
+[68] [69] [70] [71] (./修士論文.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11639 strings out of 493648
- 226957 string characters out of 6150704
+ 11675 strings out of 493648
+ 227677 string characters out of 6150704
  277428 words of memory out of 5000000
- 14956 multiletter control sequences out of 15000+600000
+ 14974 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (69 pages, 131420 bytes).
+Output written on 修士論文.dvi (72 pages, 132392 bytes).
