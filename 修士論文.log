@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  15 JAN 2018 17:00
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  15 JAN 2018 19:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1025,23 +1025,106 @@ File: vol_077.png Graphic file (type bmp)
 <vol_077.png>
 File: vol_078.png Graphic file (type bmp)
 <vol_078.png>
-)
+
 [66
 
 
-] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78]
-(./修士論文.aux)
+] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76]
+File: vol_079.png Graphic file (type bmp)
+<vol_079.png>
+File: vol_080.png Graphic file (type bmp)
+<vol_080.png>
+File: vol_081.png Graphic file (type bmp)
+<vol_081.png>
+File: vol_082.png Graphic file (type bmp)
+<vol_082.png>
+File: vol_083.png Graphic file (type bmp)
+<vol_083.png>
+File: vol_084.png Graphic file (type bmp)
+<vol_084.png>
+File: vol_085.png Graphic file (type bmp)
+<vol_085.png>
+File: vol_086.png Graphic file (type bmp)
+<vol_086.png>
+File: vol_087.png Graphic file (type bmp)
+<vol_087.png>
+File: vol_088.png Graphic file (type bmp)
+<vol_088.png>
+File: vol_089.png Graphic file (type bmp)
+<vol_089.png>
+File: vol_090.png Graphic file (type bmp)
+<vol_090.png>
+File: vol_091.png Graphic file (type bmp)
+<vol_091.png>
+File: vol_092.png Graphic file (type bmp)
+<vol_092.png>
+File: vol_093.png Graphic file (type bmp)
+<vol_093.png>
+File: vol_094.png Graphic file (type bmp)
+<vol_094.png>
+File: vol_095.png Graphic file (type bmp)
+<vol_095.png>
+File: vol_096.png Graphic file (type bmp)
+<vol_096.png>
+File: vol_097.png Graphic file (type bmp)
+<vol_097.png>
+File: vol_098.png Graphic file (type bmp)
+<vol_098.png>
+File: vol_099.png Graphic file (type bmp)
+<vol_099.png>
+File: vol_100.png Graphic file (type bmp)
+<vol_100.png>
+File: vol_101.png Graphic file (type bmp)
+<vol_101.png>
+File: vol_102.png Graphic file (type bmp)
+<vol_102.png>
+File: vol_103.png Graphic file (type bmp)
+<vol_103.png>
+File: vol_104.png Graphic file (type bmp)
+<vol_104.png>
+File: vol_105.png Graphic file (type bmp)
+<vol_105.png>
+File: vol_106.png Graphic file (type bmp)
+<vol_106.png>
+File: vol_107.png Graphic file (type bmp)
+<vol_107.png>
+File: vol_108.png Graphic file (type bmp)
+<vol_108.png>
+File: vol_109.png Graphic file (type bmp)
+<vol_109.png>
+File: vol_110.png Graphic file (type bmp)
+<vol_110.png>
+File: vol_111.png Graphic file (type bmp)
+<vol_111.png>
+File: vol_112.png Graphic file (type bmp)
+<vol_112.png>
+File: vol_113.png Graphic file (type bmp)
+<vol_113.png>
+File: vol_114.png Graphic file (type bmp)
+<vol_114.png>
+File: vol_115.png Graphic file (type bmp)
+<vol_115.png>
+File: vol_116.png Graphic file (type bmp)
+<vol_116.png>
+File: vol_117.png Graphic file (type bmp)
+<vol_117.png>
+File: vol_118.png Graphic file (type bmp)
+<vol_118.png>
+) [77
+
+] [78] [79] [80]
+[81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] (./修士論文.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11781 strings out of 493648
- 229667 string characters out of 6150704
- 277901 words of memory out of 5000000
- 15032 multiletter control sequences out of 15000+600000
+ 11941 strings out of 493648
+ 232867 string characters out of 6150704
+ 277903 words of memory out of 5000000
+ 15112 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (79 pages, 134900 bytes).
+Output written on 修士論文.dvi (93 pages, 139280 bytes).
