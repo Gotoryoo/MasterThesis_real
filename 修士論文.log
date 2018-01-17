@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  15 JAN 2018 19:37
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  17 JAN 2018 13:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -551,9 +551,9 @@ LaTeX Font Info:    ... okay on input line 26.
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 38.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 38.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 37.
  (./修士論文.toc
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
@@ -565,9 +565,9 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 
  [2]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 42.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 42.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 41.
 File: den_barion.png Graphic file (type bmp)
 <den_barion.png>
  [3]
@@ -582,7 +582,7 @@ File: process_bdev.png Graphic file (type bmp)
 File: process_adev.png Graphic file (type bmp)
 <process_adev.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 138--154
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 137--153
  [][][][] 
  []
 
@@ -597,7 +597,7 @@ File: Nagara_witheq.png Graphic file (type bmp)
 File: Kiso_witheq.png Graphic file (type bmp)
 <Kiso_witheq.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 197--215
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 196--214
  [][][][] 
  []
 
@@ -610,7 +610,7 @@ File: compton_cosmiclay.png Graphic file (type bmp)
 File: emulsion_in_Kamioka.png Graphic file (type bmp)
 <emulsion_in_Kamioka.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 269--286
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 268--285
  [][][][] 
  []
 
@@ -625,26 +625,26 @@ File: beam_efficiency_to_compton.png Graphic file (type bmp)
 File: ref_pro1.png Graphic file (type bmp)
 <ref_pro1.png>
 
-Overfull \hbox (1.42186pt too wide) in paragraph at lines 339--341
+Overfull \hbox (1.42186pt too wide) in paragraph at lines 338--340
  [][] 
  []
 
 File: ref_pro2.png Graphic file (type bmp)
 <ref_pro2.png>
 
-Overfull \hbox (1.42186pt too wide) in paragraph at lines 346--348
+Overfull \hbox (1.42186pt too wide) in paragraph at lines 345--347
  [][] 
  []
 
 File: ref_pro3.png Graphic file (type bmp)
 <ref_pro3.png>
 
-Overfull \hbox (1.42186pt too wide) in paragraph at lines 353--355
+Overfull \hbox (1.42186pt too wide) in paragraph at lines 352--354
  [][] 
  []
 
 
-Overfull \hbox (15.56766pt too wide) in paragraph at lines 335--358
+Overfull \hbox (15.56766pt too wide) in paragraph at lines 334--357
  [][][][] 
  []
 
@@ -680,7 +680,7 @@ File: tezyun_6.png Graphic file (type bmp)
 File: tezyun_7.png Graphic file (type bmp)
 <tezyun_7.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 489--507
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 488--506
  [][][][] 
  []
 
@@ -689,7 +689,7 @@ File: tezyun_8.png Graphic file (type bmp)
 File: tezyun_9.png Graphic file (type bmp)
 <tezyun_9.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 510--528
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 509--527
  [][][][] 
  []
 
@@ -707,7 +707,7 @@ File: casette_fix_moderu.png Graphic file (type bmp)
 File: casettefix.png Graphic file (type bmp)
 <casettefix.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 569--583
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 568--582
  [][][][] 
  []
 
@@ -729,7 +729,7 @@ File: emulsion_up.png Graphic file (type bmp)
 File: emulsion_low.png Graphic file (type bmp)
 <emulsion_low.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 700--716
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 699--715
  [][][][] 
  []
 
@@ -743,7 +743,7 @@ File: cont.png Graphic file (type bmp)
 File: cont_hist.png Graphic file (type bmp)
 <cont_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 741--772
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 740--771
  [][][][] 
  []
 
@@ -757,7 +757,7 @@ File: gau2.png Graphic file (type bmp)
 File: gau2_hist.png Graphic file (type bmp)
 <gau2_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 798--829
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 797--828
  [][][][] 
  []
 
@@ -767,7 +767,7 @@ File: sub.png Graphic file (type bmp)
 File: sub_hist.png Graphic file (type bmp)
 <sub_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 843--859
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 842--858
  [][][][] 
  []
 
@@ -776,7 +776,7 @@ File: thre.png Graphic file (type bmp)
 File: thre_hist.png Graphic file (type bmp)
 <thre_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 872--888
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 871--887
  [][][][] 
  []
 
@@ -795,7 +795,7 @@ File: emul_in_thre.png Graphic file (type bmp)
 File: emul_out_thre.png Graphic file (type bmp)
 <emul_out_thre.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 973--1004
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 972--1003
  [][][][] 
  []
 
@@ -833,7 +833,7 @@ File: dx_ax.png Graphic file (type bmp)
 File: dy_ay.png Graphic file (type bmp)
 <dy_ay.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1182--1199
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1181--1198
  [][][][] 
  []
 
@@ -847,7 +847,7 @@ File: dx_dy_grid5.png Graphic file (type bmp)
 File: dx_dy_grid9.png Graphic file (type bmp)
 <dx_dy_grid9.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1234--1251
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1233--1250
  [][][][] 
  []
 
@@ -856,7 +856,7 @@ File: ssdpl01_x_02.png Graphic file (type bmp)
 File: ssdpl01_y_02.png Graphic file (type bmp)
 <ssdpl01_y_02.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1254--1271
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1253--1270
  [][][][] 
  []
 
@@ -865,7 +865,7 @@ File: ssdpl01_x02.png Graphic file (type bmp)
 File: ssdpl01_y02.png Graphic file (type bmp)
 <ssdpl01_y02.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1274--1291
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1273--1290
  [][][][] 
  []
 
@@ -877,7 +877,7 @@ File: kbeam1.png Graphic file (type bmp)
 File: kbeam2.png Graphic file (type bmp)
 <kbeam2.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1319--1336
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1318--1335
  [][][][] 
  []
 
@@ -893,7 +893,7 @@ File: sigma.png Graphic file (type bmp)
 File: decay.png Graphic file (type bmp)
 <decay.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1378--1395
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1377--1394
  [][][][] 
  []
 
@@ -1127,4 +1127,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (93 pages, 139280 bytes).
+Output written on 修士論文.dvi (93 pages, 139268 bytes).
