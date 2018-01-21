@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  19 JAN 2018 20:30
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  21 JAN 2018 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -478,11 +478,7 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks22
 \AP@partial=\box60
 \AP@footins=\box61
-) (./修士論文.aux
-
-LaTeX Warning: Label `fig:beam_mosikizu2' multiply defined.
-
-)
+) (./修士論文.aux)
 \openout1 = `修士論文.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -503,7 +499,8 @@ LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
- (c:/w32tex/share/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(c:/w32tex/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 26.
@@ -570,81 +567,86 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 41.
 File: den_barion.png Graphic file (type bmp)
 <den_barion.png>
- [3]
+File: nodata.png Graphic file (type bmp)
+<nodata.png>
+ [3] [4]
 File: makehyper.png Graphic file (type bmp)
 <makehyper.png>
- [4]
+ [5]
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
- [5]
+ [6]
 File: process_bdev.png Graphic file (type bmp)
 <process_bdev.png>
 File: process_adev.png Graphic file (type bmp)
 <process_adev.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 137--153
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 150--166
  [][][][] 
  []
 
 File: grainfog.png Graphic file (type bmp)
 <grainfog.png>
-[6]
+[7]
 File: microscope.png Graphic file (type bmp)
 <microscope.png>
- [7]
+ [8]
+
+LaTeX Warning: Citation `Kiso' on page 9 undefined on input line 204.
+
 File: Nagara_witheq.png Graphic file (type bmp)
 <Nagara_witheq.png>
 File: Kiso_witheq.png Graphic file (type bmp)
 <Kiso_witheq.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 196--214
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 210--228
  [][][][] 
  []
 
-[8]
+[9]
 File: e07setup.png Graphic file (type bmp)
 <e07setup.png>
- [9]
+ [10]
 File: compton_cosmiclay.png Graphic file (type bmp)
 <compton_cosmiclay.png>
 File: emulsion_in_Kamioka.png Graphic file (type bmp)
 <emulsion_in_Kamioka.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 268--285
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 282--299
  [][][][] 
  []
 
-[10]
+[11]
 File: nodata.png Graphic file (type bmp)
 <nodata.png>
 File: compton_strage.png Graphic file (type bmp)
 <compton_strage.png>
 File: beam_efficiency_to_compton.png Graphic file (type bmp)
 <beam_efficiency_to_compton.png>
- [11] [12]
+ [12] [13]
 File: ref_pro1.png Graphic file (type bmp)
 <ref_pro1.png>
 
-Overfull \hbox (1.42186pt too wide) in paragraph at lines 338--340
+Overfull \hbox (1.42186pt too wide) in paragraph at lines 352--354
  [][] 
  []
 
 File: ref_pro2.png Graphic file (type bmp)
 <ref_pro2.png>
 
-Overfull \hbox (1.42186pt too wide) in paragraph at lines 345--347
+Overfull \hbox (1.42186pt too wide) in paragraph at lines 359--361
  [][] 
  []
 
 File: ref_pro3.png Graphic file (type bmp)
 <ref_pro3.png>
 
-Overfull \hbox (1.42186pt too wide) in paragraph at lines 352--354
+Overfull \hbox (1.42186pt too wide) in paragraph at lines 366--368
  [][] 
  []
 
 
-Overfull \hbox (15.56766pt too wide) in paragraph at lines 334--357
+Overfull \hbox (15.56766pt too wide) in paragraph at lines 348--371
  [][][][] 
  []
 
@@ -652,35 +654,35 @@ File: refresh_chember.png Graphic file (type bmp)
 <refresh_chember.png>
 File: refresh_hanga.png Graphic file (type bmp)
 <refresh_hanga.png>
-[13] [14]
+[14] [15]
 File: darkroom_after.png Graphic file (type bmp)
 <darkroom_after.png>
 File: darkroom_view.png Graphic file (type bmp)
 <darkroom_view.png>
- [15]
+ [16]
 File: darkroom_temp.png Graphic file (type bmp)
 <darkroom_temp.png>
 File: darkroom_mist.png Graphic file (type bmp)
 <darkroom_mist.png>
 File: grid_nega2.png Graphic file (type bmp)
 <grid_nega2.png>
- [16] [17]
+ [17] [18]
 File: grid_1stRun.png Graphic file (type bmp)
 <grid_1stRun.png>
 File: grid_printer.png Graphic file (type bmp)
 <grid_printer.png>
- [18]
+ [19]
 File: grid_kairo.png Graphic file (type bmp)
 <grid_kairo.png>
 File: grid_botan.png Graphic file (type bmp)
 <grid_botan.png>
- [19]
+ [20]
 File: tezyun_6.png Graphic file (type bmp)
 <tezyun_6.png>
 File: tezyun_7.png Graphic file (type bmp)
 <tezyun_7.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 488--506
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 502--520
  [][][][] 
  []
 
@@ -689,51 +691,51 @@ File: tezyun_8.png Graphic file (type bmp)
 File: tezyun_9.png Graphic file (type bmp)
 <tezyun_9.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 509--527
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 523--541
  [][][][] 
  []
 
 File: ponpu.png Graphic file (type bmp)
 <ponpu.png>
-[20] [21]
+[21] [22]
 File: e07setup_real.png Graphic file (type bmp)
 <e07setup_real.png>
- [22]
+ [23]
 File: vacuum117.png Graphic file (type bmp)
 <vacuum117.png>
- [23]
+ [24]
 File: casette_fix_moderu.png Graphic file (type bmp)
 <casette_fix_moderu.png>
 File: casettefix.png Graphic file (type bmp)
 <casettefix.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 568--582
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 582--596
  [][][][] 
  []
 
-[24]
+[25]
 File: thick75_den.png Graphic file (type bmp)
 <thick75_den.png>
 File: kasozai.png Graphic file (type bmp)
 <kasozai.png>
- [25] [26]
+ [26] [27]
 File: gennzou_condition.png Graphic file (type bmp)
 <gennzou_condition.png>
 File: gennzou_turusi.png Graphic file (type bmp)
 <gennzou_turusi.png>
 File: gennzou_timetable.png Graphic file (type bmp)
 <gennzou_timetable.png>
- [27] [28] [29]
+ [28] [29] [30]
 File: emulsion_up.png Graphic file (type bmp)
 <emulsion_up.png>
 File: emulsion_low.png Graphic file (type bmp)
 <emulsion_low.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 699--715
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 719--735
  [][][][] 
  []
 
-[30]
+[31]
 File: row.png Graphic file (type bmp)
 <row.png>
 File: row_hist.png Graphic file (type bmp)
@@ -743,11 +745,11 @@ File: cont.png Graphic file (type bmp)
 File: cont_hist.png Graphic file (type bmp)
 <cont_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 740--771
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 760--791
  [][][][] 
  []
 
-[31] [32]
+[32] [33]
 File: cont.png Graphic file (type bmp)
 <cont.png>
 File: cont_hist2.png Graphic file (type bmp)
@@ -757,17 +759,17 @@ File: gau2.png Graphic file (type bmp)
 File: gau2_hist.png Graphic file (type bmp)
 <gau2_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 797--828
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 817--848
  [][][][] 
  []
 
-[33] [34]
+[34] [35]
 File: sub.png Graphic file (type bmp)
 <sub.png>
 File: sub_hist.png Graphic file (type bmp)
 <sub_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 842--858
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 862--878
  [][][][] 
  []
 
@@ -776,16 +778,18 @@ File: thre.png Graphic file (type bmp)
 File: thre_hist.png Graphic file (type bmp)
 <thre_hist.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 871--887
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 890--906
  [][][][] 
  []
 
-[35] [36]
+[36] [37]
 File: beam_pattern1.png Graphic file (type bmp)
 <beam_pattern1.png>
 File: beam_pattern2.png Graphic file (type bmp)
 <beam_pattern2.png>
- [37]
+File: nodata.png Graphic file (type bmp)
+<nodata.png>
+ [38] [39]
 File: emulsion_in.png Graphic file (type bmp)
 <emulsion_in.png>
 File: emulsion_out.png Graphic file (type bmp)
@@ -795,37 +799,37 @@ File: emul_in_thre.png Graphic file (type bmp)
 File: emul_out_thre.png Graphic file (type bmp)
 <emul_out_thre.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 972--1003
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1000--1031
  [][][][] 
  []
 
-[38]
+[40]
 File: hyoumenn.png Graphic file (type bmp)
 <hyoumenn.png>
- [39]
+ [41]
 File: angle_in_eml.png Graphic file (type bmp)
 <angle_in_eml.png>
 File: tuiseki_gazou.png Graphic file (type bmp)
 <tuiseki_gazou.png>
- [40]
+ [42]
 File: tuiseki_gazou2.png Graphic file (type bmp)
 <tuiseki_gazou2.png>
 File: sekisou_step3.png Graphic file (type bmp)
 <sekisou_step3.png>
 File: superimpsed_org4.png Graphic file (type bmp)
 <superimpsed_org4.png>
- [41] [42]
+ [43] [44] [45]
 File: grid2stage.png Graphic file (type bmp)
 <grid2stage.png>
- [43]
+ [46]
 File: pbar_mosikizu.png Graphic file (type bmp)
 <pbar_mosikizu.png>
 File: pbar_pattern.png Graphic file (type bmp)
 <pbar_pattern.png>
- [44]
+ [47]
 File: pl01_mosikizu.png Graphic file (type bmp)
 <pl01_mosikizu.png>
- [45]
+ [48]
 File: dx_dy.png Graphic file (type bmp)
 <dx_dy.png>
 File: dx_ax.png Graphic file (type bmp)
@@ -833,11 +837,11 @@ File: dx_ax.png Graphic file (type bmp)
 File: dy_ay.png Graphic file (type bmp)
 <dy_ay.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1181--1198
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1225--1242
  [][][][] 
  []
 
-[46] [47]
+[49] [50]
 File: grid5_pl01scan.png Graphic file (type bmp)
 <grid5_pl01scan.png>
 File: grid9_pl01scan.png Graphic file (type bmp)
@@ -847,7 +851,7 @@ File: dx_dy_grid5.png Graphic file (type bmp)
 File: dx_dy_grid9.png Graphic file (type bmp)
 <dx_dy_grid9.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1233--1250
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1277--1294
  [][][][] 
  []
 
@@ -856,7 +860,7 @@ File: ssdpl01_x_02.png Graphic file (type bmp)
 File: ssdpl01_y_02.png Graphic file (type bmp)
 <ssdpl01_y_02.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1253--1270
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1297--1314
  [][][][] 
  []
 
@@ -865,11 +869,11 @@ File: ssdpl01_x02.png Graphic file (type bmp)
 File: ssdpl01_y02.png Graphic file (type bmp)
 <ssdpl01_y02.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1273--1290
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1317--1334
  [][][][] 
  []
 
-[48] [49] [50]
+[51] [52] [53]
 File: kbeam_pattern.png Graphic file (type bmp)
 <kbeam_pattern.png>
 File: kbeam1.png Graphic file (type bmp)
@@ -877,13 +881,13 @@ File: kbeam1.png Graphic file (type bmp)
 File: kbeam2.png Graphic file (type bmp)
 <kbeam2.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1318--1335
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1362--1379
  [][][][] 
  []
 
 File: beam_mosikizu.png Graphic file (type bmp)
 <beam_mosikizu.png>
-[51] [52]
+[54] [55]
 File: radial.png Graphic file (type bmp)
 <radial.png>
 File: lateral.png Graphic file (type bmp)
@@ -893,13 +897,13 @@ File: sigma.png Graphic file (type bmp)
 File: decay.png Graphic file (type bmp)
 <decay.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1377--1394
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1421--1438
  [][][][] 
  []
 
 File: nodata.png Graphic file (type bmp)
 <nodata.png>
-[53] [54] [55]
+[56] [57] [58]
 Missing character: There is no ^^e2 in font cmr12!
 Missing character: There is no ^^bd in font cmr12!
 Missing character: There is no ^^b0 in font cmr12!
@@ -962,7 +966,7 @@ File: vol_046.png Graphic file (type bmp)
 <vol_046.png>
 File: vol_047.png Graphic file (type bmp)
 <vol_047.png>
- [56] [57] [58] [59] [60] [61] [62] [63] [64] [65]
+ [59] [60] [61] [62] [63] [64] [65] [66] [67] [68]
 File: vol_048.png Graphic file (type bmp)
 <vol_048.png>
 File: vol_049.png Graphic file (type bmp)
@@ -1026,10 +1030,10 @@ File: vol_077.png Graphic file (type bmp)
 File: vol_078.png Graphic file (type bmp)
 <vol_078.png>
 
-[66
+[69
 
 
-] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76]
+] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
 File: vol_079.png Graphic file (type bmp)
 <vol_079.png>
 File: vol_080.png Graphic file (type bmp)
@@ -1110,21 +1114,24 @@ File: vol_117.png Graphic file (type bmp)
 <vol_117.png>
 File: vol_118.png Graphic file (type bmp)
 <vol_118.png>
-) [77
+) [80
 
-] [78] [79] [80]
-[81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] (./修士論文.aux)
+] [81] [82] [83]
+[84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] (./修士論文.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 11941 strings out of 493648
- 232867 string characters out of 6150704
- 277903 words of memory out of 5000000
- 15112 multiletter control sequences out of 15000+600000
+ 11944 strings out of 493648
+ 232902 string characters out of 6150704
+ 277880 words of memory out of 5000000
+ 15115 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (93 pages, 139532 bytes).
+Output written on 修士論文.dvi (96 pages, 144944 bytes).
