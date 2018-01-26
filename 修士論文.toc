@@ -38,7 +38,7 @@
 \contentsline {subsubsection}{\numberline {3.5.2}P-barパターンマッチ}{47}
 \contentsline {subsubsection}{\numberline {3.5.3}$\Xi $$^-$候補飛跡の選択}{48}
 \contentsline {subsubsection}{\numberline {3.5.4}K$^-$beamパターンマッチ}{54}
-\contentsline {subsubsection}{\numberline {3.5.5}$\Xi $$^-$候補飛跡追跡}{56}
-\contentsline {section}{\numberline {4}まとめ}{58}
-\contentsline {section}{付録}{59}
-\contentsline {section}{謝辞}{94}
+\contentsline {subsubsection}{\numberline {3.5.5}$\Xi $$^-$候補飛跡追跡}{57}
+\contentsline {section}{\numberline {4}まとめ}{59}
+\contentsline {section}{付録}{60}
+\contentsline {section}{謝辞}{95}

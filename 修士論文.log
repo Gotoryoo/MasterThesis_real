@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  21 JAN 2018 23:54
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  26 JAN 2018 18:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -829,7 +829,7 @@ File: pbar_pattern.png Graphic file (type bmp)
  [47]
 File: pl01_mosikizu.png Graphic file (type bmp)
 <pl01_mosikizu.png>
- [48]
+ [48] [49]
 File: dx_dy.png Graphic file (type bmp)
 <dx_dy.png>
 File: dx_ax.png Graphic file (type bmp)
@@ -837,11 +837,11 @@ File: dx_ax.png Graphic file (type bmp)
 File: dy_ay.png Graphic file (type bmp)
 <dy_ay.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1225--1242
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1230--1247
  [][][][] 
  []
 
-[49] [50]
+[50]
 File: grid5_pl01scan.png Graphic file (type bmp)
 <grid5_pl01scan.png>
 File: grid9_pl01scan.png Graphic file (type bmp)
@@ -851,7 +851,7 @@ File: dx_dy_grid5.png Graphic file (type bmp)
 File: dx_dy_grid9.png Graphic file (type bmp)
 <dx_dy_grid9.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1277--1294
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1282--1299
  [][][][] 
  []
 
@@ -860,7 +860,7 @@ File: ssdpl01_x_02.png Graphic file (type bmp)
 File: ssdpl01_y_02.png Graphic file (type bmp)
 <ssdpl01_y_02.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1297--1314
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1302--1319
  [][][][] 
  []
 
@@ -869,7 +869,7 @@ File: ssdpl01_x02.png Graphic file (type bmp)
 File: ssdpl01_y02.png Graphic file (type bmp)
 <ssdpl01_y02.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1317--1334
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1322--1339
  [][][][] 
  []
 
@@ -881,13 +881,14 @@ File: kbeam1.png Graphic file (type bmp)
 File: kbeam2.png Graphic file (type bmp)
 <kbeam2.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1362--1379
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1367--1384
  [][][][] 
  []
 
+[54] [55]
 File: beam_mosikizu.png Graphic file (type bmp)
 <beam_mosikizu.png>
-[54] [55]
+ [56]
 File: radial.png Graphic file (type bmp)
 <radial.png>
 File: lateral.png Graphic file (type bmp)
@@ -897,13 +898,13 @@ File: sigma.png Graphic file (type bmp)
 File: decay.png Graphic file (type bmp)
 <decay.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1421--1438
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1426--1443
  [][][][] 
  []
 
 File: nodata.png Graphic file (type bmp)
 <nodata.png>
-[56] [57] [58]
+[57] [58] [59]
 Missing character: There is no ^^e2 in font cmr12!
 Missing character: There is no ^^bd in font cmr12!
 Missing character: There is no ^^b0 in font cmr12!
@@ -966,7 +967,7 @@ File: vol_046.png Graphic file (type bmp)
 <vol_046.png>
 File: vol_047.png Graphic file (type bmp)
 <vol_047.png>
- [59] [60] [61] [62] [63] [64] [65] [66] [67] [68]
+ [60] [61] [62] [63] [64] [65] [66] [67] [68] [69]
 File: vol_048.png Graphic file (type bmp)
 <vol_048.png>
 File: vol_049.png Graphic file (type bmp)
@@ -1030,10 +1031,10 @@ File: vol_077.png Graphic file (type bmp)
 File: vol_078.png Graphic file (type bmp)
 <vol_078.png>
 
-[69
+[70
 
 
-] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
+] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80]
 File: vol_079.png Graphic file (type bmp)
 <vol_079.png>
 File: vol_080.png Graphic file (type bmp)
@@ -1114,10 +1115,10 @@ File: vol_117.png Graphic file (type bmp)
 <vol_117.png>
 File: vol_118.png Graphic file (type bmp)
 <vol_118.png>
-) [80
+) [81
 
-] [81] [82] [83]
-[84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] (./修士論文.aux)
+] [82] [83] [84]
+[85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] (./修士論文.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1134,4 +1135,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (96 pages, 144944 bytes).
+Output written on 修士論文.dvi (97 pages, 145668 bytes).
