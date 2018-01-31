@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  30 JAN 2018 17:01
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  31 JAN 2018 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -551,31 +551,37 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 37.
- (./修士論文.toc
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
- [1])
+ (./修士論文.toc)
 \tf@toc=\write3
 \openout3 = `修士論文.toc'.
 
- [2]
+ [1]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 41.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 54.
+
+
+LaTeX Warning: Citation `MItudo' on page 2 undefined on input line 54.
+
 File: den_barion.png Graphic file (type bmp)
 <den_barion.png>
+
+LaTeX Warning: Citation `MItudo' on page 2 undefined on input line 77.
+
 File: nodata.png Graphic file (type bmp)
 <nodata.png>
- [3] [4]
+[2] [3]
 File: makehyper.png Graphic file (type bmp)
 <makehyper.png>
- [5]
+ [4]
 File: emulsionorder.png Graphic file (type bmp)
 <emulsionorder.png>
- [6]
+ [5]
 File: process_bdev.png Graphic file (type bmp)
 <process_bdev.png>
 File: process_adev.png Graphic file (type bmp)
@@ -587,12 +593,21 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 150--166
 
 File: grainfog.png Graphic file (type bmp)
 <grainfog.png>
-[7]
+[6]
 File: microscope.png Graphic file (type bmp)
 <microscope.png>
- [8]
+ [7]
 
-LaTeX Warning: Citation `Kiso' on page 9 undefined on input line 204.
+LaTeX Warning: Citation `Nagara' on page 8 undefined on input line 191.
+
+
+LaTeX Warning: Citation `Nagara2' on page 8 undefined on input line 192.
+
+
+LaTeX Warning: Citation `Nagara' on page 8 undefined on input line 199.
+
+
+LaTeX Warning: Citation `Kiso' on page 8 undefined on input line 204.
 
 File: Nagara_witheq.png Graphic file (type bmp)
 <Nagara_witheq.png>
@@ -603,10 +618,10 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 210--228
  [][][][] 
  []
 
-[9]
+[8]
 File: e07setup.png Graphic file (type bmp)
 <e07setup.png>
- [10]
+ [9]
 File: compton_cosmiclay.png Graphic file (type bmp)
 <compton_cosmiclay.png>
 File: emulsion_in_Kamioka.png Graphic file (type bmp)
@@ -616,14 +631,17 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 282--299
  [][][][] 
  []
 
-[11]
+[10]
 File: nodata.png Graphic file (type bmp)
 <nodata.png>
 File: compton_strage.png Graphic file (type bmp)
 <compton_strage.png>
 File: beam_efficiency_to_compton.png Graphic file (type bmp)
 <beam_efficiency_to_compton.png>
- [12] [13]
+ [11] [12]
+
+LaTeX Warning: Citation `takusann' on page 13 undefined on input line 338.
+
 File: ref_pro1.png Graphic file (type bmp)
 <ref_pro1.png>
 
@@ -650,33 +668,48 @@ Overfull \hbox (15.56766pt too wide) in paragraph at lines 348--371
  [][][][] 
  []
 
+
+LaTeX Warning: Citation `oohashi' on page 13 undefined on input line 374.
+
+
+LaTeX Warning: Citation `muramoto' on page 13 undefined on input line 379.
+
 File: refresh_chember.png Graphic file (type bmp)
 <refresh_chember.png>
 File: refresh_hanga.png Graphic file (type bmp)
 <refresh_hanga.png>
-[14] [15]
+[13] [14]
 File: darkroom_after.png Graphic file (type bmp)
 <darkroom_after.png>
 File: darkroom_view.png Graphic file (type bmp)
 <darkroom_view.png>
- [16]
+ [15]
 File: darkroom_temp.png Graphic file (type bmp)
 <darkroom_temp.png>
 File: darkroom_mist.png Graphic file (type bmp)
 <darkroom_mist.png>
 File: grid_nega2.png Graphic file (type bmp)
 <grid_nega2.png>
- [17] [18]
+ [16] [17]
+
+LaTeX Warning: Citation `tamura' on page 18 undefined on input line 445.
+
 File: grid_1stRun.png Graphic file (type bmp)
 <grid_1stRun.png>
 File: grid_printer.png Graphic file (type bmp)
 <grid_printer.png>
- [19]
+[18]
+
+LaTeX Warning: Citation `tamura' on page 19 undefined on input line 464.
+
 File: grid_kairo.png Graphic file (type bmp)
 <grid_kairo.png>
 File: grid_botan.png Graphic file (type bmp)
 <grid_botan.png>
- [20]
+[19]
+
+LaTeX Warning: Citation `endo' on page 20 undefined on input line 486.
+
 File: tezyun_6.png Graphic file (type bmp)
 <tezyun_6.png>
 File: tezyun_7.png Graphic file (type bmp)
@@ -697,13 +730,16 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 523--541
 
 File: ponpu.png Graphic file (type bmp)
 <ponpu.png>
-[21] [22]
+[20] [21]
 File: e07setup_real.png Graphic file (type bmp)
 <e07setup_real.png>
- [23]
+ [22]
+
+LaTeX Warning: Citation `endo' on page 23 undefined on input line 566.
+
 File: vacuum117.png Graphic file (type bmp)
 <vacuum117.png>
- [24]
+[23]
 File: casette_fix_moderu.png Graphic file (type bmp)
 <casette_fix_moderu.png>
 File: casettefix.png Graphic file (type bmp)
@@ -713,19 +749,19 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 582--596
  [][][][] 
  []
 
-[25]
+[24]
 File: thick75_den.png Graphic file (type bmp)
 <thick75_den.png>
 File: kasozai.png Graphic file (type bmp)
 <kasozai.png>
- [26] [27]
+ [25] [26]
 File: gennzou_condition.png Graphic file (type bmp)
 <gennzou_condition.png>
 File: gennzou_turusi.png Graphic file (type bmp)
 <gennzou_turusi.png>
 File: gennzou_timetable.png Graphic file (type bmp)
 <gennzou_timetable.png>
- [28] [29] [30]
+ [27] [28] [29]
 File: emulsion_up.png Graphic file (type bmp)
 <emulsion_up.png>
 File: emulsion_low.png Graphic file (type bmp)
@@ -735,7 +771,7 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 719--735
  [][][][] 
  []
 
-[31]
+[30]
 File: row.png Graphic file (type bmp)
 <row.png>
 File: row_hist.png Graphic file (type bmp)
@@ -749,7 +785,7 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 760--791
  [][][][] 
  []
 
-[32] [33]
+[31] [32]
 File: cont.png Graphic file (type bmp)
 <cont.png>
 File: cont_hist2.png Graphic file (type bmp)
@@ -763,7 +799,7 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 817--848
  [][][][] 
  []
 
-[34] [35]
+[33] [34]
 File: sub.png Graphic file (type bmp)
 <sub.png>
 File: sub_hist.png Graphic file (type bmp)
@@ -782,14 +818,17 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 890--906
  [][][][] 
  []
 
-[36] [37]
+[35] [36]
+
+LaTeX Warning: Citation `daisuke' on page 37 undefined on input line 965.
+
 File: beam_pattern1.png Graphic file (type bmp)
 <beam_pattern1.png>
 File: beam_pattern2.png Graphic file (type bmp)
 <beam_pattern2.png>
 File: nodata.png Graphic file (type bmp)
 <nodata.png>
- [38] [39]
+[37] [38]
 File: emulsion_in.png Graphic file (type bmp)
 <emulsion_in.png>
 File: emulsion_out.png Graphic file (type bmp)
@@ -803,36 +842,36 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 1000--1031
  [][][][] 
  []
 
-[40]
+[39]
 File: hyoumenn.png Graphic file (type bmp)
 <hyoumenn.png>
- [41]
+ [40]
 File: angle_in_eml.png Graphic file (type bmp)
 <angle_in_eml.png>
 File: tuiseki_gazou.png Graphic file (type bmp)
 <tuiseki_gazou.png>
- [42]
+ [41]
 File: tuiseki_gazou2.png Graphic file (type bmp)
 <tuiseki_gazou2.png>
 File: sekisou_step3.png Graphic file (type bmp)
 <sekisou_step3.png>
 File: superimpsed_org4.png Graphic file (type bmp)
 <superimpsed_org4.png>
- [43] [44] [45]
+ [42] [43] [44]
 File: grid2stage.png Graphic file (type bmp)
 <grid2stage.png>
- [46]
+ [45]
 File: pbar_mosikizu.png Graphic file (type bmp)
 <pbar_mosikizu.png>
 File: pbar_pattern.png Graphic file (type bmp)
 <pbar_pattern.png>
- [47]
+ [46]
 File: pl01_mosikizu.png Graphic file (type bmp)
 <pl01_mosikizu.png>
- [48] [49]
+ [47]
 File: guzai_list.png Graphic file (type bmp)
 <guzai_list.png>
- [50]
+ [48]
 File: dx_dy.png Graphic file (type bmp)
 <dx_dy.png>
 File: dx_ax.png Graphic file (type bmp)
@@ -840,11 +879,11 @@ File: dx_ax.png Graphic file (type bmp)
 File: dy_ay.png Graphic file (type bmp)
 <dy_ay.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1263--1280
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1246--1263
  [][][][] 
  []
 
-[51]
+[49] [50]
 File: grid5_pl01scan.png Graphic file (type bmp)
 <grid5_pl01scan.png>
 File: grid9_pl01scan.png Graphic file (type bmp)
@@ -854,7 +893,7 @@ File: dx_dy_grid5.png Graphic file (type bmp)
 File: dx_dy_grid9.png Graphic file (type bmp)
 <dx_dy_grid9.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1315--1332
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1298--1315
  [][][][] 
  []
 
@@ -863,7 +902,7 @@ File: ssdpl01_x_02.png Graphic file (type bmp)
 File: ssdpl01_y_02.png Graphic file (type bmp)
 <ssdpl01_y_02.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1335--1352
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1318--1335
  [][][][] 
  []
 
@@ -872,11 +911,11 @@ File: ssdpl01_x02.png Graphic file (type bmp)
 File: ssdpl01_y02.png Graphic file (type bmp)
 <ssdpl01_y02.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1355--1372
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1338--1355
  [][][][] 
  []
 
-[52] [53] [54]
+[51] [52] [53]
 File: kbeam_pattern.png Graphic file (type bmp)
 <kbeam_pattern.png>
 File: kbeam1.png Graphic file (type bmp)
@@ -884,14 +923,21 @@ File: kbeam1.png Graphic file (type bmp)
 File: kbeam2.png Graphic file (type bmp)
 <kbeam2.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1400--1417
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1383--1400
  [][][][] 
  []
 
-[55] [56]
 File: beam_mosikizu.png Graphic file (type bmp)
 <beam_mosikizu.png>
- [57]
+[54] [55]
+
+LaTeX Warning: Reference `fig:tan_razial' on page 56 undefined on input line 14
+23.
+
+
+LaTeX Warning: Reference `fig:tan_latelal' on page 56 undefined on input line 1
+423.
+
 File: radial.png Graphic file (type bmp)
 <radial.png>
 File: lateral.png Graphic file (type bmp)
@@ -901,13 +947,11 @@ File: sigma.png Graphic file (type bmp)
 File: decay.png Graphic file (type bmp)
 <decay.png>
 
-Overfull \hbox (15.91663pt too wide) in paragraph at lines 1459--1476
+Overfull \hbox (15.91663pt too wide) in paragraph at lines 1442--1459
  [][][][] 
  []
 
-File: nodata.png Graphic file (type bmp)
-<nodata.png>
-[58] [59] [60]
+[56] [57] [58]
 Missing character: There is no ^^e2 in font cmr12!
 Missing character: There is no ^^bd in font cmr12!
 Missing character: There is no ^^b0 in font cmr12!
@@ -970,7 +1014,7 @@ File: vol_046.png Graphic file (type bmp)
 <vol_046.png>
 File: vol_047.png Graphic file (type bmp)
 <vol_047.png>
- [61] [62] [63] [64] [65] [66] [67] [68] [69] [70]
+ [59] [60] [61] [62] [63] [64] [65] [66] [67] [68]
 File: vol_048.png Graphic file (type bmp)
 <vol_048.png>
 File: vol_049.png Graphic file (type bmp)
@@ -1034,10 +1078,10 @@ File: vol_077.png Graphic file (type bmp)
 File: vol_078.png Graphic file (type bmp)
 <vol_078.png>
 
-[71
+[69
 
 
-] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81]
+] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
 File: vol_079.png Graphic file (type bmp)
 <vol_079.png>
 File: vol_080.png Graphic file (type bmp)
@@ -1118,21 +1162,24 @@ File: vol_117.png Graphic file (type bmp)
 <vol_117.png>
 File: vol_118.png Graphic file (type bmp)
 <vol_118.png>
-) [82
+) [80
 
-] [83] [84] [85]
-[86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] (./修士論文.aux)
+] [81] [82] [83]
+[84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] (./修士論文.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  11949 strings out of 493648
  233010 string characters out of 6150704
- 277891 words of memory out of 5000000
+ 275816 words of memory out of 5000000
  15118 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (98 pages, 148584 bytes).
+Output written on 修士論文.dvi (96 pages, 137312 bytes).
