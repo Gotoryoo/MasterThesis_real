@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  31 JAN 2018 11:24
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.8.27)  18 FEB 2018 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -908,23 +908,228 @@ Overfull \hbox (15.91663pt too wide) in paragraph at lines 1442--1459
 Missing character: There is no ^^e2 in font cmr12!
 Missing character: There is no ^^bd in font cmr12!
 Missing character: There is no ^^b0 in font cmr12!
- [60] [61
+ (./vol.tex
+File: vol_019.png Graphic file (type bmp)
+<vol_019.png>
+File: vol_020.png Graphic file (type bmp)
+<vol_020.png>
+File: vol_021.png Graphic file (type bmp)
+<vol_021.png>
+File: vol_022.png Graphic file (type bmp)
+<vol_022.png>
+File: vol_023.png Graphic file (type bmp)
+<vol_023.png>
+File: vol_024.png Graphic file (type bmp)
+<vol_024.png>
+File: vol_025.png Graphic file (type bmp)
+<vol_025.png>
+File: vol_026.png Graphic file (type bmp)
+<vol_026.png>
+File: vol_027.png Graphic file (type bmp)
+<vol_027.png>
+File: vol_028.png Graphic file (type bmp)
+<vol_028.png>
+File: vol_029.png Graphic file (type bmp)
+<vol_029.png>
+File: vol_030.png Graphic file (type bmp)
+<vol_030.png>
+File: vol_031.png Graphic file (type bmp)
+<vol_031.png>
+File: vol_032.png Graphic file (type bmp)
+<vol_032.png>
+File: vol_033.png Graphic file (type bmp)
+<vol_033.png>
+File: vol_034.png Graphic file (type bmp)
+<vol_034.png>
+File: vol_035.png Graphic file (type bmp)
+<vol_035.png>
+File: vol_036.png Graphic file (type bmp)
+<vol_036.png>
+File: vol_037.png Graphic file (type bmp)
+<vol_037.png>
+File: vol_038.png Graphic file (type bmp)
+<vol_038.png>
+File: vol_039.png Graphic file (type bmp)
+<vol_039.png>
+File: vol_040.png Graphic file (type bmp)
+<vol_040.png>
+File: vol_041.png Graphic file (type bmp)
+<vol_041.png>
+File: vol_042.png Graphic file (type bmp)
+<vol_042.png>
+File: vol_043.png Graphic file (type bmp)
+<vol_043.png>
+File: vol_044.png Graphic file (type bmp)
+<vol_044.png>
+File: vol_045.png Graphic file (type bmp)
+<vol_045.png>
+File: vol_046.png Graphic file (type bmp)
+<vol_046.png>
+File: vol_047.png Graphic file (type bmp)
+<vol_047.png>
+ [60] [61] [62] [63] [64] [65] [66] [67] [68] [69]
+File: vol_048.png Graphic file (type bmp)
+<vol_048.png>
+File: vol_049.png Graphic file (type bmp)
+<vol_049.png>
+File: vol_050.png Graphic file (type bmp)
+<vol_050.png>
+File: vol_051.png Graphic file (type bmp)
+<vol_051.png>
+File: vol_052.png Graphic file (type bmp)
+<vol_052.png>
+File: vol_053.png Graphic file (type bmp)
+<vol_053.png>
+File: vol_054.png Graphic file (type bmp)
+<vol_054.png>
+File: vol_055.png Graphic file (type bmp)
+<vol_055.png>
+File: vol_056.png Graphic file (type bmp)
+<vol_056.png>
+File: vol_057.png Graphic file (type bmp)
+<vol_057.png>
+File: vol_058.png Graphic file (type bmp)
+<vol_058.png>
+File: vol_059.png Graphic file (type bmp)
+<vol_059.png>
+File: vol_060.png Graphic file (type bmp)
+<vol_060.png>
+File: vol_061.png Graphic file (type bmp)
+<vol_061.png>
+File: vol_062.png Graphic file (type bmp)
+<vol_062.png>
+File: vol_063.png Graphic file (type bmp)
+<vol_063.png>
+File: vol_064.png Graphic file (type bmp)
+<vol_064.png>
+File: vol_065.png Graphic file (type bmp)
+<vol_065.png>
+File: vol_066.png Graphic file (type bmp)
+<vol_066.png>
+File: vol_067.png Graphic file (type bmp)
+<vol_067.png>
+File: vol_068.png Graphic file (type bmp)
+<vol_068.png>
+File: vol_069.png Graphic file (type bmp)
+<vol_069.png>
+File: vol_070.png Graphic file (type bmp)
+<vol_070.png>
+File: vol_071.png Graphic file (type bmp)
+<vol_071.png>
+File: vol_072.png Graphic file (type bmp)
+<vol_072.png>
+File: vol_073.png Graphic file (type bmp)
+<vol_073.png>
+File: vol_074.png Graphic file (type bmp)
+<vol_074.png>
+File: vol_075.png Graphic file (type bmp)
+<vol_075.png>
+File: vol_076.png Graphic file (type bmp)
+<vol_076.png>
+File: vol_077.png Graphic file (type bmp)
+<vol_077.png>
+File: vol_078.png Graphic file (type bmp)
+<vol_078.png>
 
-] [62] (./修士論文.aux)
+[70
+
+
+] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80]
+File: vol_079.png Graphic file (type bmp)
+<vol_079.png>
+File: vol_080.png Graphic file (type bmp)
+<vol_080.png>
+File: vol_081.png Graphic file (type bmp)
+<vol_081.png>
+File: vol_082.png Graphic file (type bmp)
+<vol_082.png>
+File: vol_083.png Graphic file (type bmp)
+<vol_083.png>
+File: vol_084.png Graphic file (type bmp)
+<vol_084.png>
+File: vol_085.png Graphic file (type bmp)
+<vol_085.png>
+File: vol_086.png Graphic file (type bmp)
+<vol_086.png>
+File: vol_087.png Graphic file (type bmp)
+<vol_087.png>
+File: vol_088.png Graphic file (type bmp)
+<vol_088.png>
+File: vol_089.png Graphic file (type bmp)
+<vol_089.png>
+File: vol_090.png Graphic file (type bmp)
+<vol_090.png>
+File: vol_091.png Graphic file (type bmp)
+<vol_091.png>
+File: vol_092.png Graphic file (type bmp)
+<vol_092.png>
+File: vol_093.png Graphic file (type bmp)
+<vol_093.png>
+File: vol_094.png Graphic file (type bmp)
+<vol_094.png>
+File: vol_095.png Graphic file (type bmp)
+<vol_095.png>
+File: vol_096.png Graphic file (type bmp)
+<vol_096.png>
+File: vol_097.png Graphic file (type bmp)
+<vol_097.png>
+File: vol_098.png Graphic file (type bmp)
+<vol_098.png>
+File: vol_099.png Graphic file (type bmp)
+<vol_099.png>
+File: vol_100.png Graphic file (type bmp)
+<vol_100.png>
+File: vol_101.png Graphic file (type bmp)
+<vol_101.png>
+File: vol_102.png Graphic file (type bmp)
+<vol_102.png>
+File: vol_103.png Graphic file (type bmp)
+<vol_103.png>
+File: vol_104.png Graphic file (type bmp)
+<vol_104.png>
+File: vol_105.png Graphic file (type bmp)
+<vol_105.png>
+File: vol_106.png Graphic file (type bmp)
+<vol_106.png>
+File: vol_107.png Graphic file (type bmp)
+<vol_107.png>
+File: vol_108.png Graphic file (type bmp)
+<vol_108.png>
+File: vol_109.png Graphic file (type bmp)
+<vol_109.png>
+File: vol_110.png Graphic file (type bmp)
+<vol_110.png>
+File: vol_111.png Graphic file (type bmp)
+<vol_111.png>
+File: vol_112.png Graphic file (type bmp)
+<vol_112.png>
+File: vol_113.png Graphic file (type bmp)
+<vol_113.png>
+File: vol_114.png Graphic file (type bmp)
+<vol_114.png>
+File: vol_115.png Graphic file (type bmp)
+<vol_115.png>
+File: vol_116.png Graphic file (type bmp)
+<vol_116.png>
+File: vol_117.png Graphic file (type bmp)
+<vol_117.png>
+File: vol_118.png Graphic file (type bmp)
+<vol_118.png>
+) [81
+
+] [82] [83] [84]
+[85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] (./修士論文.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 11546 strings out of 493648
- 224991 string characters out of 6150704
- 277889 words of memory out of 5000000
- 14918 multiletter control sequences out of 15000+600000
+ 11949 strings out of 493648
+ 233010 string characters out of 6150704
+ 277891 words of memory out of 5000000
+ 15118 multiletter control sequences out of 15000+600000
  544743 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  35i,13n,48p,10372b,432s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 修士論文.dvi (63 pages, 136960 bytes).
+Output written on 修士論文.dvi (97 pages, 148260 bytes).
